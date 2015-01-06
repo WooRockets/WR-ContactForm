@@ -1,0 +1,126 @@
+/**
+ * @version    $Id$
+ * @package    WR_Sample
+ * @author     woorockets Team <support@woorockets.com>
+ * @copyright  Copyright (C) 2012 woorockets.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.woorockets.com
+ * Technical Support:  Feedback - http://www.woorockets.com/contact-us/get-support.html
+ */
+
+#wr-installer-login input {
+	float: right;
+	margin-right: 0;
+    overflow: auto;
+}
+#wr-installer-list {
+	margin-top: 20px;
+}
+#wr-installer-list ul,
+#wr-installer-list ul li,
+#wr-installer-manual-download,
+#wr-installer-finalization,
+#wr-installer-login + #wr-installer-list {
+	display: none;
+}
+
+#wr-installer-manual-download ol {
+	color: #000;
+	font-weight: normal;
+}
+#wr-installer-manual-download ol li {
+	display: list-item;
+}
+
+#wr-installer-list .jsn-icon16 {
+	display: inline-block;
+	margin-top: 1px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icons-16/icons-16-uni.png) left top no-repeat;
+	line-height: 16px;
+	vertical-align: text-top;
+}
+#wr-installer-list .jsn-icon16.jsn-icon-loading {
+	background-image: url(../images/icons-16/icon-16-loading-circle.gif) !important;
+}
+#wr-installer-list .jsn-icon16.jsn-icon-warning {
+	background-position: -48px 0;
+}
+#wr-installer-list .jsn-icon16.jsn-icon-ok {
+	background-position: -32px -64px;
+}
+#wr-installer-list .jsn-icon16.jsn-icon-fail {
+	background-position: -16px -64px;
+}
+
+.wr-progress-bar {
+	display: none;
+	border: 1px inset gray;
+	width: 100px;
+}
+.wr-progress-bar.tracking,
+.wr-progress-bar-counting {
+	display: inline-block;
+}
+.wr-progress-bar-counting {
+	width: 0%;
+	background-color: lightgray;
+	text-align: center;
+}
+
+.wr-installer-error {
+	display: none;
+	color: #c00;
+	font-weight: bold;
+}
+
+#wr-installer-finalization .button-holder {
+	text-align: center;
+}
+#wr-installer-finalization .button-holder .button1,
+#wr-installer-finalization .button-holder .button1 div {
+	float: none;
+	display: inline-block;
+}
+#wr-installer-finalization .button-holder .button1 a {
+	float: none;
+}
+.wr-installer-container form {
+	margin: 0 0 20px;
+}
+.wr-installer-container {
+	background-color: #FFFFFF;
+	border: 1px solid #D5D5D5;
+	margin: 50px auto;
+	padding: 25px;
+	position: relative;
+	width: 800px;
+	box-shadow: 0 3px 5px 0 #666666;
+	border-radius: 10px 10px 10px 10px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+.jsn-bootstrap h1, 
+.jsn-bootstrap h2,
+.jsn-bootstrap h3,
+.jsn-bootstrap h4,
+.jsn-bootstrap h5,
+.jsn-bootstrap h6 {
+	font-weight: normal;
+	margin: 5px 0 10px;
+}
+.jsn-bootstrap h1 {
+	color: #000000;
+	font-size: 20px;
+}
+.jsn-bootstrap h2 {
+	color: #333333;
+	font-size: 18px;
+}
+.jsn-bootstrap .wr-installer-container p {
+	padding: 0;
+	margin: 5px 0 15px 0;
+}

@@ -1,0 +1,786 @@
+/**
+ * @author woorockets.com Team
+ * @copyright woorockets.com
+ * @link woorockets.com
+ * @package
+ * @version $Id:
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+*/
+.jsn-bootstrap * {
+    word-wrap: break-word;
+}
+
+.jsn-master .jsn-bootstrap .jsn-row-container .label,
+.jsn-master .jsn-bootstrap .jsn-row-container {
+    white-space: inherit;
+}
+
+#ui-datepicker-div {
+    z-index: 2147483648 !important;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-form-content hr {
+    margin: 10px 0;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-form-content span.required {
+    color: red;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-form-content .control-group {
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+    padding: 10px;
+    clear: both;
+    transition: background 0.3s ease-out;
+    -moz-transition: background 0.3s ease-out;
+    -webkit-transition: background 0.3s ease-out;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-form-content .control-group.ui-state-highlight {
+    background: none;
+    border-color: #FBEED5;
+    background-color: #FCF8E3;
+    position: static;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-style-dark .jsn-form-content .control-group.ui-state-highlight {
+    border-color: #666;
+    background-color: #444;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-form-content .control-label {
+    font-weight: bold;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-form-content .control-label .wr-help-text {
+    font-weight: normal;
+    margin: 0;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap form.form-horizontal .jsn-form-content .control-group .row-fluid,
+.wr-contactform.jsn-master .jsn-bootstrap form.form-horizontal .jsn-form-content .control-group .row-fluid [class*="span"] input {
+    margin-bottom: 10px;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-form-content .control-group .radio,
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-form-content .control-group .checkbox {
+    display: inline-block;
+    width: 90%;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .jsn-form-content .control-group .wr-value-Others {
+    display: block;
+}
+
+.ui-datepicker-trigger {
+    margin-left: 10px;
+}
+
+.ui-daterangepickercontain {
+    text-align: left;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap input[type="file"] {
+   line-height: inherit;
+   height: auto;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap .placeholder {
+    color: #aaa;
+}
+
+.wr-contactform.jsn-master .jsn-bootstrap select {
+    height: auto;
+}
+
+.jsn-master .jsn-bootstrap .wr-inline {
+    display: inline;
+}
+
+.ui-timepicker-div .ui-widget-header {
+    margin-bottom: 8px;
+}
+
+.ui-timepicker-div dl {
+    text-align: left;
+}
+
+.ui-timepicker-div dl dt {
+    height: 25px;
+    margin-bottom: -25px;
+}
+
+.ui-timepicker-div dl dd {
+    margin: 0 10px 10px 65px;
+}
+
+.ui-timepicker-div td {
+    font-size: 90%;
+}
+
+.ui-tpicker-grid-label {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-timepicker-rtl {
+    direction: rtl;
+}
+
+.ui-timepicker-rtl dl {
+    text-align: right;
+}
+
+.ui-timepicker-rtl dl dd {
+    margin: 0 65px 10px 10px;
+}
+
+.jsn-master .jsn-bootstrap .jsn-style-dark .ui-state-highlight {
+    text-shadow: none;
+}
+
+.jsn-master .jsn-bootstrap .currency-value,
+.jsn-master .jsn-bootstrap .currency-cents {
+    float: left;
+}
+
+.jsn-master .jsn-bootstrap .currency-cents {
+    margin-left: 15px;
+}
+
+.jsn-master .jsn-bootstrap .currency-cents:before {
+    content: ".";
+    display: block;
+    width: 5px;
+    position: absolute;
+    margin-left: -9px;
+    margin-top: 5px;
+}
+
+.jsn-master .jsn-bootstrap .currency-cents .controls-inner input {
+    margin: 0;
+}
+
+.jsn-master .jsn-bootstrap .currency-value .wr-help-block-inline,
+.jsn-master .jsn-bootstrap .currency-cents .wr-help-block-inline {
+    font-size: 13px;
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+}
+
+.jsn-master .jsn-bootstrap .currency-value .wr-help-block-inline {
+    margin-left: 30px;
+}
+
+.jsn-master .jsn-bootstrap .wr-field-prefix {
+    margin: 4px;
+}
+
+.jsn-master .jsn-bootstrap .btn {
+    padding: 4px 12px 3px 12px;
+}
+
+.hide {
+    display: none;
+}
+
+.jsn-master .jsn-bootstrap .form-search .wr-group-field input,
+.jsn-master .jsn-bootstrap .form-inline .wr-group-field input,
+.jsn-master .jsn-bootstrap .form-horizontal .wr-group-field input,
+.jsn-master .jsn-bootstrap .form-search .wr-group-field textarea,
+.jsn-master .jsn-bootstrap .form-inline .wr-group-field textarea,
+.jsn-master .jsn-bootstrap .form-horizontal .wr-group-field textarea,
+.jsn-master .jsn-bootstrap .form-search .wr-group-field select,
+.jsn-master .jsn-bootstrap .form-inline .wr-group-field select,
+.jsn-master .jsn-bootstrap .form-horizontal .wr-group-field select,
+.jsn-master .jsn-bootstrap .form-search .wr-group-field .help-inline,
+.jsn-master .jsn-bootstrap .form-inline .wr-group-field .help-inline,
+.jsn-master .jsn-bootstrap .form-horizontal .wr-group-field .help-inline,
+.jsn-master .jsn-bootstrap .form-search .wr-group-field .uneditable-input,
+.jsn-master .jsn-bootstrap .form-inline .wr-group-field .uneditable-input,
+.jsn-master .jsn-bootstrap .form-horizontal .wr-group-field .uneditable-input,
+.jsn-master .jsn-bootstrap .form-search .wr-group-field .input-prepend,
+.jsn-master .jsn-bootstrap .form-inline .wr-group-field .input-prepend,
+.jsn-master .jsn-bootstrap .form-horizontal .wr-group-field .input-prepend,
+.jsn-master .jsn-bootstrap .form-search .wr-group-field .input-append,
+.jsn-master .jsn-bootstrap .form-inline .wr-group-field .input-append,
+.jsn-master .jsn-bootstrap .form-horizontal .wr-group-field .input-append {
+    margin-bottom: 9px;
+}
+.wr-contactform.jsn-master .jsn-bootstrap .row-fluid input.span12{
+    width: 97%;
+}
+/**
+Fix captcha google
+**/
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap #recaptcha_area #recaptcha_response_field {
+    right: 0;
+}
+
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap #recaptcha_area .recaptcha_r2_c1 {
+    background: url("http://www.google.com/recaptcha/api/img/white/sprite.png") no-repeat scroll -27px 0 transparent;
+    height: 57px;
+    width: 9px;
+}
+
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap #recaptcha_area .recaptchatable .recaptcha_r2_c2 {
+    background: url("http://www.google.com/recaptcha/api/img/white/sprite.png") no-repeat scroll -18px 0 transparent;
+    height: 57px;
+    width: 9px;
+}
+
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap #recaptcha_area .recaptchatable .recaptcha_r3_c1 {
+    background: url("http://www.google.com/recaptcha/api/img/white/sprite.png") no-repeat scroll -9px 0 transparent;
+    height: 63px;
+    width: 9px;
+}
+
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap #recaptcha_area .recaptchatable .recaptcha_r3_c3 {
+    background: url("http://www.google.com/recaptcha/api/img/white/sprite.png") no-repeat scroll 0 0 transparent;
+    height: 63px;
+    width: 9px;
+}
+
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls div.choices,
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls div.checkboxes {
+    margin-right: 15px;
+}
+
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls .input-prepend .add-on{
+    border-radius: 0 4px 4px 0;
+    margin-left: -1px;
+}
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls .input-append .btn {
+    border-radius: 4px 0 0 4px;
+    margin-right: -1px;
+}
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls .input-append .uneditable-input,
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls .input-append select,
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls .input-append input{
+    border-radius: 0px 4px 4px 0px;
+}
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls .input-prepend input,
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls .input-prepend select,
+html[dir="rtl"] .wr-contactform.jsn-master .jsn-bootstrap .control-group .controls .input-prepend .uneditable-input{
+    border-radius: 4px 0px 0px 4px;
+}
+/*==================== SUBMISSIONS MANAGER ====================*/
+#submissions-list table .data_created_at,
+#submissions-list table .data_created_by,
+#submissions-list table .data_browser,
+#submissions-list table .data_country,
+#submissions-list table .data_ip {
+    width: 100px;
+}
+
+#submissions-list table .data_os {
+    width: 130px;
+}
+
+#submissions-list .jsn-bglabel {
+    padding: 100px 50px;
+    font-size: 24px;
+    color: #666;
+}
+
+#submission-fields-list {
+    min-height: 300px;
+    position: absolute;
+    width: 320px;
+}
+
+#form_field {
+    width: 100%;
+    float: left;
+}
+
+.nofield {
+    color: #CC0000;
+    float: left;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#form_field.jsn-items-list {
+    border: 1px solid #CCCCCC;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+.pane-sliders {
+    position: static;
+}
+
+#form_field label,
+#form_field input,
+#submission-fields-list label,
+#submission-fields-list input {
+    float: none;
+    margin: 0 5px 0 0;
+}
+
+#submission-fields-list .popover-content {
+    padding: 0;
+}
+
+#submission-fields-list .jsn-items-list {
+    height: 300px;
+    border: none;
+    overflow: auto;
+}
+
+#submission-fields-list .jsn-item,
+#form_field .jsn-item {
+    padding: 5px;
+}
+
+#submission-fields-list .field-disabled,
+#form_field .field-disabled {
+    cursor: default;
+}
+
+#submission-fields-list hr,
+#form_field hr {
+    margin: 10px 0;
+}
+
+#submission-fields-list .form-actions {
+    border-top: 1px solid #ccc;
+    margin: 0;
+}
+
+#submission-fields-list .form-actions .btn {
+    float: none;
+}
+
+#submission-fields-list .popover {
+    width: 100%;
+}
+
+.jsn-bootstrap .wr-submission-btn-save {
+    text-align: right;
+}
+
+.jsn-bootstrap .jsn-fieldset-filter {
+    margin: 10px 0px;
+}
+
+#submission-fields-list {
+    text-align: left;
+}
+
+/*==================== SUBMISSION SETINGS ====================*/
+#submission-settings .submission-data h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#submission-settings .submission-data dt {
+    font-size: 14px;
+    color: #000;
+}
+
+#submission-settings .submission-data dd {
+    margin: 5px 0px 15px 0;
+}
+
+#submission-settings .submission-data .thumbnail {
+    display: inline-block;
+}
+
+#submissions-list img,
+#submission-settings .submission-data .thumbnail > img {
+    max-height: 200px;
+}
+
+#submission-settings .submission-content {
+    position: relative;
+}
+
+#submission-settings .jsn-page-actions {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#submission-settings .jsn-form-bar {
+    z-index: 1;
+    position: relative;
+}
+
+#submission-settings .ui-tabs-nav {
+    margin: 0;
+}
+
+.jsn-master #submission-settings .jsn-tabs .jsn-section-content {
+    border: none;
+}
+
+.jsn-master .jsn-section-header a {
+    text-shadow: none;
+}
+
+
+#submissions-list ul.pagenav li a, #submissions-list div.pagination ul li a {
+    margin: 0;
+}
+.jsn-master .wr-narrow .jsn-input-mini-fluid,
+.jsn-master .wr-narrow .jsn-input-small-fluid,
+.jsn-master .wr-narrow .jsn-input-medium-fluid,
+.jsn-master .wr-narrow .jsn-input-xlarge-fluid,
+.jsn-master .wr-narrow .jsn-input-fluid,
+.jsn-master .wr-narrow .jsn-columns-container.jsn-columns-count-two .jsn-column-item,
+.jsn-master .wr-narrow .jsn-columns-container.jsn-columns-count-three .jsn-column-item,
+.jsn-master .wr-narrow .jsn-columns-container.jsn-columns-count-no .jsn-column-item,
+.jsn-master .jsn-bootstrap .wr-narrow .input-small,
+.jsn-master .jsn-bootstrap .wr-narrow .input-medium,
+.jsn-master .jsn-bootstrap .wr-narrow .input-file,
+.jsn-master .jsn-bootstrap .wr-narrow .jsn-column-item.wr-contactform-others textarea.wr-value-Others {
+    width: 95% !important;
+}
+
+.jsn-master .wr-narrow .jsn-row-container label {
+    display: block;
+    float: none !important;
+    text-align: left !important;
+}
+
+.jsn-master .wr-narrow .jsn-row-container label + .controls {
+    margin-left: 0;
+}
+
+.jsn-master .wr-narrow .wr-daterangepicker.hasDatepicker {
+    width: 40% !important;
+}
+
+.jsn-master .jsn-bootstrap .wr-narrow .jsn-column-item.wr-contactform-others {
+    clear: both;
+}
+
+.jsn-master .jsn-bootstrap .wr-narrow .control-group .row-fluid .span6 {
+    clear: both;
+    margin-left: 0;
+    width: 100%;
+}
+.jsn-master .jsn-bootstrap .wr-narrow .control-group .currency-value{
+    width: 50%;
+    float: left;
+}
+.jsn-master .jsn-bootstrap .wr-narrow .control-group .currency-cents{
+    float: left;
+    width: 48%;
+    margin-left: 0;
+}
+.jsn-master .jsn-bootstrap  .wr-narrow .control-group .currency-cents:before{
+    margin-left: -7px;
+}
+.jsn-master .jsn-bootstrap .wr-narrow .control-group .currency-value input,
+.jsn-master .jsn-bootstrap  .wr-narrow .control-group .currency-cents input{
+    width: 50% !important;
+}
+.jsn-bootstrap .daterangepicker .ranges li{
+    margin: 0px 0px 8px 0px;
+}
+html[dir="rtl"] .jsn-master .wr-narrow .jsn-row-container label{
+     float: right !important;
+ }
+
+/* Google Maps */
+
+/** General */
+.google_maps .buttonize {
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #222;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 1em;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#008595), to(#02748c));
+    background: -moz-linear-gradient(top, #008595, #02748c);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #008595, endColorstr = #02748c);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#008595, endColorstr=#02748c)";
+}
+
+.google_maps .buttonize a:hover {
+    text-decoration: none;
+}
+
+.google_maps .gradient {
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eaeaea));
+    background: -moz-linear-gradient(top, #fff, #eaeaea);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #ffffff, endColorstr = #eaeaea);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#eaeaea)";
+}
+
+#visualdesign-options-values .map {
+    width: 100%;
+    height: 400px;
+}
+
+.google_maps .streetview {
+    width: 100%;
+    height: 300px;
+}
+
+.google_maps .lt {
+    float: left;
+}
+
+.google_maps .rt {
+    float: right;
+}
+
+.google_maps .txt-shadow-w {
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.google_maps .txt-shadow-b {
+    text-shadow: 1px 1px 1px #222;
+}
+
+.google_maps.rounded {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+}
+
+.google_maps .shadow {
+    -moz-box-shadow: 0px 2px 4px #999;
+    -webkit-box-shadow: 0px 2px 4px #999;
+    box-shadow: 0px 2px 4px #999;
+}
+
+.google_maps .item {
+    padding: 1em;
+    margin: 0 0 2em;
+}
+
+/** Benchmark */
+.google_maps div.benchmark {
+    clear: both;
+    overflow: auto;
+    color: #fff;
+    background: #02748c;
+    padding: 1em;
+    margin: 0 0 1em;
+}
+
+.google_maps div.benchmark .benchmark-result {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 1em 0 0;
+    line-height: 35px;
+}
+
+.google_maps div.benchmark .benchmark-iteration {
+    font-weight: bold;
+    margin: 0;
+}
+
+.google_maps div.benchmark .benchmark-title {
+    margin: 0;
+}
+
+/** Syntax highlighter */
+.google_maps pre.prettyprint {
+    background: #f4f4f4;
+    padding: 1.5em;
+    border: none;
+    margin: 0 0 1em;
+}
+
+.google_maps .summary {
+    font-size: 1.3em;
+    cursor: pointer;
+    color: #EE2C74;
+}
+
+.google_maps .ui-dialog-vevent .summary {
+    margin: 0.5em 0 0 0;
+    display: block;
+}
+
+.google_maps .ui-dialog-vevent .dtstart {
+    display: none;
+}
+
+.google_maps .ui-dialog-vevent .website {
+    margin: 0 0 1em;
+}
+
+.google_maps img {
+    max-width: none;
+}
+.google_maps .gm-style-iw .thumbnail img{
+    max-width: 105px;
+    max-height: 105px;
+    float: right;
+}
+
+.google_maps .gm-style-iw {
+    max-width: 350px;
+    max-height: 200px;
+}
+.wr-contactform .jsn-bootstrap .text-center {
+    text-align: center;
+}
+#submissions-list .jsn-bootstrap strong,
+#submission-settings.jsn-bootstrap strong
+{
+    margin-right: 5px;
+}
+.google_maps .gm-style-iw>div {
+    overflow: visible !important;
+}
+.google_maps .gm-style-cc{
+    display: none;
+}
+.daterangepicker select.yearselect{
+    width: 45% !important;
+}
+.daterangepicker select.monthselect{
+    width: 65% !important;
+}
+.ui-timepicker-div select{
+    width: auto;
+}
+.wr-contactform.jsn-master *{
+	-webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.jsn-row-container .input-append .ui-datepicker-trigger{
+    margin-right: 5px;
+}
+.jsn-bootstrap .gm-style-iw .thumbnail .caption h4{
+    clear: none;
+}
+.wr-contactform .jsn-bootstrap .form-horizontal .control-label{
+    width: 175px;
+}
+
+.wr-contactform .jsn-bootstrap .form-horizontal .control-group .checkbox,
+.wr-contactform .jsn-bootstrap .form-horizontal .control-group .radio {
+	padding-top: 5px;
+	margin-bottom: 0px;
+}
+
+.jsn-bootstrap .google_maps img{
+    max-width: none;
+}
+.jsn-form-content .controls{
+    overflow: auto;
+}
+.jsn-bootstrap .jsn-form-content .control-group {
+     width: 100%;
+     float: left;
+     box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+ }
+/************************************************************************************
+smartphone layout (320 - 480): everything is layout in single column
+*************************************************************************************/
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+    .jsn-master .jsn-input-mini-fluid,
+    .jsn-master .jsn-input-small-fluid,
+    .jsn-master .jsn-input-medium-fluid,
+    .jsn-master .jsn-input-xlarge-fluid,
+    .jsn-master .jsn-input-fluid,
+    .jsn-master .jsn-columns-container.jsn-columns-count-two .jsn-column-item,
+    .jsn-master .jsn-columns-container.jsn-columns-count-three .jsn-column-item,
+    .jsn-master .jsn-columns-container.jsn-columns-count-no .jsn-column-item,
+    .jsn-master .jsn-bootstrap .input-small,
+    .jsn-master .jsn-bootstrap .input-medium,
+    .jsn-master .jsn-bootstrap .input-file,
+    .jsn-master .jsn-bootstrap .jsn-column-item.wr-contactform-others textarea.wr-value-Others {
+        width: 95% !important;
+    }
+
+    .jsn-master .jsn-row-container label {
+        display: block;
+        float: none !important;
+        text-align: left !important;
+    }
+
+    .jsn-master .jsn-row-container label + .controls {
+        margin-left: 0;
+    }
+
+    .jsn-master .wr-daterangepicker.hasDatepicker {
+        width: 40% !important;
+    }
+    .jsn-master .wr-daterangepicker.hasDatepicker.input-small {
+        width: 90px !important;
+    }
+    .jsn-master .wr-daterangepicker.hasDatepicker.input-medium {
+        width: 150px !important;
+    }
+    .jsn-master .jsn-bootstrap .wr-inline {
+    	display: block;
+    }
+    .jsn-master .jsn-bootstrap .jsn-column-item.wr-contactform-others {
+        clear: both;
+    }
+    .jsn-master .jsn-bootstrap .control-group .row-fluid .span6 {
+        clear: both;
+        margin-left: 0;
+        width: 100%;
+    }
+    .jsn-master .jsn-bootstrap .control-group .currency-value{
+        width: 50%;
+        float: left;
+    }
+    .jsn-master .jsn-bootstrap .control-group .currency-cents{
+        float: left;
+        width: 48%;
+        margin-left: 0;
+    }
+    .jsn-master .jsn-bootstrap .control-group .currency-cents:before{
+        margin-left: -7px;
+    }
+    .jsn-master .jsn-bootstrap .control-group .currency-value input,
+    .jsn-master .jsn-bootstrap .control-group .currency-cents input{
+        width: 50% !important;
+    }
+}
+.jsn-bootstrap input[type="text"], .jsn-bootstrap input[type="password"], .jsn-bootstrap input[type="datetime"], .jsn-bootstrap input[type="datetime-local"], .jsn-bootstrap input[type="date"], .jsn-bootstrap input[type="month"], .jsn-bootstrap input[type="time"], .jsn-bootstrap input[type="week"], .jsn-bootstrap input[type="number"], .jsn-bootstrap input[type="email"], .jsn-bootstrap input[type="url"], .jsn-bootstrap input[type="search"], .jsn-bootstrap input[type="tel"], .jsn-bootstrap input[type="color"], .jsn-bootstrap .uneditable-input{
+    line-height: inherit;
+    height: auto;
+}
+
+.jsn-master .jsn-bootstrap .btn{
+    padding: 2px 12px 2px 12px;
+}
+.jsn-bootstrap .input-append .add-on, .jsn-bootstrap .input-prepend .add-on{
+    height: auto;
+    line-height: normal;
+}
+
+.wr-captcha-block {
+	text-align: center;
+}
+
+.jsn-master .jsn-columns-container.jsn-columns-count-three .jsn-column-item {
+	width: 32%;
+}
+
+.jsn-master .jsn-bootstrap .wr-group-field input[type="text"] {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}

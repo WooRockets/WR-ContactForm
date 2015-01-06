@@ -1,0 +1,26 @@
+/**
+ * @author woorockets.com Team
+ * @copyright woorockets.com
+ * @link woorockets.com
+ * @package
+ * @version $Id:
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.wr-contactform-thickbox-header,
+.wr-contactform-thickbox-content {
+    padding: 15px 15px 0 15px;
+}
+
+.wr-contactform-thickbox-messages {
+    padding: 8px 0 0 0;
+    font-size: 11px;
+    font-style: italic;
+    color: #5A5A5A;
+}
+.wr-contactform-thicjbox-action{
+    padding:15px;
+}
+.wr-contactform-thicjbox-action a{
+    color:#bbb;
+}

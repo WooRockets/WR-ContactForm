@@ -1,0 +1,188 @@
+/**
+ * @version    $Id$
+ * @package    WR_ContactForm
+ * @author     WooRockets Team <support@woorockets.com>
+ * @copyright  Copyright (C) 2014 WooRockets.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.woorockets.com
+ */
+ 
+#wr-cf-addon-mailchimp .control-group .controls .radio-option {
+	margin: 5px 25px 0px 0px;
+}
+
+#wr-cf-addon-mailchimp .control-group .controls .radio-option input {
+	margin: 0px;
+}
+
+#wr-cf-addon-mailchimp .control-group .controls .radio-option label {
+	display: inline;
+}
+
+#wr-cf-addon-mailchimp .control-group .controls .medium-input {
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	max-width: 290px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key {
+	margin-right: 5px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key-verify, #wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key-cancel {
+	float: left;
+	margin-left: 5px;
+	padding: 3px 12px 2px 12px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key ~ .spinner {
+	display: none;
+	float: left;
+	margin: 4px 8px 0px 3px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key ~ .icon-ok {
+	display: none;
+	float: left;
+	margin: 7px 9px 0px 4px;
+	color: #008800;
+	opacity: 0.5;
+}
+/* 
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key:focus ~ .icon-ok {
+	display: none;
+}
+ */
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key ~ .error-alert {
+	display: none;
+	color: red;
+	padding: 6px 6px 0px 6px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key ~ .under-line {
+	float: left;
+	border: none;
+	border-top: 1px dashed #888;
+	height: 0px;
+	overflow: hidden;
+	margin: -6px 0px 0px 7px;
+	font-size: 14px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key.borderless {
+	border: none !important;
+	box-shadow: none !important;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list {
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+	margin-bottom: 8px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-title {
+	padding: 0px;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-title>div {
+	padding: 10px 48px;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-title .wr-cf-mailchimp-list-enable {
+	position: absolute;
+	margin: 0px;
+	top: 11px;
+	left: 18px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-title .icon-ok {
+	margin-right: 10px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside {
+	padding: 12px 18px;
+	border-top: 1px solid #E5E5E5;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside table th {
+	padding-left: 25px;
+	width: 50%;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside table td {
+	padding-left: 20px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside table td .wr-cf-mailchimp-check-other {
+	float: left;
+	margin-left: 5px;
+	margin-top: 8px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside table td .wr-cf-mailchimp-check-other + span {
+	float: left;
+	margin-left: 5px;
+	margin-top: 7px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside table td .wr-cf-mailchimp-text-other {
+	width: 50%;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside table td .wr-cf-mailchimp-merge-field-remove {
+	float: right;
+	text-decoration: none;
+	color: #333;
+	background-color: #DDD;
+	padding: 4px;
+	cursor: pointer;
+	opacity: 0.6;
+	display: none;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside table tr:hover td .wr-cf-mailchimp-merge-field-remove {
+	display: block;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside table td .wr-cf-mailchimp-merge-field-remove:hover {
+	opacity: 0.8;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside table td .wr-cf-mailchimp-merge-field-remove>.icon-trash {
+	width: 16px;
+	height: 16px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .wr-cf-mailchimp-list-inside .wr-cf-mailchimp-add-merge-field {
+	float: right;
+	margin-top: 10px;
+}
+
+#wr-cf-addon-mailchimp #wr-cf-mailchimp-control-group-lists .not-found-notice {
+	color: #333;
+	opacity: 0.5;
+}
+
+
+.wr-cf-mailchimp-merge-clone {
+	display: none;
+}
+
+#wr-cf-addon-mailchimp .clear {
+	clear: both;
+}

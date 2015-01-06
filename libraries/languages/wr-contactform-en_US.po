@@ -1,0 +1,1595 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WR ContactForm\n"
+"POT-Creation-Date: 2013-10-28 10:39+0700\n"
+"PO-Revision-Date: 2014-09-10 14:25+0700\n"
+"Last-Translator: \n"
+"Language-Team: InnoThemes Team <support@innothemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# global
+msgid "WR_CONTACTFORM_NOT_COMPATIBLE_MSG"
+msgstr ""
+"Currently this product does not have the package for this Joomla version, "
+"please contact us to get more information: http://www.woorockets.com/"
+"woorockets/contact-us.html"
+
+msgid "WR_CONTACTFORM_INSTALL"
+msgstr "Install"
+
+msgid "WR_CONTACTFORM_HEADING_NAME"
+msgstr "Name"
+
+msgid "WR_CONTACTFORM_HEADING_EMAIL"
+msgstr "Email"
+
+msgid "WR_CONTACTFORM_SAVE"
+msgstr "Save"
+
+msgid "WR_CONTACTFORM_CLOSE"
+msgstr "Close"
+
+msgid "WR_CONTACTFORM_BUTTON_APPLY"
+msgstr "Apply"
+
+msgid "WR_MENUS_HEADING_HOME"
+msgstr "Home"
+
+msgid "WR_UNIFROM_CONFIRM_DELETE"
+msgstr "Are you sure you want to delete the selected item(s)?"
+
+msgid "WR_CONTACTFORM_MESSAGE_ERRO_FIELD_EMPTY"
+msgstr "You can't leave this empty."
+
+msgid "WR_CONTACTFORM_MESSAGE_ERRO_FIELD_EMAIL"
+msgstr "You must provide a valid e-mail address"
+
+msgid "WR_CONTACTFORM_SELECT_MENU_ITEM"
+msgstr "Select menu item"
+
+msgid "WR_CONTACTFORM_SELECT_ARTICLE"
+msgstr "Select article"
+
+msgid "WR_CONTACTFORM_SELECT_FORMS"
+msgstr "Select Form"
+
+msgid "WR_CONTACTFORM_PUBLISH"
+msgstr "Publish"
+
+msgid "WR_CONTACTFORM_UNPUBLISH"
+msgstr "Unpublish"
+
+msgid "WR_CONTACTFORM_PUBLISHED"
+msgstr "Published"
+
+msgid "WR_CONTACTFORM_UNPUBLISHED"
+msgstr "Unpublished"
+
+msgid "WR_CONTACTFORM_DELETE_ERROR"
+msgstr "Delete failure"
+
+msgid "WR_CONTACTFORM_DELETED"
+msgstr "successfully deleted"
+
+msgid "WR_CONTACTFORM_SELECTED"
+msgstr "..."
+
+msgid "WR_CONTACTFORM_CANCEL"
+msgstr "Cancel"
+
+msgid "WR_CONTACTFORM_SELECT_CHOICE_NO"
+msgstr "No"
+
+msgid "WR_CONTACTFORM_SELECT_CHOICE_YES"
+msgstr "Yes"
+
+msgid "WR_CONTACTFORM_SELECT"
+msgstr "Select"
+
+msgid "WR_CONTACTFORM_FOLDER_MUST_HAVE_WRITABLE_PERMISSION"
+msgstr "Folder %s must have Writable permission"
+
+msgid "WR_CONTACTFORM_FOLDER_CMOD"
+msgstr "cmod (%s)"
+
+msgid "WR_CONTACTFORM_NO_DATA"
+msgstr "No data"
+
+msgid "COM_CONTACTFORM"
+msgstr "WR ContactForm"
+
+msgid "WR_CONTACTFORM_SEARCH_LABEL"
+msgstr "Search"
+
+msgid "WR_CONTACTFORM_FILTER_LABEL"
+msgstr "Filter"
+
+msgid "WR_CONTACTFORM_FILTER_SEARCH_ARTICLES_DESC"
+msgstr "Search title or alias. Prefix with ID: to search for an article ID."
+
+msgid "WR_CONTACTFORM_FILTER_SEARCH_MENU_DESC"
+msgstr "Search title or alias. Prefix with ID: to search for a menu ID."
+
+msgid "WR_CONTACTFORM_ABOUT"
+msgstr "WR ContactForm: About"
+
+msgid "WR_CONTACTFORM_LAYOUT"
+msgstr "Layout"
+
+msgid "WR_CONTACTFORM_YOU_CAN_ONLY_ACCEPT_UP_TO_300_SUBMISSION"
+msgstr ""
+"In Free edition, you can only accept <strong>up to 300 submissions</strong>. "
+"There are <strong>%s slot(s) left</strong>. Please upgrade to PRO edition to "
+"accept unlimited number of submissions."
+
+msgid "WR_CONTACTFORM_YOU_CAN_NOT_HIDE_THE_COPYLINK"
+msgstr "Please upgrade to PRO edition to be able to hide the copyright link."
+
+msgid "WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_3_FORM_IN_FREE_EDITION"
+msgstr ""
+"In Free edition, you can only create <strong>up to 3 forms</strong>. There "
+"are <strong>%s slot(s) left</strong>. Please upgrade to PRO edition to "
+"create unlimited number of forms."
+
+msgid "WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_3_FORM_IN_FREE_EDITION_0"
+msgstr ""
+"In Free edition, you can only create <strong>up to 3 forms</strong>. There "
+"are <strong>0 slot(s) left</strong>. Please upgrade to PRO edition to create "
+"unlimited number of forms."
+
+msgid "WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_10_FIELD_IN_FREE_EDITION"
+msgstr ""
+"In Free edition, you can only create <strong>up to 10 fields</strong> in one "
+"form. Please upgrade to PRO edition to create unlimited number of fields in "
+"one form."
+
+msgid "WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_1_PAGE_IN_FREE_EDITION"
+msgstr ""
+"<p>The multiple pages feature is available only in PRO edition. Please "
+"upgrade to PRO edition to get this and other awesome features. Also you will "
+"get professional and fast support.</p>"
+
+msgid "WR_CONTACTFORM_UPGRADE_EDITION"
+msgstr "Upgrade to PRO edition"
+
+msgid "WR_CONTACTFORM_UPGRADE_EDITION_TITLE"
+msgstr "Upgrade to PRO edition for more"
+
+msgid "WR_CONTACTFORM_CONFIRM_SAVE_FORM"
+msgstr "Do you want to save changes before leaving this page?"
+
+msgid "WR_CONTACTFORM_PREVIOUS"
+msgstr "Previous"
+
+msgid "WR_CONTACTFORM_NEXT"
+msgstr "Next"
+
+msgid "WR_CONTACTFORM_DETAILS"
+msgstr "Details"
+
+msgid "WR_CONTACTFORM_SAVE_AND_SHOW"
+msgstr "Save & Show"
+
+msgid "WR_CONTACTFORM_EXPORT"
+msgstr "Export"
+
+msgid "WR_CONTACTFORM_EXPORT_TO_EXCEL"
+msgstr "Export to Excel"
+
+msgid "WR_CONTACTFORM_EXPORT_TO_CSV"
+msgstr "Export to CSV"
+
+msgid "WR_CONTACTFORM_EXPORT_EMPTY_DATA"
+msgstr "The %s list is empty"
+
+msgid "WR_CONTACTFORM_REVERT"
+msgstr "Revert"
+
+msgid "WR_CONTACTFORM_DONE"
+msgstr "Done"
+
+msgid "WR_CONTACTFORM_OPTIONS"
+msgstr "Options"
+
+# submenu
+msgid "WR_CONTACTFORM_SUBMENU_FORMS"
+msgstr "Forms"
+
+msgid "WR_CONTACTFORM_SUBMENU_SUBMISSION"
+msgstr "Submissions"
+
+msgid "WR_CONTACTFORM_SUBMENU_CONFIGURATION"
+msgstr "Configuration"
+
+msgid "WR_CONTACTFORM_SUBMENU_ABOUT"
+msgstr "About"
+
+msgid "WR_CONTACTFORM_SUBMENU_LAUNCHPAD"
+msgstr "Launch Pad"
+
+# config & maintenance
+msgid "WR_CONTACTFORM_GLOBAL_PARAMETERS"
+msgstr "Global Parameters"
+
+msgid "WR_CONTACTFORM_PERMISSIONS"
+msgstr "Permissions"
+
+msgid "WR_CONTACTFORM_MESSAGES"
+msgstr "Messages"
+
+msgid "WR_CONTACTFORM_LANGUAGES"
+msgstr "Languages"
+
+msgid "WR_CONTACTFORM_DATA"
+msgstr "Data"
+
+msgid "WR_CONTACTFORM_CONFIGURATION_MANAGER"
+msgstr "WR ContactForm: Configuration"
+
+msgid "WR_CONTACTFORM_CONFIGURATION_HEADER"
+msgstr "CONFIGURATION"
+
+msgid "WR_CONTACTFORM_MAINTENANCE_HEADER"
+msgstr "MAINTENANCE"
+
+# launch pad
+msgid "WR_CONTACTFORM_LAUNCHPAD_MANAGER"
+msgstr "WR ContactForm: Launch Pad"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_FORMS"
+msgstr "Forms"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_FORMS_DES"
+msgstr "Define what form to present"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_PRESENTATION"
+msgstr "Presentation"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_PRESENTATION_DES"
+msgstr "Define how to present the form"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_INSIDE_ARTICLE_CONTENT_PLUGIN"
+msgstr "Inside article (content plugin)"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_IN_MODULE_POSITION_MODULE"
+msgstr "In module position (module)"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_VIA_MENU_ITEM_COMPONENT"
+msgstr "Via menu item (component)"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_SELECT_PRESENTATION_METHOD"
+msgstr "Select presentation method"
+
+msgid "WR_CONTACTFORM_SELECT_MENU"
+msgstr "Select menu"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_PLUGIN_SYNTAX_DES"
+msgstr ""
+"Please insert following text to your article at the position where you want "
+"to show form"
+
+msgid "WR_CONTACTFORM_LAUNCHPAD_PLUGIN_SYNTAX"
+msgstr "Plugin syntax details"
+
+# Global Configuration
+msgid "WR_CONTACTFORM_SEND_EMAIL_TO_DES"
+msgstr ""
+"Set the list of email addresses that will receive notification email each "
+"time user submits the form."
+
+msgid "WR_CONTACTFORM_GENERAL_FOLDER_UPLOAD"
+msgstr "Upload Folder"
+
+msgid "WR_CONTACTFORM_ALERT_FORM_SUBMITSSION_DES"
+msgstr "Select the action to perform each time user submits the form."
+
+msgid "WR_CONTACTFORM_GENERAL_FOLDER_UPLOAD_DES"
+msgstr ""
+"Set the folder to store files uploaded by users. Each form will have it's "
+"own subfolder with the id as the name."
+
+msgid "WR_CONTACTFORM_GLOBAL_GENERAL"
+msgstr "General"
+
+msgid "WR_CONTACTFORM_POST_SUBMISSION_ACTION"
+msgstr "Post Submission Action"
+
+msgid "WR_CONTACTFORM_DEFAULT_FORM_SETTINGS"
+msgstr "Default Form Settings"
+
+msgid "WR_CONTACTFORM_ALERT_FORM_SUBMITSSION"
+msgstr "Do Action"
+
+msgid "WR_CONTACTFORM_REDIRECT_TO_URL"
+msgstr "Redirect to URL"
+
+msgid "WR_CONTACTFORM_URL"
+msgstr "URL"
+
+msgid "WR_CONTACTFORM_REDIRECT_TO_MENU_ITEM"
+msgstr "Redirect to Menu Item"
+
+msgid "WR_CONTACTFORM_MENU_ITEM"
+msgstr "Menu Item"
+
+msgid "WR_CONTACTFORM_SHOW_ARTICLE"
+msgstr "Show Article"
+
+msgid "WR_CONTACTFORM_ARTICLE"
+msgstr "Article"
+
+msgid "WR_CONTACTFORM_SHOW_CUSTOM_MESSAGE"
+msgstr "Show Custom Message"
+
+msgid "WR_CONTACTFORM_CUSTOM_MESSAGE"
+msgstr "Custom Message"
+
+msgid "WR_CONTACTFORM_NO_ACTION"
+msgstr "No Action"
+
+msgid "WR_CONTACTFORM_BUTTON_VERIFY"
+msgstr "Verify"
+
+msgid "WR_CONTACTFORM_FOLDER_IS_WRITEBLE"
+msgstr "The Folder is writable !"
+
+msgid "WR_CONTACTFORM_MOVE_FILE_TO_NEW_FOLDER"
+msgstr "Move files to new folder"
+
+msgid "WR_CONTACTFORM_FOLDER_IS_DONE"
+msgstr "Done!"
+
+msgid "WR_CONTACTFORM_BUTTON_CANCEL"
+msgstr "Cancel"
+
+msgid "WR_LOADING"
+msgstr "Loading..."
+
+msgid "GO"
+msgstr "Go"
+
+msgid "RESET"
+msgstr "Reset"
+
+msgid "WR_CONTACTFORM_BTN_CLEAR"
+msgstr "Clear"
+
+msgid "WR_CONTACTFORM_DISABLE_SHOW_COPYRIGHT"
+msgstr "Show Copyright Link"
+
+msgid "WR_CONTACTFORM_DISABLE_SHOW_COPYRIGHT_DES"
+msgstr ""
+"Select “Yes” if you want to show copyright link at the bottom of each form "
+"presentation."
+
+msgid "WR_CONTACTFORM_LOAD_BOOTSTRAP_CSS"
+msgstr "Load Bootstrap CSS"
+
+msgid "WR_CONTACTFORM_LOAD_BOOTSTRAP_CSS_DES"
+msgstr ""
+"Select “Yes” if you want to load Bootstrap CSS files at the front-end. This "
+"is required when your front-end template doesn’t load Bootstrap itself."
+
+# email notification
+msgid "WR_CONTACTFORM_FORM_EMAIL_NOTIFICATION"
+msgstr "Email Notification"
+
+msgid "WR_CONTACTFORM_EMAIL_NOTIFICATIO "
+msgstr "Email Notification"
+
+msgid "WR_CONTACTFORM_SEND_EMAIL_TO"
+msgstr "Send to email(s)"
+
+msgid "WR_CONTACTFORM_EMAIL_CONTENT"
+msgstr "Edit email content"
+
+msgid "WR_CONTACTFORM_EMAIL_SETTINGS"
+msgstr "Customize email"
+
+msgid "WR_CONTACTFORM_NEW_EMAIL"
+msgstr "New Email"
+
+msgid "WR_CONTACTFORM_FORMS_DELETED"
+msgstr "%d form successfully deleted"
+
+msgid "WR_CONTACTFORM_SUBMISSION_DELETED"
+msgstr "%d submission successfully deleted"
+
+msgid "WR_CONTACTFORM_EMAIL_SELECT"
+msgstr "..."
+
+msgid "WR_CONTACTFORM_AUTO_SEND_EMAIL"
+msgstr "Send email to submitter"
+
+msgid "WR_CONTACTFORM_SEND_TO_SUBMITTER"
+msgstr "Send to submitter"
+
+msgid "WR_CONTACTFORM_ADD_MORE_EMAIL"
+msgstr "Add Email"
+
+# email settings
+msgid "WR_CONTACTFORM_EMAIL_SETTINGS_FROM"
+msgstr "From"
+
+msgid "WR_CONTACTFORM_EMAIL_SETTINGS_FROM_NAME"
+msgstr "From Name"
+
+msgid "WR_CONTACTFORM_EMAIL_SETTINGS_REPLY_TO"
+msgstr "Reply To"
+
+msgid "WR_CONTACTFORM_EMAIL_SETTINGS_SUBJECT"
+msgstr "Subject"
+
+msgid "WR_CONTACTFORM_EMAIL_SETTINGS_MESSAGE"
+msgstr "Message"
+
+msgid "WR_CONTACTFORM_EMAIL_SETTINGS_INSERT_FIELD"
+msgstr "Insert form field"
+
+msgid "WR_CONTACTFORM_EMAIL_ADDRESS_TITLE"
+msgstr "Edit email content being sent to specified address(es)"
+
+msgid "WR_CONTACTFORM_EMAIL_SUBMITTER_TITLE"
+msgstr "Email content being sent to form submitter"
+
+msgid "WR_CONTACTFORM_EMAIL_USUALLY_SENT_TO_WEBSITE"
+msgstr ""
+"This email is usually sent to website administrators and persons who are "
+"taking care of form submissions. Their email address(es) are specified in "
+"previous screen."
+
+msgid "WR_CONTACTFORM_EMAIL_USUALLY_SENT_TO_THE_PERSON"
+msgstr ""
+"This email is usually sent to the person who submitted the form. His/her "
+"email address is specified via selected email form field in the previous "
+"screen."
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_NAME_1"
+msgstr ""
+"Specify the name of the email sender. Best to select the form field "
+"identifying submitter's name."
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_EMAIL_1"
+msgstr ""
+"Specify the email address where to reply to. Best to select the form field "
+"identifying submitter's email address."
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_SUBJECT_1"
+msgstr "Specify the subject of the email."
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_CONTENT_1"
+msgstr "Specify the content of the email."
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_NAME_0"
+msgstr ""
+"Specify the name of the email sender. Usually this is the name of your "
+"support department."
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_EMAIL_0"
+msgstr ""
+"Specify the email address where to reply to. Usually this is the email "
+"address of your support department."
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_SUBJECT_0"
+msgstr "Specify the subject of the email"
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_CONTENT_0"
+msgstr "Specify the content of the email"
+
+msgid "WR_CONTACTFORM_EMAIL_SETTINGS_ATTACH"
+msgstr "Attach File"
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_ATTACH_1"
+msgstr ""
+"Specify the “File upload” field(s) from where system will get submitted file "
+"and attach to notification email."
+
+msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_ATTACH_0"
+msgstr ""
+"Specify the “File upload” field(s) from where system will get submitted file "
+"and attach to notification email."
+
+# form manager
+msgid "WR_CONTACTFORM_FORM_PAGETITLE"
+msgstr "WR ContactForm: Form Settings"
+
+msgid "WR_CONTACTFORM_FORMS"
+msgstr "Form"
+
+msgid "WR_CONTACTFORM_FORM_DESC"
+msgstr "Description"
+
+msgid "WR_CONTACTFORM_FORM_DESIGN "
+msgstr "Design"
+
+msgid "WR_CONTACTFORM_FORM_APPEARANCE"
+msgstr "Appearance"
+
+msgid "WR_CONTACTFORM_FORM_ID"
+msgstr "ID"
+
+msgid "WR_CONTACTFORM_FORM_TITLE"
+msgstr "Title"
+
+msgid "WR_CONTACTFORM_FORM_META_DESCRIPTION"
+msgstr "Description"
+
+msgid "WR_CONTACTFORM_FIELD_OPTION"
+msgstr "Option"
+
+msgid "WR_CONTACTFORM_FIELD_VALUES"
+msgstr "Values"
+
+msgid "WR_CONTACTFORM_FORMS_MANAGER"
+msgstr "WR ContactForm: Forms Manager"
+
+msgid "WR_CONTACTFORM_FORM_SETTINGS"
+msgstr "Form Settings"
+
+msgid "WR_CONTACTFORM_FORM_DETAIL"
+msgstr "Detail"
+
+msgid "WR_CONTACTFORM_DISABLE_FORM"
+msgstr "Disable Form"
+
+msgid "WR_CONTACTFORM_ENABLE_FORM"
+msgstr "Enable Form"
+
+msgid "WR_CONTACTFORM_FORM_SEARCH_IN_TITLE"
+msgstr "Search in title"
+
+msgid "WR_CONTACTFORM_FORM_LAYOUT"
+msgstr "Form Layout"
+
+msgid "WR_CONTACTFORM_FORM_THEME"
+msgstr "Form theme"
+
+msgid "WR_CONTACTFORM_VIEW_FORM "
+msgstr "WR ContactForm: View Form"
+
+msgid "WR_CONTACTFORM_SELECT_FIELDS"
+msgstr "Select Fields"
+
+msgid "WR_CONTACTFORM_SELECT_FIELD"
+msgstr "Select Field"
+
+msgid "WR_CONTACTFORM_SELECT_EMAIL_FIELD"
+msgstr "Select Email Field"
+
+msgid "WR_CONTACTFORM_ADD_FIELD"
+msgstr "Add Field"
+
+msgid "WR_CONTACTFORM_FORM_ENABLE_CAPTCHA"
+msgstr "Captcha Integration"
+
+msgid "WR_CONTACTFORM_FORM_ADD_PAGE"
+msgstr "Add Page"
+
+msgid "WR_CONTACTFORM_FORM_NEW_PAGE"
+msgstr "New Page"
+
+msgid "WR_CONTACTFORM_SELECT_ALL"
+msgstr "All"
+
+msgid "WR_FILTER_SEARCH"
+msgstr "Filter: "
+
+msgid "WR_CONTACTFORM_SELECT_MORE"
+msgstr "More"
+
+msgid "WR_CONTACTFORM_SELECT_OTHERS"
+msgstr "Other pages"
+
+msgid "WR_CONTACTFORM_FORM_ACTION"
+msgstr "Action"
+
+msgid "WR_CONTACTFORM_TYPE"
+msgstr "Form Type"
+
+msgid "WR_CONTACTFORM_TYPE_SINGLE_PAGE"
+msgstr "Single page"
+
+msgid "WR_CONTACTFORM_TYPE_MULTIPLE_PAGES"
+msgstr "Multiple pages"
+
+msgid "WR_CONTACTFORM_CONFIRM_CONVERTING_FORM"
+msgstr ""
+"Converting form type to 'Single Page' will combine fields from all pages "
+"into one single page. Are you sure?"
+
+msgid "WR_CONTACTFORM_CONFIRM_DELETING_A_FIELD_DES"
+msgstr ""
+"Deleting a field means that all data collected by the field will be deleted "
+"immediately. Because this action cannot be undone, you might want to "
+"consider backup your data first."
+
+msgid "WR_CONTACTFORM_CONFIRM_DELETING_A_FIELD"
+msgstr "Are you sure you want to delete this field?"
+
+msgid "WR_CONTACTFORM_IF_CHECKED_VALUE_DUPLICATION"
+msgstr "If checked no value duplication will be allowed for this field."
+
+msgid "WR_CONTACTFORM_SPECIFY_EMAIL_ADDRESS"
+msgstr ""
+"Specify email address(es) where to send notification emails. These email "
+"addresses usually belong to website administrators and people who are taking "
+"care of form submissions."
+
+msgid "WR_CONTACTFORM_SELECT_EMAIL_FORM_FIELD"
+msgstr ""
+"Select email form field(s) from where to take the email address to send "
+"notification emails. These email form fields are defined in 'Form Design' tab"
+
+msgid "WR_CONTACTFORM_N_FORMS_DUPLICATED"
+msgstr "%d forms successfully duplicated"
+
+msgid "WR_CONTACTFORM_ERROR_NO_FORM_SELECTED"
+msgstr "No form selected"
+
+msgid "WR_CONTACTFORM_FORM_INSIDE_ARTICLE_CONTENT_PLUGIN"
+msgstr "Inside article"
+
+msgid "WR_CONTACTFORM_FORM_IN_MODULE_POSITION_MODULE"
+msgstr "In module position"
+
+msgid "WR_CONTACTFORM_FORM_VIA_MENU_ITEM_COMPONENT"
+msgstr "Via menu item"
+
+msgid "WR_CONTACTFORM_FORM_LIMIT_FILE_EXTENSIONS"
+msgstr ""
+"Even if you do not set limitation here, there will still be a limitation set "
+"by server which is: "
+
+msgid "WR_CONTACTFORM_FORM_LIMIT_FILE_SIZE"
+msgstr ""
+"Even if you do not set limitation here, there will still be a limitation set "
+"by server which is: "
+
+msgid "WR_CONTACTFORM_FOR_SECURITY_REASONS_FOLLOWING_FILE_EXTENSIONS"
+msgstr "For security reasons following file extensions are always prohibited: "
+
+msgid "WR_CONTACTFORM_SET_THE_FORM_TITLE"
+msgstr "Set the form's title to identify itself in administration area."
+
+msgid "WR_CONTACTFORM_SET_THE_FORM_DES"
+msgstr "Set the form's description to identify itself in administration area."
+
+msgid "WR_CONTACTFORM_SELECT_THE_FORM_STATUS_TO_INDICATE"
+msgstr ""
+"Select the form’ status to indicate if it should be displayed on the website "
+"or not."
+
+msgid "WR_CONTACTFORM_SELECT_THE_USER_GROUP"
+msgstr "Select the user group that can see the form on the website."
+
+msgid "WR_CONTACTFORM_SELECT_IF_YOU_WANT_TO_SHOW_RECAPTCHA"
+msgstr ""
+"Select the captcha technology to be integrated to the form to prevent spams."
+
+msgid "WR_CONTACTFORM_SELECT_TO_SHOW_FORM_FIELD_IN_SINGLE_PAGE"
+msgstr "Select to show form fields in in single page or multiple pages."
+
+msgid "WR_CONTACTFORM_SELECT_TO_SHOW_FORM_FIELD_TITLE_AND_ELEMENT"
+msgstr ""
+"Select to show form field title and element in vertical column or horizontal "
+"row."
+
+msgid "WR_CONTACTFORM_SELECT_THE_ACTION_TO_TAKE_AFTER"
+msgstr "Select the action to take after user submits the form data."
+
+msgid "WR_CONTACTFORM_SET_THE_FOLDER_TO_STORE"
+msgstr "Set the folder to store all files submitted by user."
+
+msgid "WR_CONTACTFORM_FORM_STYLE"
+msgstr "Form Style"
+
+msgid "WR_CONTACTFORM_FORM_STYLE_DES"
+msgstr "Select style to apply to the form."
+
+msgid "WR_CONTACTFORM_ALLOW_USER_CHOICE"
+msgstr "Allow user’s choice"
+
+msgid "WR_CONTACTFORM_SET_ITEM_PLACEHOLDER"
+msgstr "Set the first item as placeholder"
+
+msgid "WR_CONTACTFORM_SET_ITEM_PLACEHOLDER_DES"
+msgstr ""
+"When checked, the first item will be used as placeholder without "
+"contributing value to form data."
+
+msgid "WR_CONTACTFORM_SHOW_DATE_FORMAT"
+msgstr "Show Date in format"
+
+msgid "WR_CONTACTFORM_SHOW_TIME_FORMAT"
+msgstr "Show Time in format"
+
+msgid "WR_CONTACTFORM_ENABLE_RANGE_SELECTION"
+msgstr "Enable Range selection"
+
+msgid "WR_CONTACTFORM_BLANK_FORM"
+msgstr "Blank Form"
+
+msgid "WR_CONTACTFORM_CONTACT_US_FORM"
+msgstr "Contact Us"
+
+msgid "WR_CONTACTFORM_CUSTOMER_FEEDBACK_FORM"
+msgstr "Customer Feedback"
+
+msgid "WR_CONTACTFORM_JOB_APPLICATION_FORM"
+msgstr "Job Application"
+
+msgid "WR_CONTACTFORM_EVENT_REGISTRATION"
+msgstr "Event Registration"
+
+msgid "WR_CONTACTFORM_VOTING_FORM"
+msgstr "Voting"
+
+msgid "WR_CONTACTFORM_STATE_EDIT_SUBMISSION"
+msgstr "Allow Front-end Submission Editing"
+
+msgid "WR_CONTACTFORM_STATE_EDIT_SUBMISSION_DES"
+msgstr ""
+"Select “Yes” if you want user to be able to edit submission’s details at the "
+"front-end."
+
+msgid "WR_CONTACTFORM_SELECT_GROUP_EDIT_SUBMISSION"
+msgstr "Front-end Submission Editing Permission"
+
+msgid "WR_CONTACTFORM_SELECT_GROUP_EDIT_SUBMISSION_DES"
+msgstr ""
+"Select permission level required to be able to edit submission’s details at "
+"the front-end."
+
+msgid "WR_CONTACTFORM_FORM_SETINGS"
+msgstr "Form Settings"
+
+msgid "WR_CONTACTFORM_SELECT_FIELD_DES"
+msgstr "WR ContactForm: Select Field"
+
+msgid "WR_CONTACTFORM_CUSTOM_DATE_FORMAT"
+msgstr "Custom date format"
+
+msgid "WR_CONTACTFORM_DISPLAY_OPTIONS"
+msgstr "Display Options"
+
+msgid "WR_CONTACTFORM_SELECT_FORM_TO_SUBMISSION_TIP"
+msgstr "Select the form to get submission of."
+
+msgid "WR_CONTACTFORM_FORM_FIELDS"
+msgstr "Form Field(s)"
+
+msgid "WR_CONTACTFORM_FORM_FIELDS_TIP"
+msgstr "Select form fields to display"
+
+msgid "WR_CONTACTFORM_SHOW_DATA_FILTER"
+msgstr "Show Data Filter"
+
+msgid "WR_CONTACTFORM_SHOW_DATA_FILTER_DES"
+msgstr ""
+"Select “Yes” if you want to show text box to allow user to filter "
+"submissions by the data it contains."
+
+msgid "WR_CONTACTFORM_SHOW_DATE_FILTER"
+msgstr "Show Date Filter"
+
+msgid "WR_CONTACTFORM_SHOW_DATE_FILTER_DES"
+msgstr ""
+"Select “Yes” if you want to show date selector to allow user to filter "
+"submissions by the date."
+
+msgid "WR_CONTACTFORM_SHOW_FIELD_SELECTOR"
+msgstr "Show Field Selector"
+
+msgid "WR_CONTACTFORM_SHOW_FIELD_SELECTOR_DES"
+msgstr ""
+"Select “Yes” if you want to show form field(s) selector to allow user to "
+"choose data of what field to show."
+
+msgid "WR_CONTACTFORM_ALL_FORM_FIELD_ARE_DISPLAYED"
+msgstr "All form fields are displayed. There is nothing to be set to show"
+
+msgid "WR_CONTACTFORM_ALL_FORM_FIELD_ARE_HIDDEN"
+msgstr "All form fields are hidden. There is nothing to be set to hide"
+
+msgid "WR_CONTACTFORM_CAPTCHA_RE_CAPTCHA"
+msgstr "ReCaptcha"
+
+msgid "WR_CONTACTFORM_CAPTCHA_SECURIMAGE"
+msgstr "Securimage"
+
+msgid "WR_CONTACTFORM_CAPTCHA_NO"
+msgstr "No Captcha"
+
+msgid "WR_CONTACTFORM_CAPTCHA"
+msgstr "Captcha"
+
+# FORM STYLE
+msgid "WR_CONTACTFORM_FIELD"
+msgstr "Field"
+
+msgid "WR_CONTACTFORM_CONTAINER"
+msgstr "Container"
+
+msgid "WR_CONTACTFORM_TITLE"
+msgstr "Title"
+
+msgid "WR_CONTACTFORM_BACKGROUND_COLOR"
+msgstr "Background Color"
+
+msgid "WR_CONTACTFORM_BACKGROUND_ACTIVE_COLOR"
+msgstr "Background Active Color"
+
+msgid "WR_CONTACTFORM_BORDER_THICKNESS"
+msgstr "Border Thickness"
+
+msgid "WR_CONTACTFORM_BORDER_COLOR"
+msgstr "Border Color"
+
+msgid "WR_CONTACTFORM_BORDER_ACTIVE_COLOR"
+msgstr "Border Active Color"
+
+msgid "WR_CONTACTFORM_ROUNDED_CORNER_RADIUS"
+msgstr "Rounded Corner Radius"
+
+msgid "WR_CONTACTFORM_PADDING_SPACE"
+msgstr "Padding Space"
+
+msgid "WR_CONTACTFORM_MARGIN_SPACE"
+msgstr "Vertical Space"
+
+msgid "WR_CONTACTFORM_TEXT_COLOR"
+msgstr "Text Color"
+
+msgid "WR_CONTACTFORM_FONT_TYPE"
+msgstr "Font Type"
+
+msgid "WR_CONTACTFORM_FONT_SIZE"
+msgstr "Font Size"
+
+msgid "WR_CONTACTFORM_MESSAGE_ERRORS"
+msgstr "Error"
+
+msgid "WR_CONTACTFORM_COLOR_THEME"
+msgstr "Color Theme"
+
+msgid "WR_CONTACTFORM_COLOR_SCHEME"
+msgstr "Color Scheme"
+
+msgid "WR_CONTACTFORM_SHADOW_COLOR"
+msgstr "Shadow Color"
+
+msgid "WR_CONTACTFORM_COLOR_CONFIRM_DELETE"
+msgstr "Are you sure you want to delete current color scheme?"
+
+msgid "WR_CONTACTFORM_COLOR_CONFIRM_EXISTS"
+msgstr "Color scheme with such name already exists"
+
+msgid "WR_CONTACTFORM_COLOR_CONFIRM_RESET"
+msgstr "you sure you want to restore all style settings to default state?"
+
+# access
+msgid "WR_CONTACTFORM_ACCESS_SUBMISSSIONS"
+msgstr "Access Submisssions"
+
+msgid "WR_CONTACTFORM_ACCESS_FORMS"
+msgstr "Access Forms"
+
+msgid "WR_CONTACTFORM_ACCESS_CONFIGURATION "
+msgstr "Access Configuration"
+
+# PLACEHOLDER form
+msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_1"
+msgstr ""
+"Click the button on the right to select the form field identifying "
+"submitter's name"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_1"
+msgstr ""
+"Click the button on the right to select the form field identifying "
+"submitter's email"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_1"
+msgstr "e.g. Contact inquiry"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_0"
+msgstr "e.g. Customer Department"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_0"
+msgstr "e.g. support@yourdomain.com"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_0"
+msgstr "e.g. Thank you for contacting us"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_MESSAGE"
+msgstr "Enter your email message"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_REDIRECT_TO_URL"
+msgstr "Enter your URL"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_REDIRECT_TO_TO_MENU_ITEM"
+msgstr "Select a menu item"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_SHOW_ARTICLE"
+msgstr "Select an article"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_SHOW_CUSTOM_MESSAGE"
+msgstr "Enter your message"
+
+msgid "WR_CONTACTFORM_PLACEHOLDER_SELECT_DATE"
+msgstr "Select Date"
+
+# submission
+msgid "WR_CONTACTFORM_SUBMISSIONS_DETAIL"
+msgstr "WR ContactForm: Submission Settings"
+
+msgid "WR_CONTACTFORM_SUBMISSION_COUNTRY"
+msgstr "Country"
+
+msgid "WR_CONTACTFORM_SUBMISSION_BROWSER"
+msgstr "Browser"
+
+msgid "WR_CONTACTFORM_SUBMISSION_OS"
+msgstr "Operating System"
+
+msgid "WR_CONTACTFORM_SUBMISSION_CREATED_BY"
+msgstr "Created By"
+
+msgid "WR_CONTACTFORM_SUBMISSION_CREATED_AT"
+msgstr "Date Created"
+
+msgid "WR_CONTACTFORM_DATE"
+msgstr "Date"
+
+msgid "WR_CONTACTFORM_DATE_SUBMISSION"
+msgstr "Select date submission"
+
+msgid "WR_CONTACTFORM_FORM_SEARCH_IN_DATE_SUBMISSION"
+msgstr "Search in submissions date"
+
+msgid "WR_CONTACTFORM_SUBMISSION_DATA"
+msgstr "Submission data"
+
+msgid "WR_CONTACTFORM_SUBMISSION_DETAIL"
+msgstr "Submission details"
+
+msgid "WR_CONTACTFORM_PRINT"
+msgstr "Print"
+
+msgid "WR_CONTACTFORM_FORM_CREATED"
+msgstr "Created By"
+
+msgid "WR_CONTACTFORM_FORM_CREATED_AT"
+msgstr "Date Created"
+
+msgid "WR_CONTACTFORM_FORM_LAST_SUBMITTED_AT"
+msgstr "Last Submitted"
+
+msgid "WR_CONTACTFORM_FORM_SUBMISSION"
+msgstr "Submissions"
+
+msgid "WR_CONTACTFORM_SUBMISSION_IP"
+msgstr "IP Address"
+
+msgid "WR_CONTACTFORM_SUBMISSION_STATE"
+msgstr "State"
+
+msgid "WR_CONTACTFORM_SUBMISSIONS_SELECT_FORM"
+msgstr "Please select the form to get submissions of:"
+
+msgid "WR_CONTACTFORM_SUBMISSIONS_MANAGER"
+msgstr "WR ContactForm: Submissions Manager"
+
+msgid "WR_CONTACTFORM_DATA_PRESENTATION"
+msgstr "Data Presentation"
+
+# list user email
+msgid "WR_CONTACTFORM_USERS_FILTER_USERGROUP"
+msgstr "Select Group"
+
+msgid "WR_CONTACTFORM_USERS_HEADING_GROUPS"
+msgstr "User Groups"
+
+msgid "WR_CONTACTFORM_NO_EMAIL"
+msgstr "No email field found"
+
+msgid "WR_CONTACTFORM_NO_EMAIL_DES"
+msgstr ""
+"You must add some email-type field in your form in order to select it here"
+
+msgid "WR_CONTACTFORM_NO_FIELD_DES"
+msgstr "You must add some form field in your form in order to select it here"
+
+msgid "WR_CONTACTFORM_NO_FIELD"
+msgstr "No form field found"
+
+# config messages
+msgid "WR_CONTACTFORM_MESSAGES_NUM"
+msgstr "#"
+
+msgid "WR_CONTACTFORM_MESSAGES_SCREEN"
+msgstr "Screen"
+
+msgid "WR_CONTACTFORM_MESSAGES_RETRIEVE_ALL_MESSAGES_FROM_LANGUAGE_FILE_AND_SET_SHOW_STATUS_FOR_THEM"
+msgstr ""
+"Retrieve all messages from language file and set 'Show' status for them"
+
+msgid "WR_CONTACTFORM_MESSAGES_REFRESH_ALL_MESSAGE"
+msgstr "Refresh all message"
+
+msgid "WR_CONTACTFORM_MESSAGES_SHOW"
+msgstr "Show"
+
+msgid "WR_CONTACTFORM_MESSAGES_ORDER"
+msgstr "Order"
+
+msgid "WR_CONTACTFORM_MESSAGES_TEXT"
+msgstr "Text"
+
+# menu
+msgid "WR_CONTACTFORM_MENU_SUBMISSIONS_TEXT"
+msgstr "Submissions"
+
+msgid "WR_CONTACTFORM_MENU_SUBMISSION_TEXT"
+msgstr "Submission"
+
+msgid "WR_CONTACTFORM_MENU_FORMS_TEXT"
+msgstr "Forms"
+
+msgid "WR_CONTACTFORM_MENU_CONFIGURATION_TEXT"
+msgstr "Configuration"
+
+msgid "WR_CONTACTFORM_MENU_ABOUT_TEXT"
+msgstr "About"
+
+msgid "WR_CONTACTFORM_MENU_FORM_TEXT"
+msgstr "Form"
+
+# config language
+msgid "WR_CONTACTFORM_LANG_SELECT_LANGUAGE_TO_BE_INSTALLED"
+msgstr "Select language(s) to be installed"
+
+msgid "WR_CONTACTFORM_LANG_MAINTENANCE"
+msgstr "Language Manager"
+
+msgid "WR_CONTACTFORM_LANG_INSTALL_LANGUAGES"
+msgstr "Install languages"
+
+msgid "WR_CONTACTFORM_LANG_SITE"
+msgstr "Site"
+
+msgid "WR_CONTACTFORM_LANG_ADMINISTRATOR"
+msgstr "Administrator"
+
+msgid "WR_CONTACTFORM_LANG_LANGUAGE_MAINTENANCE"
+msgstr "Language Maintenance"
+
+msgid "WR_CONTACTFORM_LANG_THE_LANGUAGE_HAS_BEEN_SUCCESSFULLY_INSTALLED"
+msgstr "The language(s) has been successfully installed"
+
+msgid "WR_CONTACTFORM_LANG_YOU_MUST_SELECT_AT_LEAST_ONE_LANGUAGE_TO_INSTALL"
+msgstr "You must select at least one language to install"
+
+msgid "WR_CONTACTFORMLANG_CAN_NOT_BE_INSTALLED"
+msgstr "can not be installed"
+
+msgid "WR_CONTACTFORM_LANG_NOT_SUPPORTED_YET"
+msgstr "not supported yet"
+
+msgid "WR_CONTACTFORM_LANG_INSTALLED"
+msgstr "installed"
+
+msgid "WR_CONTACTFORM_LANG_TRANSLATE"
+msgstr "Translate"
+
+msgid "WR_CONTACTFORM_LANG_THIS_LANGUAGE_NOT_INSTALLATION"
+msgstr "This language not installation"
+
+# config data
+msgid "WR_CONTACTFORM_DATA_MAINTENANCE"
+msgstr "Data Manager"
+
+msgid "WR_CONTACTFORM_SAMPLE_DATA_INSTALLATION"
+msgstr "Sample Data Installation"
+
+msgid "WR_CONTACTFORM_DATA_BACKUP"
+msgstr "Data Backup / Restore"
+
+msgid "WR_CONTACTFORM_BTN_BACKUP"
+msgstr "Backup Data"
+
+msgid "WR_CONTACTFORM_SAMPLE_DATA_ERROR_VERSION"
+msgstr ""
+"The product version you are using is outdated. <a href='edit.php?"
+"post_type=wr_cf_post_type&page=wr-contactform-upgrade' class='jsn-link-"
+"action'>Update now</a>"
+
+# Menu footer
+msgid "WR_GENERAL_DOCUMENTATION"
+msgstr "Document"
+
+msgid "WR_GENERAL_SUPPORT"
+msgstr "Support Forum"
+
+msgid "WR_GENERAL_VOTE"
+msgstr "Vote on JED"
+
+msgid "WR_GENERAL_KEEP_IN_TOUCH"
+msgstr "Follow us"
+
+msgid "WR_GENERAL_UPGRADE_TO_PRO"
+msgstr "Upgrade to pro"
+
+msgid "WR_VIEW_UPDATE_AVAILALBE"
+msgstr "Updates are available."
+
+msgid "WR_GENERAL_UPDATE_NOW"
+msgstr "Update Now"
+
+# task view select form
+msgid "WR_CONTACTFORM_MODULE_LIST_FORM"
+msgstr "Form: "
+
+msgid "WR_CONTACTFORM_MODULE_LIST_FORM_DES"
+msgstr "WR ContactForm - Select Form"
+
+msgid "WR_CONTACTFORM_SELECT_FORM"
+msgstr "Select Form"
+
+msgid "WR_CONTACTFORM_MODULE_DES"
+msgstr "WR ContactForm - Select Form"
+
+msgid "WR_CONTACTFORM_BUTTON_SAVE"
+msgstr "Save"
+
+msgid "WR_CONTACTFORM_BUTTON_RESET"
+msgstr "Reset"
+
+msgid "WR_CONTACTFORM_DO_NOT_HAVE_ANY_FORM"
+msgstr "You don't have any form yet."
+
+msgid "WR_CONTACTFORM_EDIT_SELECTED_FORM"
+msgstr "Edit selected form"
+
+msgid "WR_CONTACTFORM_CREATE_NEW_FORM"
+msgstr "Create new form"
+
+msgid "WR_CONTACTFORM_SEE_ALL_FORMS"
+msgstr "See all forms"
+
+msgid "WR_CONTACTFORM_YOU_MUST_SELECT_SOME_FORM"
+msgstr "You must select some form to edit"
+
+msgid "WR_CONTACTFORM_FIELD_TITLE_FORM_WARNING"
+msgstr "Form is not defined"
+
+msgid "WR_CONTACTFORM_FIELD_DES_FORM_WARNING"
+msgstr ""
+"You must select some form. You can create one by clicking icon 'Plus' on the "
+"right."
+
+# configuration data
+msgid "WR_CONTACTFORM_SAMPLE_DATA_INSTALL_SUGGESTION"
+msgstr ""
+"<ul><li>Installing sample data will delete all current WR ContactForm data "
+"including all Form,Submission,Configuration source profiles, etc.</li><li>It "
+"is NOT recommended to install sample data on production website.</li></ul>"
+
+msgid "WR_CONTACTFORM_SAMPLE_DATA_PLEASE_CHECK_I_AGREE_INSTALL_SAMPLE_DATA"
+msgstr ""
+"I agree that installing sample data will delete all current WR ContactForm "
+"data"
+
+msgid "WR_DATA_BACKUP_BUTTON"
+msgstr "Backup"
+
+msgid "WR_DATA_RESTORE_BUTTON"
+msgstr "Restore"
+
+msgid "WR_DATA_RESTORE_FILE"
+msgstr "Restore file"
+
+msgid "WR_CONTACTFORM_DATABASE"
+msgstr "Database"
+
+msgid "WR_CONTACTFORM_FOLDER_BACKUP"
+msgstr "Backup folder attach file"
+
+msgid "WR_WARNING"
+msgstr "WARNING!"
+
+msgid "WR_DATA_SAMPLE_BUTTON"
+msgstr "Install sample data"
+
+msgid "WR_DATA_RESTORE"
+msgstr "Data restore"
+
+msgid "WR_DATA_SAMPLE_START_INSTALL"
+msgstr "There are several stages involved in the process. Please be patient."
+
+msgid "WR_DATA_SAMPLE_START_INSTALL_DOWNLOADING"
+msgstr "Download sample data package."
+
+msgid "WR_DATA_SAMPLE_START_INSTALL_INSTALLING"
+msgstr "Install sample data"
+
+msgid "WR_DATA_SAMPLE_INSTALL_SUCCESS"
+msgstr "Sample data is successfully installed"
+
+msgid "WR_DATA_SAMPLE_INSTALL_SUCCESS_MESSAGE"
+msgstr "Congratulations, now you can operate on sample Form"
+
+msgid "WR_GENERAL_UPGRADE_TO_PRO_UNLIMITED"
+msgstr "Upgrade to PRO UNLIMITED"
+
+msgid "WR_EXTFW_CONFIG_BACKUP_SUCCESS"
+msgstr "Backup data successfully"
+
+# About
+msgid "WR_GENERAL_UPGRADE"
+msgstr "Upgrade"
+
+# Update
+msgid "WR_CONTACTFORM_UPDATE_PRODUCT"
+msgstr "WR ContactForm: Update"
+
+msgid "WR_UPDATE_PAGE_HEAD"
+msgstr "Update WR ContactForm"
+
+# Upgrade
+msgid "WR_EXTFW_UPGRADE_BENEFITS_FREE"
+msgstr "Benefits of upgrading to PRO STANDARD edition - 39 USD"
+
+msgid "WR_EXTFW_UPGRADE_BENEFITS_PRO"
+msgstr "Benefits of upgrading to PRO UNLIMITED edition - 69 USD"
+
+msgid "WR_CONTACTFORM_UPGRADE_PRODUCT"
+msgstr "WR ContactForm: Upgrade"
+
+msgid "WR_CONTACTFORM_BTN_SELECTED"
+msgstr "Select"
+
+msgid "WR_CONTACTFORM_UPGRADE_UNLIMITED_NUMBER_OF_FORM_AND_FIELDS_IN_A_FORM"
+msgstr "<strong>Unlimited number</strong> of forms and fields in a form."
+
+msgid "WR_CONTACTFORM_UPGRADE_UNLIMITED_NUMBER_OF_SUBMISSION_IN_A_FORM"
+msgstr "<strong>Unlimited number</strong> of submissions."
+
+msgid "WR_CONTACTFORM_UPGRADE_ABILITY_TO_PRESENT_FORM_FIELDS_IN_MULTIPLE_PAGES"
+msgstr "Ability to present form fields in <strong>multiple pages</strong>."
+
+msgid "WR_CONTACTFORM_UPGRADE_REMOVED_BRANDLINK_FROM_FORM_PRESENTATION"
+msgstr "Clean form presentation without <strong>any brand-link</strong>"
+
+msgid "WR_CONTACTFORM_UPGRADE_PROFESSIONAL_SUPPORT_FOR_01_DOMAIN"
+msgstr "Professional support for <strong>01 domain</strong>."
+
+msgid "WR_CONTACTFORM_UPGRADE_FREE_PRODUCT_UPDATE_FOR_06_MONTHS"
+msgstr "Free product update for <strong>06 months</strong>."
+
+msgid "WR_CONTACTFORM_UPGRADE_ALL_BENEFITS_OF_PRO_STADARD_EDITION"
+msgstr "<strong>All benefits of PRO STANDARD edition</strong>."
+
+msgid "WR_CONTACTFORM_UPGRADE_FASTER_DEDICATED_SUPPORT_FOR_UNLIMITED_DOMAINS"
+msgstr "Faster dedicated support for <strong>unlimited domains</strong>."
+
+msgid "WR_CONTACTFORM_UPGRADE_FREE_PRODUCT_UPDATE_FOR_01_YEAR"
+msgstr "Free product update <strong>for 01 year</strong>."
+
+# HELP
+msgid "WR_CONTACTFORM_HELP"
+msgstr "Help"
+
+msgid "WR_CONTACTFORM_HELP_HELP_AND_SUPPORT"
+msgstr "Help & Support"
+
+msgid "WR_CONTACTFORM_HELP_DOCUMENTATION"
+msgstr "DOCUMENTATION"
+
+msgid "WR_CONTACTFORM_HELP_DOWNLOAD_PDF_DOCUMENTATION"
+msgstr "Download PDF documentation"
+
+msgid "WR_CONTACTFORM_HELP_DES_DOCUMENTATION"
+msgstr ""
+"<p>WR ContactForm is equipped with compressive documentation in PDF format. "
+"You will find out about how main concepts as well as clear instruction how "
+"to configure each product feature.</p><p>The PDF file is well prepared and "
+"ready to be printed for convenient reading.</p>"
+
+msgid "WR_CONTACTFORM_HELP_SUPPORT_FORUM"
+msgstr "SUPPORT FORUM (for PRO STANDARD)"
+
+msgid "WR_CONTACTFORM_HELP_CHECK_SUPPORT_FORUM"
+msgstr "Check Support Forum"
+
+msgid "WR_CONTACTFORM_HELP_DES_CHECK_SUPPORT_FORUM"
+msgstr ""
+"<p>Visit woorockets support forum to read topics from thousands of member. "
+"The question you want to ask might already raised by someone and answered.</"
+"p><p>If not, feel free to create a post. In support forum we do provide "
+"support for everyone who bought commercial edition of our products.</p>"
+
+msgid "WR_CONTACTFORM_HELP_HELPDESK_SYSTEM"
+msgstr "HELPDESK SYSTEM (for PRO UNLIMITED)"
+
+msgid "WR_CONTACTFORM_HELP_SUBMIT_TICKET_IN_HELPDESK_SYSTEM"
+msgstr "Submit ticket in Dedicated Support System"
+
+msgid "WR_CONTACTFORM_HELP_DES_HELPDESK_SYSTEM"
+msgstr ""
+"<p>Dedicated Helpdesk System is for developers who bought PRO UNLIMITED "
+"edition of the product. With ticket support we can investigate issue in "
+"depth and provide solution related not only with products but Joomla! in "
+"general.</p><p>Another benefit of helpdesk system is guaranteed 16-hours "
+"response time.</p>"
+
+msgid "WR_CONTACTFORM_HELP_BUY_PRO_STANDARD_EDITION"
+msgstr "Buy PRO STANDARD edition"
+
+msgid "WR_CONTACTFORM_HELP_BUY_PRO_UNLIMITED_EDITION"
+msgstr "Buy PRO UNLIMITED edition"
+
+msgid "WR_CONTACTFORM_HELP_UPGRADE_TO_PRO_UNLIMITED_EDITION"
+msgstr "Upgrade to PRO UNLIMITED edition"
+
+msgid "WR_CONTACTFORM_HELP_WATCH_QUICK_START_VIDEO"
+msgstr "Watch Quick Start Video"
+
+# placeholder controls
+msgid "STREET_ADDRESS"
+msgstr "Street Address"
+
+msgid "ADDRESS_LINE_2"
+msgstr "Address Line 2"
+
+msgid "CITY"
+msgstr "City"
+
+msgid "POSTAL_ZIP_CODE"
+msgstr "Postal/Zip code"
+
+msgid "STATE_PROVINCE_REGION"
+msgstr "State/Province/Region"
+
+msgid "FIRST"
+msgstr "First"
+
+msgid "MIDDLE"
+msgstr "Middle"
+
+msgid "LAST"
+msgstr "Last"
+
+msgid "COUNTRY"
+msgstr "Country"
+
+msgid "TITLES"
+msgstr "Titles"
+
+# date time
+msgid "WR_CONTACTFORM_DATE_HOUR_TEXT"
+msgstr "Hour"
+
+msgid "WR_CONTACTFORM_DATE_MINUTE_TEXT"
+msgstr "Minute"
+
+msgid "WR_CONTACTFORM_DATE_CLOSE_TEXT"
+msgstr "Close"
+
+msgid "WR_CONTACTFORM_DATE_PREV_TEXT"
+msgstr "Prev"
+
+msgid "WR_CONTACTFORM_DATE_NEXT_TEXT"
+msgstr "Next"
+
+msgid "WR_CONTACTFORM_DATE_CURRENT_TEXT"
+msgstr "Today"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_JANUARY"
+msgstr "January"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_FEBRUARY"
+msgstr "February"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_MARCH"
+msgstr "March"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_APRIL"
+msgstr "April"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_MAY"
+msgstr "May"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_JUNE"
+msgstr "June"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_JULY"
+msgstr "July"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_AUGUST"
+msgstr "August"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_SEPTEMBER"
+msgstr "September"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_OCTOBER"
+msgstr "October"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_NOVEMBER"
+msgstr "November"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_DECEMBER"
+msgstr "December"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_JANUARY_SHORT"
+msgstr "Jan"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_FEBRUARY_SHORT"
+msgstr "Feb"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_MARCH_SHORT"
+msgstr "Mar"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_APRIL_SHORT"
+msgstr "Apr"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_MAY_SHORT"
+msgstr "May"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_JUNE_SHORT"
+msgstr "Jun"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_JULY_SHORT"
+msgstr "Jul"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_AUGUST_SHORT"
+msgstr "Aug"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_SEPTEMBER_SHORT"
+msgstr "Sep"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_OCTOBER_SHORT"
+msgstr "Oct"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_NOVEMBER_SHORT"
+msgstr "Nov"
+
+msgid "WR_CONTACTFORM_DATE_MONTH_DECEMBER_SHORT"
+msgstr "Dec"
+
+msgid "WR_CONTACTFORM_DATE_DAY_SUNDAY"
+msgstr "Sunday"
+
+msgid "WR_CONTACTFORM_DATE_DAY_MONDAY"
+msgstr "Monday"
+
+msgid "WR_CONTACTFORM_DATE_DAY_TUESDAY"
+msgstr "Tuesday"
+
+msgid "WR_CONTACTFORM_DATE_DAY_WEDNESDAY"
+msgstr "Wednesday"
+
+msgid "WR_CONTACTFORM_DATE_DAY_THURSDAY"
+msgstr "Thursday"
+
+msgid "WR_CONTACTFORM_DATE_DAY_FRIDAY"
+msgstr "Friday"
+
+msgid "WR_CONTACTFORM_DATE_DAY_SATURDAY"
+msgstr "Saturday"
+
+msgid "WR_CONTACTFORM_DATE_DAY_SUNDAY_SHORT"
+msgstr "Sun"
+
+msgid "WR_CONTACTFORM_DATE_DAY_MONDAY_SHORT"
+msgstr "Mon"
+
+msgid "WR_CONTACTFORM_DATE_DAY_TUESDAY_SHORT"
+msgstr "Tue"
+
+msgid "WR_CONTACTFORM_DATE_DAY_WEDNESDAY_SHORT"
+msgstr "Wed"
+
+msgid "WR_CONTACTFORM_DATE_DAY_THURSDAY_SHORT"
+msgstr "Thu"
+
+msgid "WR_CONTACTFORM_DATE_DAY_FRIDAY_SHORT"
+msgstr "Fri"
+
+msgid "WR_CONTACTFORM_DATE_DAY_SATURDAY_SHORT"
+msgstr "Sat"
+
+msgid "WR_CONTACTFORM_DATE_DAY_SUNDAY_MIN"
+msgstr "Su"
+
+msgid "WR_CONTACTFORM_DATE_DAY_MONDAY_MIN"
+msgstr "Mo"
+
+msgid "WR_CONTACTFORM_DATE_DAY_TUESDAY_MIN"
+msgstr "Tu"
+
+msgid "WR_CONTACTFORM_DATE_DAY_WEDNESDAY_MIN"
+msgstr "We"
+
+msgid "WR_CONTACTFORM_DATE_DAY_THURSDAY_MIN"
+msgstr "Th"
+
+msgid "WR_CONTACTFORM_DATE_DAY_FRIDAY_MIN"
+msgstr "Fr"
+
+msgid "WR_CONTACTFORM_DATE_DAY_SATURDAY_MIN"
+msgstr "Sa"
+
+msgid "WR_CONTACTFORM_DATE_DAY_WEEK_HEADER"
+msgstr "Wk"
+
+# Container
+msgid "WR_CONTACTFORM_MOVE_UP_CONTAINER"
+msgstr "Move Up"
+
+msgid "WR_CONTACTFORM_MOVE_DOWN_CONTAINER"
+msgstr "Move Down"
+
+msgid "WR_CONTACTFORM_ADD_CONTAINER_COLUMN"
+msgstr "Add Column"
+
+msgid "WR_CONTACTFORM_DELETE_CONTAINER"
+msgstr "Delete Container"
+
+msgid "WR_CONTACTFORM_DELETE_CONTAINER_COLUMN"
+msgstr "Delete Column"
+
+msgid "WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER"
+msgstr ""
+"Are you sure you want to delete the whole row including all elements it "
+"contains?"
+
+msgid "WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER_COLUMN"
+msgstr ""
+"Are you sure you want to delete the whole column including all elements it "
+"contains?"
+
+msgid "WR_CONTACTFORM_BUTTONS"
+msgstr "Buttons"
+
+msgid "WR_CONTACTFORM_BUTTON_POSITION"
+msgstr "Button Position"
+
+msgid "WR_CONTACTFORM_ADD_CONTAINER"
+msgstr "Add Container"
+
+# Custom Css
+msgid "WR_CONTACTFORM_CUSTOM_CSS"
+msgstr "CSS"
+
+msgid "WR_CONTACTFORM_SAVE_SUBMISSIONS"
+msgstr "Save Submissions"
+
+msgid "WR_CONTACTFORM_SAVE_SUBMISSIONS_DES"
+msgstr ""
+"Select 'Yes' if you want to save submissions to database for later "
+"utilization."
+
+msgid "WR_CONTACTFORM_SHOW_FORM_TITLE"
+msgstr "Show Form Title"
+
+msgid "WR_CONTACTFORM_SHOW_FORM_TITLE_DES"
+msgstr "Show Form Title"
+
+msgid "WR_CONTACTFORM_SHOW_FORM_DESCRIPTION"
+msgstr "Show Form Description"
+
+msgid "WR_CONTACTFORM_SHOW_FORM_DESCRIPTION_DES"
+msgstr "Show Form Description"
+
+msgid "WR_CONTACTFORM_SHOW_SUBMISSION_DATA_DETAIL"
+msgstr "Show Submission Data Detail"
+
+msgid "WR_CONTACTFORM_SHOW_SUBMISSION_DATA_DETAIL_DES"
+msgstr "Show Submission Data Detail"

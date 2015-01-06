@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'wr-contactform-icon';
+	src:url('../fonts/wr-contactform-icon.eot?m32til');
+	src:url('../fonts/wr-contactform-icon.eot?#iefixm32til') format('embedded-opentype'),
+		url('../fonts/wr-contactform-icon.woff?m32til') format('woff'),
+		url('../fonts/wr-contactform-icon.ttf?m32til') format('truetype'),
+		url('../fonts/wr-contactform-icon.svg?m32til#wr-contactform-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="wr-cf-icon-"], [class*=" wr-cf-icon-"] {
+	font-family: 'wr-contactform-icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wr-cf-icon-address:before {
+	content: "\e600";
+}
+.wr-cf-icon-checkboxes:before {
+	content: "\e601";
+}
+.wr-cf-icon-choices:before {
+	content: "\e602";
+}
+.wr-cf-icon-country:before {
+	content: "\e603";
+}
+.wr-cf-icon-currency:before {
+	content: "\e604";
+}
+.wr-cf-icon-date:before {
+	content: "\e605";
+}
+.wr-cf-icon-dropdown:before {
+	content: "\e606";
+}
+.wr-cf-icon-file-upload:before {
+	content: "\e607";
+}
+.wr-cf-icon-google-maps:before {
+	content: "\e608";
+}
+.wr-cf-icon-likert:before {
+	content: "\e609";
+}
+.wr-cf-icon-list:before {
+	content: "\e60a";
+}
+.wr-cf-icon-email:before {
+	content: "\e60b";
+}
+.wr-cf-icon-name:before {
+	content: "\e60c";
+}
+.wr-cf-icon-number:before {
+	content: "\e60d";
+}
+.wr-cf-icon-paragraph-text:before {
+	content: "\e60e";
+}
+.wr-cf-icon-password:before {
+	content: "\e60f";
+}
+.wr-cf-icon-phone:before {
+	content: "\e610";
+}
+.wr-cf-icon-single-line-text:before {
+	content: "\e611";
+}
+.wr-cf-icon-static-content:before {
+	content: "\e612";
+}
+.wr-cf-icon-website:before {
+	content: "\e613";
+}
+.wr-cf-icon-layout-horizontal:before {
+	content: "\e614";
+}
+.wr-cf-icon-layout-vertical:before {
+	content: "\e615";
+}
