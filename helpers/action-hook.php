@@ -76,17 +76,10 @@ class WR_Contactform_Helpers_Hook {
 	 * @return  void
 	 */
 	public static function about() {
-		//define assets load view upgrade
-		$assets = array(
-			'wr-bootstrap2-css',
-			'wr-bootstrap2-jsn-gui-css',
-			'wr-jquery-ui-css',
-			'wr-contactform-css',
-		);
-		//load assets view upgrade
-		WR_CF_Init_Assets::load( $assets );
-
-		WR_Contactform_about::render();
+		// Instantiate form object
+		$form = WR_CF_Form::get_instance( 'wr_contactform_about_us' );
+		// Render HTML form
+		$form->render( 'about-us' );
 	}
 
 	/**
@@ -325,6 +318,17 @@ class WR_Contactform_Helpers_Hook {
 				)
 			);
 		}
+
+		WR_CF_Init_Admin_Menu::add(
+			array(
+				'parent_slug' => 'edit.php?post_type=' . 'wr_cf_post_type',
+				'page_title' => 'WR ContactForm Plugin - About',
+				'menu_title' => 'About',
+				'capability' => 'edit_posts',
+				'menu_slug' => 'wr-contactform-about-us',
+				'function' => array( 'WR_Contactform_Helpers_Hook', 'about' )
+			)
+		);
 	}
 
 	/**

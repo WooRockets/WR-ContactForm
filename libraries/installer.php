@@ -71,9 +71,18 @@ class WR_Contactform_Installer {
 		foreach ($contactformTables as $table) {
 			dbDelta( $table );
 		}
+
+    update_option( 'wr_contactform_do_activation_redirect', 'Yes');
 	}
 
 	public static function on_uninstaller_function() {
 
 	}
+
+  public static function do_activation_redirect() {
+    if ( get_option( 'wr_contactform_do_activation_redirect', 'No' ) == 'Yes' ) {
+      update_option( 'wr_contactform_do_activation_redirect', 'No' );
+      wp_redirect( admin_url( 'edit.php?post_type=wr_cf_post_type&page=wr-contactform-about-us' ) );
+    }
+  }
 }

@@ -1,5 +1,5 @@
 === WR ContactForm ===
-Contributors: WooRockets
+Contributors: woorockets, hieudm, tonybui-1, son-tung-mr
 Tags: contact, contact form, contact form builder, admin, advanced, content, easy to use, editor, element, form builder, page, plugin, post, responsive, visual, widget, contact us, feedback form, web form
 Requires at least: 3.8
 Tested up to: 4.0
@@ -36,7 +36,13 @@ WR ContactForm is the ultimate solution for anyone who wants to build online for
 
 * <a href="http://www.woorockets.com/docs/wr-contactform-user-manual/">Document</a>
 
-<i>*If you like the plugin, please vote for it!*</i>
+> <strong>Get Involved</strong>
+
+> * <b>Fork on Github</b>: WR ContactForm source code is published on <a href="http://github.com/WooRockets/WR-ContactForm">Github</a> and is always updated to latest version. Feel free to use our plugin to server any of your purposes. Your engagement is always welcome!
+> * <b>Help translate on Transifex</b>: Make WR ContactForm better for local communities by translating it to different languages. Your help will make it easier for thousands of WordPress users. Sign up and give us a hand <a href="http://www.transifex.com/projects/p/wr-contactform/">here</a>.
+
+<i>*<a href="https://wordpress.org/support/view/plugin-reviews/wr-contactform">If you like the plugin, please vote for it!</a>*</i>
+
 
 == Installation ==
 1. Upload WR ContactForm to the /wp-content/plugins/ directory
@@ -52,3 +58,9 @@ WR ContactForm is the ultimate solution for anyone who wants to build online for
 == More Details ==
 
 For further information, product details, help and tutorials, please visit our website: http://woorockets.com/
+
+== Changelog ==
+
+= 1.1.4 =
+ * Fixed Some minor bugs
+ * Added About page
