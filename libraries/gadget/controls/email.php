@@ -81,7 +81,7 @@ class WR_CF_Gadget_Controls_Email {
 							'noDuplicates' => array(
 								'type' => 'checkbox',
 								'label' => 'No Duplicates',
-								'title' => 'WR_CONTACTFORM_IF_CHECKED_VALUE_DUPLICATION'
+								'title' => 'If checked no value duplication will be allowed for this field.'
 							)
 						)
 					)

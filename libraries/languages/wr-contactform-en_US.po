@@ -2,464 +2,408 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WR ContactForm\n"
 "POT-Creation-Date: 2013-10-28 10:39+0700\n"
-"PO-Revision-Date: 2014-09-10 14:25+0700\n"
+"PO-Revision-Date: 2015-01-13 09:23+0700\n"
 "Last-Translator: \n"
 "Language-Team: InnoThemes Team <support@innothemes.com>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 # global
-msgid "WR_CONTACTFORM_NOT_COMPATIBLE_MSG"
-msgstr ""
-"Currently this product does not have the package for this Joomla version, "
-"please contact us to get more information: http://www.woorockets.com/"
-"woorockets/contact-us.html"
+msgid "Currently this product does not have the package for this Joomla version, please contact us to get more information: http://www.woorockets.com/woorockets/contact-us.html"
+msgstr "Currently this product does not have the package for this Joomla version, please contact us to get more information: http://www.woorockets.com/woorockets/contact-us.html"
 
-msgid "WR_CONTACTFORM_INSTALL"
+msgid "Install"
 msgstr "Install"
 
-msgid "WR_CONTACTFORM_HEADING_NAME"
+msgid "Name"
 msgstr "Name"
 
-msgid "WR_CONTACTFORM_HEADING_EMAIL"
+msgid "Email"
 msgstr "Email"
 
-msgid "WR_CONTACTFORM_SAVE"
+msgid "Save"
 msgstr "Save"
 
-msgid "WR_CONTACTFORM_CLOSE"
+msgid "Close"
 msgstr "Close"
 
-msgid "WR_CONTACTFORM_BUTTON_APPLY"
+msgid "Apply"
 msgstr "Apply"
 
-msgid "WR_MENUS_HEADING_HOME"
+msgid "Home"
 msgstr "Home"
 
-msgid "WR_UNIFROM_CONFIRM_DELETE"
+msgid "Are you sure you want to delete the selected item(s)?"
 msgstr "Are you sure you want to delete the selected item(s)?"
 
-msgid "WR_CONTACTFORM_MESSAGE_ERRO_FIELD_EMPTY"
+msgid "You can't leave this empty."
 msgstr "You can't leave this empty."
 
-msgid "WR_CONTACTFORM_MESSAGE_ERRO_FIELD_EMAIL"
+msgid "You must provide a valid e-mail address"
 msgstr "You must provide a valid e-mail address"
 
-msgid "WR_CONTACTFORM_SELECT_MENU_ITEM"
+msgid "Select menu item"
 msgstr "Select menu item"
 
-msgid "WR_CONTACTFORM_SELECT_ARTICLE"
+msgid "Select article"
 msgstr "Select article"
 
-msgid "WR_CONTACTFORM_SELECT_FORMS"
+msgid "Select Form"
 msgstr "Select Form"
 
-msgid "WR_CONTACTFORM_PUBLISH"
+msgid "Publish"
 msgstr "Publish"
 
-msgid "WR_CONTACTFORM_UNPUBLISH"
+msgid "Unpublish"
 msgstr "Unpublish"
 
-msgid "WR_CONTACTFORM_PUBLISHED"
+msgid "Published"
 msgstr "Published"
 
-msgid "WR_CONTACTFORM_UNPUBLISHED"
+msgid "Unpublished"
 msgstr "Unpublished"
 
-msgid "WR_CONTACTFORM_DELETE_ERROR"
+msgid "Delete failure"
 msgstr "Delete failure"
 
-msgid "WR_CONTACTFORM_DELETED"
+msgid "successfully deleted"
 msgstr "successfully deleted"
 
-msgid "WR_CONTACTFORM_SELECTED"
+msgid "..."
 msgstr "..."
 
-msgid "WR_CONTACTFORM_CANCEL"
-msgstr "Cancel"
-
-msgid "WR_CONTACTFORM_SELECT_CHOICE_NO"
+msgid "No"
 msgstr "No"
 
-msgid "WR_CONTACTFORM_SELECT_CHOICE_YES"
+msgid "Yes"
 msgstr "Yes"
 
-msgid "WR_CONTACTFORM_SELECT"
+msgid "Select"
 msgstr "Select"
 
-msgid "WR_CONTACTFORM_FOLDER_MUST_HAVE_WRITABLE_PERMISSION"
+msgid "Folder %s must have Writable permission"
 msgstr "Folder %s must have Writable permission"
 
-msgid "WR_CONTACTFORM_FOLDER_CMOD"
+msgid "cmod (%s)"
 msgstr "cmod (%s)"
 
-msgid "WR_CONTACTFORM_NO_DATA"
+msgid "No data"
 msgstr "No data"
 
-msgid "COM_CONTACTFORM"
+msgid "WR ContactForm"
 msgstr "WR ContactForm"
 
-msgid "WR_CONTACTFORM_SEARCH_LABEL"
+msgid "Search"
 msgstr "Search"
 
-msgid "WR_CONTACTFORM_FILTER_LABEL"
-msgstr "Filter"
-
-msgid "WR_CONTACTFORM_FILTER_SEARCH_ARTICLES_DESC"
+msgid "Search title or alias. Prefix with ID: to search for an article ID."
 msgstr "Search title or alias. Prefix with ID: to search for an article ID."
 
-msgid "WR_CONTACTFORM_FILTER_SEARCH_MENU_DESC"
+msgid "Search title or alias. Prefix with ID: to search for a menu ID."
 msgstr "Search title or alias. Prefix with ID: to search for a menu ID."
 
-msgid "WR_CONTACTFORM_ABOUT"
+msgid "WR ContactForm: About"
 msgstr "WR ContactForm: About"
 
-msgid "WR_CONTACTFORM_LAYOUT"
+msgid "Layout"
 msgstr "Layout"
 
-msgid "WR_CONTACTFORM_YOU_CAN_ONLY_ACCEPT_UP_TO_300_SUBMISSION"
-msgstr ""
-"In Free edition, you can only accept <strong>up to 300 submissions</strong>. "
-"There are <strong>%s slot(s) left</strong>. Please upgrade to PRO edition to "
-"accept unlimited number of submissions."
+msgid "In Free edition, you can only accept <strong>up to 300 submissions</strong>. There are <strong>%s slot(s) left</strong>. Please upgrade to PRO edition to accept unlimited number of submissions."
+msgstr "In Free edition, you can only accept <strong>up to 300 submissions</strong>. There are <strong>%s slot(s) left</strong>. Please upgrade to PRO edition to accept unlimited number of submissions."
 
-msgid "WR_CONTACTFORM_YOU_CAN_NOT_HIDE_THE_COPYLINK"
+msgid "Please upgrade to PRO edition to be able to hide the copyright link."
 msgstr "Please upgrade to PRO edition to be able to hide the copyright link."
 
-msgid "WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_3_FORM_IN_FREE_EDITION"
-msgstr ""
-"In Free edition, you can only create <strong>up to 3 forms</strong>. There "
-"are <strong>%s slot(s) left</strong>. Please upgrade to PRO edition to "
-"create unlimited number of forms."
+msgid "In Free edition, you can only create <strong>up to 3 forms</strong>. There are <strong>%s slot(s) left</strong>. Please upgrade to PRO edition to create unlimited number of forms."
+msgstr "In Free edition, you can only create <strong>up to 3 forms</strong>. There are <strong>%s slot(s) left</strong>. Please upgrade to PRO edition to create unlimited number of forms."
 
-msgid "WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_3_FORM_IN_FREE_EDITION_0"
-msgstr ""
-"In Free edition, you can only create <strong>up to 3 forms</strong>. There "
-"are <strong>0 slot(s) left</strong>. Please upgrade to PRO edition to create "
-"unlimited number of forms."
+msgid "In Free edition, you can only create <strong>up to 3 forms</strong>. There are <strong>0 slot(s) left</strong>. Please upgrade to PRO edition to create unlimited number of forms."
+msgstr "In Free edition, you can only create <strong>up to 3 forms</strong>. There are <strong>0 slot(s) left</strong>. Please upgrade to PRO edition to create unlimited number of forms."
 
-msgid "WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_10_FIELD_IN_FREE_EDITION"
-msgstr ""
-"In Free edition, you can only create <strong>up to 10 fields</strong> in one "
-"form. Please upgrade to PRO edition to create unlimited number of fields in "
-"one form."
+msgid "In Free edition, you can only create <strong>up to 10 fields</strong> in one form. Please upgrade to PRO edition to create unlimited number of fields in one form."
+msgstr "In Free edition, you can only create <strong>up to 10 fields</strong> in one form. Please upgrade to PRO edition to create unlimited number of fields in one form."
 
-msgid "WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_1_PAGE_IN_FREE_EDITION"
-msgstr ""
-"<p>The multiple pages feature is available only in PRO edition. Please "
-"upgrade to PRO edition to get this and other awesome features. Also you will "
-"get professional and fast support.</p>"
+msgid "<p>The multiple pages feature is available only in PRO edition. Please upgrade to PRO edition to get this and other awesome features. Also you will get professional and fast support.</p>"
+msgstr "<p>The multiple pages feature is available only in PRO edition. Please upgrade to PRO edition to get this and other awesome features. Also you will get professional and fast support.</p>"
 
-msgid "WR_CONTACTFORM_UPGRADE_EDITION"
+msgid "Upgrade to PRO edition"
 msgstr "Upgrade to PRO edition"
 
-msgid "WR_CONTACTFORM_UPGRADE_EDITION_TITLE"
+msgid "Upgrade to PRO edition for more"
 msgstr "Upgrade to PRO edition for more"
 
-msgid "WR_CONTACTFORM_CONFIRM_SAVE_FORM"
+msgid "Do you want to save changes before leaving this page?"
 msgstr "Do you want to save changes before leaving this page?"
 
-msgid "WR_CONTACTFORM_PREVIOUS"
+msgid "Previous"
 msgstr "Previous"
 
-msgid "WR_CONTACTFORM_NEXT"
+msgid "Next"
 msgstr "Next"
 
-msgid "WR_CONTACTFORM_DETAILS"
+msgid "Details"
 msgstr "Details"
 
-msgid "WR_CONTACTFORM_SAVE_AND_SHOW"
+msgid "Save & Show"
 msgstr "Save & Show"
 
-msgid "WR_CONTACTFORM_EXPORT"
+msgid "Export"
 msgstr "Export"
 
-msgid "WR_CONTACTFORM_EXPORT_TO_EXCEL"
+msgid "Export to Excel"
 msgstr "Export to Excel"
 
-msgid "WR_CONTACTFORM_EXPORT_TO_CSV"
+msgid "Export to CSV"
 msgstr "Export to CSV"
 
-msgid "WR_CONTACTFORM_EXPORT_EMPTY_DATA"
+msgid "The %s list is empty"
 msgstr "The %s list is empty"
 
-msgid "WR_CONTACTFORM_REVERT"
+msgid "Revert"
 msgstr "Revert"
 
-msgid "WR_CONTACTFORM_DONE"
+msgid "Done"
 msgstr "Done"
 
-msgid "WR_CONTACTFORM_OPTIONS"
+msgid "Options"
 msgstr "Options"
 
 # submenu
-msgid "WR_CONTACTFORM_SUBMENU_FORMS"
-msgstr "Forms"
-
-msgid "WR_CONTACTFORM_SUBMENU_SUBMISSION"
-msgstr "Submissions"
-
-msgid "WR_CONTACTFORM_SUBMENU_CONFIGURATION"
+msgid "Configuration"
 msgstr "Configuration"
 
-msgid "WR_CONTACTFORM_SUBMENU_ABOUT"
+msgid "About"
 msgstr "About"
 
-msgid "WR_CONTACTFORM_SUBMENU_LAUNCHPAD"
+msgid "Launch Pad"
 msgstr "Launch Pad"
 
 # config & maintenance
-msgid "WR_CONTACTFORM_GLOBAL_PARAMETERS"
+msgid "Global Parameters"
 msgstr "Global Parameters"
 
-msgid "WR_CONTACTFORM_PERMISSIONS"
+msgid "Permissions"
 msgstr "Permissions"
 
-msgid "WR_CONTACTFORM_MESSAGES"
+msgid "Messages"
 msgstr "Messages"
 
-msgid "WR_CONTACTFORM_LANGUAGES"
+msgid "Languages"
 msgstr "Languages"
 
-msgid "WR_CONTACTFORM_DATA"
+msgid "Data"
 msgstr "Data"
 
-msgid "WR_CONTACTFORM_CONFIGURATION_MANAGER"
+msgid "WR ContactForm: Configuration"
 msgstr "WR ContactForm: Configuration"
 
-msgid "WR_CONTACTFORM_CONFIGURATION_HEADER"
+msgid "CONFIGURATION"
 msgstr "CONFIGURATION"
 
-msgid "WR_CONTACTFORM_MAINTENANCE_HEADER"
+msgid "MAINTENANCE"
 msgstr "MAINTENANCE"
 
 # launch pad
-msgid "WR_CONTACTFORM_LAUNCHPAD_MANAGER"
+msgid "WR ContactForm: Launch Pad"
 msgstr "WR ContactForm: Launch Pad"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_FORMS"
+msgid "Forms"
 msgstr "Forms"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_FORMS_DES"
+msgid "Define what form to present"
 msgstr "Define what form to present"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_PRESENTATION"
+msgid "Presentation"
 msgstr "Presentation"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_PRESENTATION_DES"
+msgid "Define how to present the form"
 msgstr "Define how to present the form"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_INSIDE_ARTICLE_CONTENT_PLUGIN"
+msgid "Inside article (content plugin)"
 msgstr "Inside article (content plugin)"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_IN_MODULE_POSITION_MODULE"
+msgid "In module position (module)"
 msgstr "In module position (module)"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_VIA_MENU_ITEM_COMPONENT"
+msgid "Via menu item (component)"
 msgstr "Via menu item (component)"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_SELECT_PRESENTATION_METHOD"
+msgid "Select presentation method"
 msgstr "Select presentation method"
 
-msgid "WR_CONTACTFORM_SELECT_MENU"
+msgid "Select menu"
 msgstr "Select menu"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_PLUGIN_SYNTAX_DES"
-msgstr ""
-"Please insert following text to your article at the position where you want "
-"to show form"
+msgid "Please insert following text to your article at the position where you want to show form"
+msgstr "Please insert following text to your article at the position where you want to show form"
 
-msgid "WR_CONTACTFORM_LAUNCHPAD_PLUGIN_SYNTAX"
+msgid "Plugin syntax details"
 msgstr "Plugin syntax details"
 
 # Global Configuration
-msgid "WR_CONTACTFORM_SEND_EMAIL_TO_DES"
-msgstr ""
-"Set the list of email addresses that will receive notification email each "
-"time user submits the form."
+msgid "Set the list of email addresses that will receive notification email each time user submits the form."
+msgstr "Set the list of email addresses that will receive notification email each time user submits the form."
 
-msgid "WR_CONTACTFORM_GENERAL_FOLDER_UPLOAD"
+msgid "Upload Folder"
 msgstr "Upload Folder"
 
-msgid "WR_CONTACTFORM_ALERT_FORM_SUBMITSSION_DES"
+msgid "Select the action to perform each time user submits the form."
 msgstr "Select the action to perform each time user submits the form."
 
-msgid "WR_CONTACTFORM_GENERAL_FOLDER_UPLOAD_DES"
-msgstr ""
-"Set the folder to store files uploaded by users. Each form will have it's "
-"own subfolder with the id as the name."
+msgid "Set the folder to store files uploaded by users. Each form will have it's own subfolder with the id as the name."
+msgstr "Set the folder to store files uploaded by users. Each form will have it's own subfolder with the id as the name."
 
-msgid "WR_CONTACTFORM_GLOBAL_GENERAL"
+msgid "General"
 msgstr "General"
 
-msgid "WR_CONTACTFORM_POST_SUBMISSION_ACTION"
+msgid "Post Submission Action"
 msgstr "Post Submission Action"
 
-msgid "WR_CONTACTFORM_DEFAULT_FORM_SETTINGS"
+msgid "Default Form Settings"
 msgstr "Default Form Settings"
 
-msgid "WR_CONTACTFORM_ALERT_FORM_SUBMITSSION"
+msgid "Do Action"
 msgstr "Do Action"
 
-msgid "WR_CONTACTFORM_REDIRECT_TO_URL"
+msgid "Redirect to URL"
 msgstr "Redirect to URL"
 
-msgid "WR_CONTACTFORM_URL"
+msgid "URL"
 msgstr "URL"
 
-msgid "WR_CONTACTFORM_REDIRECT_TO_MENU_ITEM"
+msgid "Redirect to Menu Item"
 msgstr "Redirect to Menu Item"
 
-msgid "WR_CONTACTFORM_MENU_ITEM"
+msgid "Menu Item"
 msgstr "Menu Item"
 
-msgid "WR_CONTACTFORM_SHOW_ARTICLE"
+msgid "Show Article"
 msgstr "Show Article"
 
-msgid "WR_CONTACTFORM_ARTICLE"
+msgid "Article"
 msgstr "Article"
 
-msgid "WR_CONTACTFORM_SHOW_CUSTOM_MESSAGE"
+msgid "Show Custom Message"
 msgstr "Show Custom Message"
 
-msgid "WR_CONTACTFORM_CUSTOM_MESSAGE"
+msgid "Custom Message"
 msgstr "Custom Message"
 
-msgid "WR_CONTACTFORM_NO_ACTION"
+msgid "No Action"
 msgstr "No Action"
 
-msgid "WR_CONTACTFORM_BUTTON_VERIFY"
+msgid "Verify"
 msgstr "Verify"
 
-msgid "WR_CONTACTFORM_FOLDER_IS_WRITEBLE"
+msgid "The Folder is writable !"
 msgstr "The Folder is writable !"
 
-msgid "WR_CONTACTFORM_MOVE_FILE_TO_NEW_FOLDER"
+msgid "Move files to new folder"
 msgstr "Move files to new folder"
 
-msgid "WR_CONTACTFORM_FOLDER_IS_DONE"
+msgid "Done!"
 msgstr "Done!"
 
-msgid "WR_CONTACTFORM_BUTTON_CANCEL"
+msgid "Cancel"
 msgstr "Cancel"
 
-msgid "WR_LOADING"
+msgid "Loading..."
 msgstr "Loading..."
 
-msgid "GO"
+msgid "Go"
 msgstr "Go"
 
-msgid "RESET"
+msgid "Reset"
 msgstr "Reset"
 
-msgid "WR_CONTACTFORM_BTN_CLEAR"
+msgid "Clear"
 msgstr "Clear"
 
-msgid "WR_CONTACTFORM_DISABLE_SHOW_COPYRIGHT"
+msgid "Show Copyright Link"
 msgstr "Show Copyright Link"
 
-msgid "WR_CONTACTFORM_DISABLE_SHOW_COPYRIGHT_DES"
-msgstr ""
-"Select “Yes” if you want to show copyright link at the bottom of each form "
-"presentation."
+msgid "Select “Yes” if you want to show copyright link at the bottom of each form presentation."
+msgstr "Select “Yes” if you want to show copyright link at the bottom of each form presentation."
 
-msgid "WR_CONTACTFORM_LOAD_BOOTSTRAP_CSS"
+msgid "Load Bootstrap CSS"
 msgstr "Load Bootstrap CSS"
 
-msgid "WR_CONTACTFORM_LOAD_BOOTSTRAP_CSS_DES"
-msgstr ""
-"Select “Yes” if you want to load Bootstrap CSS files at the front-end. This "
-"is required when your front-end template doesn’t load Bootstrap itself."
+msgid "Select “Yes” if you want to load Bootstrap CSS files at the front-end. This is required when your front-end template doesn’t load Bootstrap itself."
+msgstr "Select “Yes” if you want to load Bootstrap CSS files at the front-end. This is required when your front-end template doesn’t load Bootstrap itself."
 
 # email notification
-msgid "WR_CONTACTFORM_FORM_EMAIL_NOTIFICATION"
+msgid "Email Notification"
 msgstr "Email Notification"
 
-msgid "WR_CONTACTFORM_EMAIL_NOTIFICATIO "
-msgstr "Email Notification"
-
-msgid "WR_CONTACTFORM_SEND_EMAIL_TO"
+msgid "Send to email(s)"
 msgstr "Send to email(s)"
 
-msgid "WR_CONTACTFORM_EMAIL_CONTENT"
+msgid "Edit email content"
 msgstr "Edit email content"
 
-msgid "WR_CONTACTFORM_EMAIL_SETTINGS"
+msgid "Customize email"
 msgstr "Customize email"
 
-msgid "WR_CONTACTFORM_NEW_EMAIL"
+msgid "New Email"
 msgstr "New Email"
 
-msgid "WR_CONTACTFORM_FORMS_DELETED"
+msgid "%d form successfully deleted"
 msgstr "%d form successfully deleted"
 
-msgid "WR_CONTACTFORM_SUBMISSION_DELETED"
+msgid "%d submission successfully deleted"
 msgstr "%d submission successfully deleted"
 
-msgid "WR_CONTACTFORM_EMAIL_SELECT"
-msgstr "..."
-
-msgid "WR_CONTACTFORM_AUTO_SEND_EMAIL"
+msgid "Send email to submitter"
 msgstr "Send email to submitter"
 
-msgid "WR_CONTACTFORM_SEND_TO_SUBMITTER"
+msgid "Send to submitter"
 msgstr "Send to submitter"
 
-msgid "WR_CONTACTFORM_ADD_MORE_EMAIL"
+msgid "Add Email"
 msgstr "Add Email"
 
 # email settings
-msgid "WR_CONTACTFORM_EMAIL_SETTINGS_FROM"
+msgid "From"
 msgstr "From"
 
-msgid "WR_CONTACTFORM_EMAIL_SETTINGS_FROM_NAME"
+msgid "From Name"
 msgstr "From Name"
 
-msgid "WR_CONTACTFORM_EMAIL_SETTINGS_REPLY_TO"
+msgid "Reply To"
 msgstr "Reply To"
 
-msgid "WR_CONTACTFORM_EMAIL_SETTINGS_SUBJECT"
+msgid "Subject"
 msgstr "Subject"
 
-msgid "WR_CONTACTFORM_EMAIL_SETTINGS_MESSAGE"
+msgid "Message"
 msgstr "Message"
 
-msgid "WR_CONTACTFORM_EMAIL_SETTINGS_INSERT_FIELD"
+msgid "Insert form field"
 msgstr "Insert form field"
 
-msgid "WR_CONTACTFORM_EMAIL_ADDRESS_TITLE"
+msgid "Edit email content being sent to specified address(es)"
 msgstr "Edit email content being sent to specified address(es)"
 
-msgid "WR_CONTACTFORM_EMAIL_SUBMITTER_TITLE"
+msgid "Email content being sent to form submitter"
 msgstr "Email content being sent to form submitter"
 
 msgid "WR_CONTACTFORM_EMAIL_USUALLY_SENT_TO_WEBSITE"
-msgstr ""
-"This email is usually sent to website administrators and persons who are "
-"taking care of form submissions. Their email address(es) are specified in "
-"previous screen."
+msgstr "This email is usually sent to website administrators and persons who are taking care of form submissions. Their email address(es) are specified in previous screen."
 
 msgid "WR_CONTACTFORM_EMAIL_USUALLY_SENT_TO_THE_PERSON"
-msgstr ""
-"This email is usually sent to the person who submitted the form. His/her "
-"email address is specified via selected email form field in the previous "
-"screen."
+msgstr "This email is usually sent to the person who submitted the form. His/her email address is specified via selected email form field in the previous screen."
 
 msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_NAME_1"
-msgstr ""
-"Specify the name of the email sender. Best to select the form field "
-"identifying submitter's name."
+msgstr "Specify the name of the email sender. Best to select the form field identifying submitter's name."
 
 msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_EMAIL_1"
-msgstr ""
-"Specify the email address where to reply to. Best to select the form field "
-"identifying submitter's email address."
+msgstr "Specify the email address where to reply to. Best to select the form field identifying submitter's email address."
 
 msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_SUBJECT_1"
 msgstr "Specify the subject of the email."
@@ -468,14 +412,10 @@ msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_CONTENT_1"
 msgstr "Specify the content of the email."
 
 msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_NAME_0"
-msgstr ""
-"Specify the name of the email sender. Usually this is the name of your "
-"support department."
+msgstr "Specify the name of the email sender. Usually this is the name of your support department."
 
 msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_EMAIL_0"
-msgstr ""
-"Specify the email address where to reply to. Usually this is the email "
-"address of your support department."
+msgstr "Specify the email address where to reply to. Usually this is the email address of your support department."
 
 msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_SUBJECT_0"
 msgstr "Specify the subject of the email"
@@ -483,314 +423,267 @@ msgstr "Specify the subject of the email"
 msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_CONTENT_0"
 msgstr "Specify the content of the email"
 
-msgid "WR_CONTACTFORM_EMAIL_SETTINGS_ATTACH"
+msgid "Attach File"
 msgstr "Attach File"
 
 msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_ATTACH_1"
-msgstr ""
-"Specify the “File upload” field(s) from where system will get submitted file "
-"and attach to notification email."
+msgstr "Specify the “File upload” field(s) from where system will get submitted file and attach to notification email."
 
 msgid "WR_CONTACTFORM_EMAIL_SPECIFY_THE_ATTACH_0"
-msgstr ""
-"Specify the “File upload” field(s) from where system will get submitted file "
-"and attach to notification email."
+msgstr "Specify the “File upload” field(s) from where system will get submitted file and attach to notification email."
 
 # form manager
-msgid "WR_CONTACTFORM_FORM_PAGETITLE"
+msgid "WR ContactForm: Form Settings"
 msgstr "WR ContactForm: Form Settings"
 
-msgid "WR_CONTACTFORM_FORMS"
+msgid "Form"
 msgstr "Form"
 
-msgid "WR_CONTACTFORM_FORM_DESC"
+msgid "Description"
 msgstr "Description"
 
-msgid "WR_CONTACTFORM_FORM_DESIGN "
+msgid "Design"
 msgstr "Design"
 
-msgid "WR_CONTACTFORM_FORM_APPEARANCE"
+msgid "Appearance"
 msgstr "Appearance"
 
-msgid "WR_CONTACTFORM_FORM_ID"
+msgid "ID"
 msgstr "ID"
 
-msgid "WR_CONTACTFORM_FORM_TITLE"
-msgstr "Title"
-
-msgid "WR_CONTACTFORM_FORM_META_DESCRIPTION"
-msgstr "Description"
-
-msgid "WR_CONTACTFORM_FIELD_OPTION"
+msgid "Option"
 msgstr "Option"
 
-msgid "WR_CONTACTFORM_FIELD_VALUES"
+msgid "Values"
 msgstr "Values"
 
-msgid "WR_CONTACTFORM_FORMS_MANAGER"
+msgid "WR ContactForm: Forms Manager"
 msgstr "WR ContactForm: Forms Manager"
 
-msgid "WR_CONTACTFORM_FORM_SETTINGS"
+msgid "Form Settings"
 msgstr "Form Settings"
 
-msgid "WR_CONTACTFORM_FORM_DETAIL"
+msgid "Detail"
 msgstr "Detail"
 
-msgid "WR_CONTACTFORM_DISABLE_FORM"
+msgid "Disable Form"
 msgstr "Disable Form"
 
-msgid "WR_CONTACTFORM_ENABLE_FORM"
+msgid "Enable Form"
 msgstr "Enable Form"
 
-msgid "WR_CONTACTFORM_FORM_SEARCH_IN_TITLE"
+msgid "Search in title"
 msgstr "Search in title"
 
-msgid "WR_CONTACTFORM_FORM_LAYOUT"
+msgid "Form Layout"
 msgstr "Form Layout"
 
-msgid "WR_CONTACTFORM_FORM_THEME"
+msgid "Form theme"
 msgstr "Form theme"
 
-msgid "WR_CONTACTFORM_VIEW_FORM "
+msgid "WR ContactForm: View Form"
 msgstr "WR ContactForm: View Form"
 
-msgid "WR_CONTACTFORM_SELECT_FIELDS"
+msgid "Select Fields"
 msgstr "Select Fields"
 
-msgid "WR_CONTACTFORM_SELECT_FIELD"
+msgid "Select Field"
 msgstr "Select Field"
 
-msgid "WR_CONTACTFORM_SELECT_EMAIL_FIELD"
+msgid "Select Email Field"
 msgstr "Select Email Field"
 
 msgid "WR_CONTACTFORM_ADD_FIELD"
 msgstr "Add Field"
 
-msgid "WR_CONTACTFORM_FORM_ENABLE_CAPTCHA"
+msgid "Captcha Integration"
 msgstr "Captcha Integration"
 
-msgid "WR_CONTACTFORM_FORM_ADD_PAGE"
+msgid "Add Page"
 msgstr "Add Page"
 
-msgid "WR_CONTACTFORM_FORM_NEW_PAGE"
+msgid "New Page"
 msgstr "New Page"
 
-msgid "WR_CONTACTFORM_SELECT_ALL"
+msgid "All"
 msgstr "All"
 
-msgid "WR_FILTER_SEARCH"
+msgid "Filter"
 msgstr "Filter: "
 
-msgid "WR_CONTACTFORM_SELECT_MORE"
+msgid "More"
 msgstr "More"
 
-msgid "WR_CONTACTFORM_SELECT_OTHERS"
+msgid "Other pages"
 msgstr "Other pages"
 
-msgid "WR_CONTACTFORM_FORM_ACTION"
+msgid "Action"
 msgstr "Action"
 
-msgid "WR_CONTACTFORM_TYPE"
+msgid "Form Type"
 msgstr "Form Type"
 
-msgid "WR_CONTACTFORM_TYPE_SINGLE_PAGE"
+msgid "Single page"
 msgstr "Single page"
 
-msgid "WR_CONTACTFORM_TYPE_MULTIPLE_PAGES"
+msgid "Multiple pages"
 msgstr "Multiple pages"
 
-msgid "WR_CONTACTFORM_CONFIRM_CONVERTING_FORM"
-msgstr ""
-"Converting form type to 'Single Page' will combine fields from all pages "
-"into one single page. Are you sure?"
+msgid "Converting form type to Single Page will combine fields from all pages into one single page. Are you sure?"
+msgstr "Converting form type to Single Page will combine fields from all pages into one single page. Are you sure?"
 
-msgid "WR_CONTACTFORM_CONFIRM_DELETING_A_FIELD_DES"
-msgstr ""
-"Deleting a field means that all data collected by the field will be deleted "
-"immediately. Because this action cannot be undone, you might want to "
-"consider backup your data first."
+msgid "Deleting a field means that all data collected by the field will be deleted immediately. Because this action cannot be undone, you might want to consider backup your data first."
+msgstr "Deleting a field means that all data collected by the field will be deleted immediately. Because this action cannot be undone, you might want to consider backup your data first."
 
-msgid "WR_CONTACTFORM_CONFIRM_DELETING_A_FIELD"
+msgid "Are you sure you want to delete this field?"
 msgstr "Are you sure you want to delete this field?"
 
-msgid "WR_CONTACTFORM_IF_CHECKED_VALUE_DUPLICATION"
+msgid "If checked no value duplication will be allowed for this field."
 msgstr "If checked no value duplication will be allowed for this field."
 
-msgid "WR_CONTACTFORM_SPECIFY_EMAIL_ADDRESS"
-msgstr ""
-"Specify email address(es) where to send notification emails. These email "
-"addresses usually belong to website administrators and people who are taking "
-"care of form submissions."
+msgid "Specify email address(es) where to send notification emails. These email addresses usually belong to website administrators and people who are taking care of form submissions."
+msgstr "Specify email address(es) where to send notification emails. These email addresses usually belong to website administrators and people who are taking care of form submissions."
 
-msgid "WR_CONTACTFORM_SELECT_EMAIL_FORM_FIELD"
-msgstr ""
-"Select email form field(s) from where to take the email address to send "
-"notification emails. These email form fields are defined in 'Form Design' tab"
+msgid "Select email form field(s) from where to take the email address to send notification emails. These email form fields are defined in 'Form Design' tab"
+msgstr "Select email form field(s) from where to take the email address to send notification emails. These email form fields are defined in 'Form Design' tab"
 
-msgid "WR_CONTACTFORM_N_FORMS_DUPLICATED"
+msgid "%d forms successfully duplicated"
 msgstr "%d forms successfully duplicated"
 
-msgid "WR_CONTACTFORM_ERROR_NO_FORM_SELECTED"
+msgid "No form selected"
 msgstr "No form selected"
 
-msgid "WR_CONTACTFORM_FORM_INSIDE_ARTICLE_CONTENT_PLUGIN"
+msgid "Inside article"
 msgstr "Inside article"
 
-msgid "WR_CONTACTFORM_FORM_IN_MODULE_POSITION_MODULE"
+msgid "In module position"
 msgstr "In module position"
 
-msgid "WR_CONTACTFORM_FORM_VIA_MENU_ITEM_COMPONENT"
+msgid "Via menu item"
 msgstr "Via menu item"
 
-msgid "WR_CONTACTFORM_FORM_LIMIT_FILE_EXTENSIONS"
-msgstr ""
-"Even if you do not set limitation here, there will still be a limitation set "
-"by server which is: "
+msgid "Even if you do not set limitation here, there will still be a limitation set by server which is: "
+msgstr "Even if you do not set limitation here, there will still be a limitation set by server which is: "
 
-msgid "WR_CONTACTFORM_FORM_LIMIT_FILE_SIZE"
-msgstr ""
-"Even if you do not set limitation here, there will still be a limitation set "
-"by server which is: "
-
-msgid "WR_CONTACTFORM_FOR_SECURITY_REASONS_FOLLOWING_FILE_EXTENSIONS"
+msgid "For security reasons following file extensions are always prohibited: "
 msgstr "For security reasons following file extensions are always prohibited: "
 
-msgid "WR_CONTACTFORM_SET_THE_FORM_TITLE"
+msgid "Set the form's title to identify itself in administration area."
 msgstr "Set the form's title to identify itself in administration area."
 
-msgid "WR_CONTACTFORM_SET_THE_FORM_DES"
+msgid "Set the form's description to identify itself in administration area."
 msgstr "Set the form's description to identify itself in administration area."
 
-msgid "WR_CONTACTFORM_SELECT_THE_FORM_STATUS_TO_INDICATE"
-msgstr ""
-"Select the form’ status to indicate if it should be displayed on the website "
-"or not."
+msgid "Select the form’ status to indicate if it should be displayed on the website or not."
+msgstr "Select the form’ status to indicate if it should be displayed on the website or not."
 
-msgid "WR_CONTACTFORM_SELECT_THE_USER_GROUP"
+msgid "Select the user group that can see the form on the website."
 msgstr "Select the user group that can see the form on the website."
 
-msgid "WR_CONTACTFORM_SELECT_IF_YOU_WANT_TO_SHOW_RECAPTCHA"
-msgstr ""
-"Select the captcha technology to be integrated to the form to prevent spams."
+msgid "Select the captcha technology to be integrated to the form to prevent spams."
+msgstr "Select the captcha technology to be integrated to the form to prevent spams."
 
-msgid "WR_CONTACTFORM_SELECT_TO_SHOW_FORM_FIELD_IN_SINGLE_PAGE"
+msgid "Select to show form fields in in single page or multiple pages."
 msgstr "Select to show form fields in in single page or multiple pages."
 
-msgid "WR_CONTACTFORM_SELECT_TO_SHOW_FORM_FIELD_TITLE_AND_ELEMENT"
-msgstr ""
-"Select to show form field title and element in vertical column or horizontal "
-"row."
+msgid "Select to show form field title and element in vertical column or horizontal row."
+msgstr "Select to show form field title and element in vertical column or horizontal row."
 
-msgid "WR_CONTACTFORM_SELECT_THE_ACTION_TO_TAKE_AFTER"
+msgid "Select the action to take after user submits the form data."
 msgstr "Select the action to take after user submits the form data."
 
-msgid "WR_CONTACTFORM_SET_THE_FOLDER_TO_STORE"
+msgid "Set the folder to store all files submitted by user."
 msgstr "Set the folder to store all files submitted by user."
 
-msgid "WR_CONTACTFORM_FORM_STYLE"
+msgid "Form Style"
 msgstr "Form Style"
 
-msgid "WR_CONTACTFORM_FORM_STYLE_DES"
+msgid "Select style to apply to the form."
 msgstr "Select style to apply to the form."
 
-msgid "WR_CONTACTFORM_ALLOW_USER_CHOICE"
+msgid "Allow user’s choice"
 msgstr "Allow user’s choice"
 
-msgid "WR_CONTACTFORM_SET_ITEM_PLACEHOLDER"
+msgid "Set the first item as placeholder"
 msgstr "Set the first item as placeholder"
 
-msgid "WR_CONTACTFORM_SET_ITEM_PLACEHOLDER_DES"
-msgstr ""
-"When checked, the first item will be used as placeholder without "
-"contributing value to form data."
+msgid "When checked, the first item will be used as placeholder without contributing value to form data."
+msgstr "When checked, the first item will be used as placeholder without contributing value to form data."
 
-msgid "WR_CONTACTFORM_SHOW_DATE_FORMAT"
+msgid "Show Date in format"
 msgstr "Show Date in format"
 
-msgid "WR_CONTACTFORM_SHOW_TIME_FORMAT"
+msgid "Show Time in format"
 msgstr "Show Time in format"
 
-msgid "WR_CONTACTFORM_ENABLE_RANGE_SELECTION"
+msgid "Enable Range selection"
 msgstr "Enable Range selection"
 
-msgid "WR_CONTACTFORM_BLANK_FORM"
+msgid "Blank Form"
 msgstr "Blank Form"
 
-msgid "WR_CONTACTFORM_CONTACT_US_FORM"
+msgid "Contact Us"
 msgstr "Contact Us"
 
-msgid "WR_CONTACTFORM_CUSTOMER_FEEDBACK_FORM"
+msgid "Customer Feedback"
 msgstr "Customer Feedback"
 
-msgid "WR_CONTACTFORM_JOB_APPLICATION_FORM"
+msgid "Job Application"
 msgstr "Job Application"
 
-msgid "WR_CONTACTFORM_EVENT_REGISTRATION"
+msgid "Event Registration"
 msgstr "Event Registration"
 
-msgid "WR_CONTACTFORM_VOTING_FORM"
+msgid "Voting"
 msgstr "Voting"
 
-msgid "WR_CONTACTFORM_STATE_EDIT_SUBMISSION"
+msgid "Allow Front-end Submission Editing"
 msgstr "Allow Front-end Submission Editing"
 
-msgid "WR_CONTACTFORM_STATE_EDIT_SUBMISSION_DES"
-msgstr ""
-"Select “Yes” if you want user to be able to edit submission’s details at the "
-"front-end."
+msgid "Select “Yes” if you want user to be able to edit submission’s details at the front-end."
+msgstr "Select “Yes” if you want user to be able to edit submission’s details at the front-end."
 
-msgid "WR_CONTACTFORM_SELECT_GROUP_EDIT_SUBMISSION"
+msgid "Front-end Submission Editing Permission"
 msgstr "Front-end Submission Editing Permission"
 
-msgid "WR_CONTACTFORM_SELECT_GROUP_EDIT_SUBMISSION_DES"
-msgstr ""
-"Select permission level required to be able to edit submission’s details at "
-"the front-end."
+msgid "Select permission level required to be able to edit submission’s details at the front-end."
+msgstr "Select permission level required to be able to edit submission’s details at the front-end."
 
-msgid "WR_CONTACTFORM_FORM_SETINGS"
-msgstr "Form Settings"
-
-msgid "WR_CONTACTFORM_SELECT_FIELD_DES"
+msgid "WR ContactForm: Select Field"
 msgstr "WR ContactForm: Select Field"
 
-msgid "WR_CONTACTFORM_CUSTOM_DATE_FORMAT"
+msgid "Custom date format"
 msgstr "Custom date format"
 
-msgid "WR_CONTACTFORM_DISPLAY_OPTIONS"
+msgid "Display Options"
 msgstr "Display Options"
 
-msgid "WR_CONTACTFORM_SELECT_FORM_TO_SUBMISSION_TIP"
+msgid "Select the form to get submission of."
 msgstr "Select the form to get submission of."
 
-msgid "WR_CONTACTFORM_FORM_FIELDS"
+msgid "Form Field(s)"
 msgstr "Form Field(s)"
 
-msgid "WR_CONTACTFORM_FORM_FIELDS_TIP"
+msgid "Select form fields to display"
 msgstr "Select form fields to display"
 
-msgid "WR_CONTACTFORM_SHOW_DATA_FILTER"
+msgid "Show Data Filter"
 msgstr "Show Data Filter"
 
-msgid "WR_CONTACTFORM_SHOW_DATA_FILTER_DES"
-msgstr ""
-"Select “Yes” if you want to show text box to allow user to filter "
-"submissions by the data it contains."
+msgid "Select “Yes” if you want to show text box to allow user to filter submissions by the data it contains."
+msgstr "Select “Yes” if you want to show text box to allow user to filter submissions by the data it contains."
 
-msgid "WR_CONTACTFORM_SHOW_DATE_FILTER"
+msgid "Show Date Filter"
 msgstr "Show Date Filter"
 
-msgid "WR_CONTACTFORM_SHOW_DATE_FILTER_DES"
-msgstr ""
-"Select “Yes” if you want to show date selector to allow user to filter "
-"submissions by the date."
+msgid "Select “Yes” if you want to show date selector to allow user to filter submissions by the date."
+msgstr "Select “Yes” if you want to show date selector to allow user to filter submissions by the date."
 
-msgid "WR_CONTACTFORM_SHOW_FIELD_SELECTOR"
+msgid "Show Field Selector"
 msgstr "Show Field Selector"
 
-msgid "WR_CONTACTFORM_SHOW_FIELD_SELECTOR_DES"
-msgstr ""
-"Select “Yes” if you want to show form field(s) selector to allow user to "
-"choose data of what field to show."
+msgid "Select “Yes” if you want to show form field(s) selector to allow user to choose data of what field to show."
+msgstr "Select “Yes” if you want to show form field(s) selector to allow user to choose data of what field to show."
 
 msgid "WR_CONTACTFORM_ALL_FORM_FIELD_ARE_DISPLAYED"
 msgstr "All form fields are displayed. There is nothing to be set to show"
@@ -798,102 +691,98 @@ msgstr "All form fields are displayed. There is nothing to be set to show"
 msgid "WR_CONTACTFORM_ALL_FORM_FIELD_ARE_HIDDEN"
 msgstr "All form fields are hidden. There is nothing to be set to hide"
 
-msgid "WR_CONTACTFORM_CAPTCHA_RE_CAPTCHA"
+msgid "ReCaptcha"
 msgstr "ReCaptcha"
 
-msgid "WR_CONTACTFORM_CAPTCHA_SECURIMAGE"
+msgid "Securimage"
 msgstr "Securimage"
 
-msgid "WR_CONTACTFORM_CAPTCHA_NO"
+msgid "No Captcha"
 msgstr "No Captcha"
 
-msgid "WR_CONTACTFORM_CAPTCHA"
+msgid "Captcha"
 msgstr "Captcha"
 
 # FORM STYLE
-msgid "WR_CONTACTFORM_FIELD"
+msgid "Field"
 msgstr "Field"
 
-msgid "WR_CONTACTFORM_CONTAINER"
+msgid "Container"
 msgstr "Container"
 
-msgid "WR_CONTACTFORM_TITLE"
+msgid "Title"
 msgstr "Title"
 
-msgid "WR_CONTACTFORM_BACKGROUND_COLOR"
+msgid "Background Color"
 msgstr "Background Color"
 
-msgid "WR_CONTACTFORM_BACKGROUND_ACTIVE_COLOR"
+msgid "Background Active Color"
 msgstr "Background Active Color"
 
-msgid "WR_CONTACTFORM_BORDER_THICKNESS"
+msgid "Border Thickness"
 msgstr "Border Thickness"
 
-msgid "WR_CONTACTFORM_BORDER_COLOR"
+msgid "Border Color"
 msgstr "Border Color"
 
-msgid "WR_CONTACTFORM_BORDER_ACTIVE_COLOR"
+msgid "Border Active Color"
 msgstr "Border Active Color"
 
-msgid "WR_CONTACTFORM_ROUNDED_CORNER_RADIUS"
+msgid "Rounded Corner Radius"
 msgstr "Rounded Corner Radius"
 
-msgid "WR_CONTACTFORM_PADDING_SPACE"
+msgid "Padding Space"
 msgstr "Padding Space"
 
-msgid "WR_CONTACTFORM_MARGIN_SPACE"
+msgid "Vertical Space"
 msgstr "Vertical Space"
 
-msgid "WR_CONTACTFORM_TEXT_COLOR"
+msgid "Text Color"
 msgstr "Text Color"
 
-msgid "WR_CONTACTFORM_FONT_TYPE"
+msgid "Font Type"
 msgstr "Font Type"
 
-msgid "WR_CONTACTFORM_FONT_SIZE"
+msgid "Font Size"
 msgstr "Font Size"
 
-msgid "WR_CONTACTFORM_MESSAGE_ERRORS"
+msgid "Error"
 msgstr "Error"
 
-msgid "WR_CONTACTFORM_COLOR_THEME"
+msgid "Color Theme"
 msgstr "Color Theme"
 
-msgid "WR_CONTACTFORM_COLOR_SCHEME"
+msgid "Color Scheme"
 msgstr "Color Scheme"
 
-msgid "WR_CONTACTFORM_SHADOW_COLOR"
+msgid "Shadow Color"
 msgstr "Shadow Color"
 
-msgid "WR_CONTACTFORM_COLOR_CONFIRM_DELETE"
+msgid "Are you sure you want to delete current color scheme?"
 msgstr "Are you sure you want to delete current color scheme?"
 
-msgid "WR_CONTACTFORM_COLOR_CONFIRM_EXISTS"
+msgid "Color scheme with such name already exists"
 msgstr "Color scheme with such name already exists"
 
-msgid "WR_CONTACTFORM_COLOR_CONFIRM_RESET"
+msgid "you sure you want to restore all style settings to default state?"
 msgstr "you sure you want to restore all style settings to default state?"
 
 # access
-msgid "WR_CONTACTFORM_ACCESS_SUBMISSSIONS"
+msgid "Access Submisssions"
 msgstr "Access Submisssions"
 
-msgid "WR_CONTACTFORM_ACCESS_FORMS"
+msgid "Access Forms"
 msgstr "Access Forms"
 
-msgid "WR_CONTACTFORM_ACCESS_CONFIGURATION "
+msgid "Access Configuration "
 msgstr "Access Configuration"
 
 # PLACEHOLDER form
 msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_1"
-msgstr ""
-"Click the button on the right to select the form field identifying "
-"submitter's name"
+msgstr "Click the button on the right to select the form field identifying submitter's name"
 
 msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_1"
-msgstr ""
-"Click the button on the right to select the form field identifying "
-"submitter's email"
+msgstr "Click the button on the right to select the form field identifying submitter's email"
 
 msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_1"
 msgstr "e.g. Contact inquiry"
@@ -907,106 +796,99 @@ msgstr "e.g. support@yourdomain.com"
 msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_0"
 msgstr "e.g. Thank you for contacting us"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_MESSAGE"
+msgid "Enter your email message"
 msgstr "Enter your email message"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_REDIRECT_TO_URL"
+msgid "Enter your URL"
 msgstr "Enter your URL"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_REDIRECT_TO_TO_MENU_ITEM"
+msgid "Select a menu item"
 msgstr "Select a menu item"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_SHOW_ARTICLE"
+msgid "Select an article"
 msgstr "Select an article"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_SHOW_CUSTOM_MESSAGE"
+msgid "Enter your message"
 msgstr "Enter your message"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_SELECT_DATE"
+msgid "Select Date"
 msgstr "Select Date"
 
 # submission
-msgid "WR_CONTACTFORM_SUBMISSIONS_DETAIL"
+msgid "WR ContactForm: Submission Settings"
 msgstr "WR ContactForm: Submission Settings"
 
-msgid "WR_CONTACTFORM_SUBMISSION_COUNTRY"
+msgid "Country"
 msgstr "Country"
 
-msgid "WR_CONTACTFORM_SUBMISSION_BROWSER"
+msgid "Browser"
 msgstr "Browser"
 
-msgid "WR_CONTACTFORM_SUBMISSION_OS"
+msgid "Operating System"
 msgstr "Operating System"
-
-msgid "WR_CONTACTFORM_SUBMISSION_CREATED_BY"
-msgstr "Created By"
-
-msgid "WR_CONTACTFORM_SUBMISSION_CREATED_AT"
-msgstr "Date Created"
 
 msgid "WR_CONTACTFORM_DATE"
 msgstr "Date"
 
-msgid "WR_CONTACTFORM_DATE_SUBMISSION"
+msgid "Select date submission"
 msgstr "Select date submission"
 
-msgid "WR_CONTACTFORM_FORM_SEARCH_IN_DATE_SUBMISSION"
+msgid "Search in date sunbmission"
 msgstr "Search in submissions date"
 
-msgid "WR_CONTACTFORM_SUBMISSION_DATA"
+msgid "Submission data"
 msgstr "Submission data"
 
-msgid "WR_CONTACTFORM_SUBMISSION_DETAIL"
+msgid "Submission details"
 msgstr "Submission details"
 
-msgid "WR_CONTACTFORM_PRINT"
+msgid "Print"
 msgstr "Print"
 
-msgid "WR_CONTACTFORM_FORM_CREATED"
+msgid "Created By"
 msgstr "Created By"
 
-msgid "WR_CONTACTFORM_FORM_CREATED_AT"
+msgid "Date Created"
 msgstr "Date Created"
 
-msgid "WR_CONTACTFORM_FORM_LAST_SUBMITTED_AT"
+msgid "Last Submitted"
 msgstr "Last Submitted"
 
-msgid "WR_CONTACTFORM_FORM_SUBMISSION"
+msgid "Submissions"
 msgstr "Submissions"
 
-msgid "WR_CONTACTFORM_SUBMISSION_IP"
+msgid "IP Address"
 msgstr "IP Address"
 
-msgid "WR_CONTACTFORM_SUBMISSION_STATE"
+msgid "State"
 msgstr "State"
 
-msgid "WR_CONTACTFORM_SUBMISSIONS_SELECT_FORM"
+msgid "Please select the form to get submissions of:"
 msgstr "Please select the form to get submissions of:"
 
-msgid "WR_CONTACTFORM_SUBMISSIONS_MANAGER"
+msgid "WR ContactForm: Submissions Manager"
 msgstr "WR ContactForm: Submissions Manager"
 
-msgid "WR_CONTACTFORM_DATA_PRESENTATION"
+msgid "Data Presentation"
 msgstr "Data Presentation"
 
 # list user email
-msgid "WR_CONTACTFORM_USERS_FILTER_USERGROUP"
+msgid "Select Group"
 msgstr "Select Group"
 
-msgid "WR_CONTACTFORM_USERS_HEADING_GROUPS"
+msgid "User Groups"
 msgstr "User Groups"
 
-msgid "WR_CONTACTFORM_NO_EMAIL"
+msgid "No email field found"
 msgstr "No email field found"
 
-msgid "WR_CONTACTFORM_NO_EMAIL_DES"
-msgstr ""
-"You must add some email-type field in your form in order to select it here"
+msgid "You must add some email-type field in your form in order to select it here"
+msgstr "You must add some email-type field in your form in order to select it here"
 
-msgid "WR_CONTACTFORM_NO_FIELD_DES"
+msgid "You must add some form field in your form in order to select it here"
 msgstr "You must add some form field in your form in order to select it here"
 
-msgid "WR_CONTACTFORM_NO_FIELD"
+msgid "No form field found"
 msgstr "No form field found"
 
 # config messages
@@ -1017,8 +899,7 @@ msgid "WR_CONTACTFORM_MESSAGES_SCREEN"
 msgstr "Screen"
 
 msgid "WR_CONTACTFORM_MESSAGES_RETRIEVE_ALL_MESSAGES_FROM_LANGUAGE_FILE_AND_SET_SHOW_STATUS_FOR_THEM"
-msgstr ""
-"Retrieve all messages from language file and set 'Show' status for them"
+msgstr "Retrieve all messages from language file and set 'Show' status for them"
 
 msgid "WR_CONTACTFORM_MESSAGES_REFRESH_ALL_MESSAGE"
 msgstr "Refresh all message"
@@ -1105,10 +986,7 @@ msgid "WR_CONTACTFORM_BTN_BACKUP"
 msgstr "Backup Data"
 
 msgid "WR_CONTACTFORM_SAMPLE_DATA_ERROR_VERSION"
-msgstr ""
-"The product version you are using is outdated. <a href='edit.php?"
-"post_type=wr_cf_post_type&page=wr-contactform-upgrade' class='jsn-link-"
-"action'>Update now</a>"
+msgstr "The product version you are using is outdated. <a href='edit.php?post_type=wr_cf_post_type&page=wr-contactform-upgrade' class='jsn-link-action'>Update now</a>"
 
 # Menu footer
 msgid "WR_GENERAL_DOCUMENTATION"
@@ -1170,21 +1048,14 @@ msgid "WR_CONTACTFORM_FIELD_TITLE_FORM_WARNING"
 msgstr "Form is not defined"
 
 msgid "WR_CONTACTFORM_FIELD_DES_FORM_WARNING"
-msgstr ""
-"You must select some form. You can create one by clicking icon 'Plus' on the "
-"right."
+msgstr "You must select some form. You can create one by clicking icon 'Plus' on the right."
 
 # configuration data
 msgid "WR_CONTACTFORM_SAMPLE_DATA_INSTALL_SUGGESTION"
-msgstr ""
-"<ul><li>Installing sample data will delete all current WR ContactForm data "
-"including all Form,Submission,Configuration source profiles, etc.</li><li>It "
-"is NOT recommended to install sample data on production website.</li></ul>"
+msgstr "<ul><li>Installing sample data will delete all current WR ContactForm data including all Form,Submission,Configuration source profiles, etc.</li><li>It is NOT recommended to install sample data on production website.</li></ul>"
 
 msgid "WR_CONTACTFORM_SAMPLE_DATA_PLEASE_CHECK_I_AGREE_INSTALL_SAMPLE_DATA"
-msgstr ""
-"I agree that installing sample data will delete all current WR ContactForm "
-"data"
+msgstr "I agree that installing sample data will delete all current WR ContactForm data"
 
 msgid "WR_DATA_BACKUP_BUTTON"
 msgstr "Backup"
@@ -1296,11 +1167,7 @@ msgid "WR_CONTACTFORM_HELP_DOWNLOAD_PDF_DOCUMENTATION"
 msgstr "Download PDF documentation"
 
 msgid "WR_CONTACTFORM_HELP_DES_DOCUMENTATION"
-msgstr ""
-"<p>WR ContactForm is equipped with compressive documentation in PDF format. "
-"You will find out about how main concepts as well as clear instruction how "
-"to configure each product feature.</p><p>The PDF file is well prepared and "
-"ready to be printed for convenient reading.</p>"
+msgstr "<p>WR ContactForm is equipped with compressive documentation in PDF format. You will find out about how main concepts as well as clear instruction how to configure each product feature.</p><p>The PDF file is well prepared and ready to be printed for convenient reading.</p>"
 
 msgid "WR_CONTACTFORM_HELP_SUPPORT_FORUM"
 msgstr "SUPPORT FORUM (for PRO STANDARD)"
@@ -1309,11 +1176,7 @@ msgid "WR_CONTACTFORM_HELP_CHECK_SUPPORT_FORUM"
 msgstr "Check Support Forum"
 
 msgid "WR_CONTACTFORM_HELP_DES_CHECK_SUPPORT_FORUM"
-msgstr ""
-"<p>Visit woorockets support forum to read topics from thousands of member. "
-"The question you want to ask might already raised by someone and answered.</"
-"p><p>If not, feel free to create a post. In support forum we do provide "
-"support for everyone who bought commercial edition of our products.</p>"
+msgstr "<p>Visit woorockets support forum to read topics from thousands of member. The question you want to ask might already raised by someone and answered.</p><p>If not, feel free to create a post. In support forum we do provide support for everyone who bought commercial edition of our products.</p>"
 
 msgid "WR_CONTACTFORM_HELP_HELPDESK_SYSTEM"
 msgstr "HELPDESK SYSTEM (for PRO UNLIMITED)"
@@ -1322,12 +1185,7 @@ msgid "WR_CONTACTFORM_HELP_SUBMIT_TICKET_IN_HELPDESK_SYSTEM"
 msgstr "Submit ticket in Dedicated Support System"
 
 msgid "WR_CONTACTFORM_HELP_DES_HELPDESK_SYSTEM"
-msgstr ""
-"<p>Dedicated Helpdesk System is for developers who bought PRO UNLIMITED "
-"edition of the product. With ticket support we can investigate issue in "
-"depth and provide solution related not only with products but Joomla! in "
-"general.</p><p>Another benefit of helpdesk system is guaranteed 16-hours "
-"response time.</p>"
+msgstr "<p>Dedicated Helpdesk System is for developers who bought PRO UNLIMITED edition of the product. With ticket support we can investigate issue in depth and provide solution related not only with products but Joomla! in general.</p><p>Another benefit of helpdesk system is guaranteed 16-hours response time.</p>"
 
 msgid "WR_CONTACTFORM_HELP_BUY_PRO_STANDARD_EDITION"
 msgstr "Buy PRO STANDARD edition"
@@ -1546,14 +1404,10 @@ msgid "WR_CONTACTFORM_DELETE_CONTAINER_COLUMN"
 msgstr "Delete Column"
 
 msgid "WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER"
-msgstr ""
-"Are you sure you want to delete the whole row including all elements it "
-"contains?"
+msgstr "Are you sure you want to delete the whole row including all elements it contains?"
 
 msgid "WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER_COLUMN"
-msgstr ""
-"Are you sure you want to delete the whole column including all elements it "
-"contains?"
+msgstr "Are you sure you want to delete the whole column including all elements it contains?"
 
 msgid "WR_CONTACTFORM_BUTTONS"
 msgstr "Buttons"
@@ -1572,9 +1426,7 @@ msgid "WR_CONTACTFORM_SAVE_SUBMISSIONS"
 msgstr "Save Submissions"
 
 msgid "WR_CONTACTFORM_SAVE_SUBMISSIONS_DES"
-msgstr ""
-"Select 'Yes' if you want to save submissions to database for later "
-"utilization."
+msgstr "Select 'Yes' if you want to save submissions to database for later utilization."
 
 msgid "WR_CONTACTFORM_SHOW_FORM_TITLE"
 msgstr "Show Form Title"

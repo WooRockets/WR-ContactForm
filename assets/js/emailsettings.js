@@ -336,7 +336,7 @@
                     "class":"arrow"
                 })).append($("<h3/>", {
                     "class":"popover-title",
-                    "text":this.lang['WR_CONTACTFORM_SELECT_FIELDS']
+                    "text":this.lang['Select Fields']
                 })).append(
                     $("<form/>").append(
                         $("<div/>", {"class":"jsn-elementselector"}).append(

@@ -170,7 +170,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
 				                });
 				                $("#jform_form_type").change(function () {
 				                    if ($(this).val() == 1) {
-				                        if (confirm(self.lang["WR_CONTACTFORM_CONFIRM_CONVERTING_FORM"])) {
+				                        if (confirm(self.lang["Converting form type to Single Page will combine fields from all pages into one single page. Are you sure?"])) {
 				                            $(".jsn-master #form-design #form-design-header").hide();
 				                            var dataValue = $(".jsn-page-list > li.page-items").attr("data-value");
 				                            var dataText = $(".jsn-page-list > li.page-items > input").val();
@@ -342,7 +342,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
 				                        }
 				                    });
 				                    if (check) {
-				                        alert(self.lang["WR_CONTACTFORM_COLOR_CONFIRM_EXISTS"]);
+				                        alert(self.lang["Color scheme with such name already exists"]);
 				                        return false;
 				                    }
 				                    $("#jform_form_theme").append($("<option/>", {"value":"wr-style-" + theme, "text":theme}));
@@ -443,7 +443,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
 				                });
 
 				                $("#theme_action_refresh").click(function () {
-				                    if (confirm(self.lang["WR_CONTACTFORM_COLOR_CONFIRM_RESET"])) {
+				                    if (confirm(self.lang["you sure you want to restore all style settings to default state?"])) {
 				                        self.resetTheme($("#jform_form_theme").val());
 				                    }
 				                });
@@ -455,7 +455,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
 				                    }
 				                }).trigger("change");
 				                $("#theme_action_delete").click(function () {
-				                    if (confirm(self.lang["WR_CONTACTFORM_COLOR_CONFIRM_DELETE"])) {
+				                    if (confirm(self.lang["Are you sure you want to delete current color scheme?"])) {
 				                        var valueSelectTheme = $("#jform_form_theme").val();
 				                        if (valueSelectTheme == "wr-style-light" || valueSelectTheme == "wr-style-dark") {
 				                            return false;
@@ -1000,7 +1000,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
 				                });
 				                $(".settings-footer .jsn-iconbar a.element-delete").click(function () {
 				                    self.JSNContactformDialogEdition = new JSNContactformDialogEdition(self.params);
-				                    JSNContactformDialogEdition.createDialogLimitation($(this), self.lang["WR_CONTACTFORM_YOU_CAN_NOT_HIDE_THE_COPYLINK"]);
+				                    JSNContactformDialogEdition.createDialogLimitation($(this), self.lang["Please upgrade to PRO edition to be able to hide the copyright link."]);
 				                    return false;
 				                });
 				            }';

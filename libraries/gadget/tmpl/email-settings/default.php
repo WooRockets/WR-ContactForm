@@ -8,13 +8,13 @@
  */
 $action = ! empty( $_GET[ 'email' ] ) ? $_GET[ 'email' ] : 0;
 $arrayTranslated = array(
-	'WR_CONTACTFORM_NO_FIELD_DES',
-	'WR_CONTACTFORM_NO_FIELD',
-	'WR_CONTACTFORM_NO_EMAIL_DES',
-	'WR_CONTACTFORM_SELECTED',
-	'WR_CONTACTFORM_NO_EMAIL',
-	'WR_CONTACTFORM_SELECT_FIELD',
-	'WR_CONTACTFORM_SELECT_FIELDS',
+	'You must add some form field in your form in order to select it here',
+	'No form field found',
+	'You must add some email-type field in your form in order to select it here',
+	'...',
+	'No email field found',
+	'Select Field',
+	'Select Fields',
 	'WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_0',
 	'WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_0',
 	'WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_0',
@@ -39,53 +39,53 @@ else {
 }
 ?>
 				<div class="control-group">
-					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_NAME_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SETTINGS_FROM', WR_CONTACTFORM_TEXTDOMAIN ); ?></label>
+					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_NAME_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'From', WR_CONTACTFORM_TEXTDOMAIN ); ?></label>
 
 					<div id="from" class="controls">
 						<input type="text" name="template_from" id="jform_template_from" class="input-xxlarge" value="" />
 <?php
 if ( $action == 1 ) {
 	?>
-	<button class="btn" id="btn-select-field-from" onclick="return false;" title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SETTINGS_INSERT_FIELD', WR_CONTACTFORM_TEXTDOMAIN ); ?>">...</button>
+	<button class="btn" id="btn-select-field-from" onclick="return false;" title="<?php echo '' . __( 'Insert form field', WR_CONTACTFORM_TEXTDOMAIN ); ?>">...</button>
 	<?php
 }
 ?>
 					</div>
 				</div>
 				<div class="control-group">
-					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_EMAIL_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SETTINGS_REPLY_TO', WR_CONTACTFORM_TEXTDOMAIN ); ?> </label>
+					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_EMAIL_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'Reply To', WR_CONTACTFORM_TEXTDOMAIN ); ?> </label>
 
 					<div id="reply-to" class="controls">
 						<input type="text" name="template_reply_to" id="jform_template_reply_to" class="input-xxlarge" value="" />
 <?php
 if ( $action == 1 ) {
 	?>
-	<button class="btn" id="btn-select-field-to" onclick="return false;" title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SETTINGS_INSERT_FIELD', WR_CONTACTFORM_TEXTDOMAIN ); ?>">...</button>
+	<button class="btn" id="btn-select-field-to" onclick="return false;" title="<?php echo '' . __( 'Insert form field', WR_CONTACTFORM_TEXTDOMAIN ); ?>">...</button>
 	<?php
 }
 ?>
 					</div>
 				</div>
 				<div class="control-group">
-					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_SUBJECT_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SETTINGS_SUBJECT', WR_CONTACTFORM_TEXTDOMAIN ); ?> </label>
+					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_SUBJECT_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'Subject', WR_CONTACTFORM_TEXTDOMAIN ); ?> </label>
 
 					<div id="subject" class="controls">
 						<input type="text" name="template_subject" id="jform_template_subject" class="input-xxlarge" value="" />
-						<button class="btn" id="btn-select-field-subject" onclick="return false;" title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SETTINGS_INSERT_FIELD', WR_CONTACTFORM_TEXTDOMAIN ); ?>">...</button>
+						<button class="btn" id="btn-select-field-subject" onclick="return false;" title="<?php echo '' . __( 'Insert form field', WR_CONTACTFORM_TEXTDOMAIN ); ?>">...</button>
 					</div>
 				</div>
 				<div class="control-group">
-					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_CONTENT_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SETTINGS_MESSAGE', WR_CONTACTFORM_TEXTDOMAIN ); ?> </label>
+					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_CONTENT_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'Message', WR_CONTACTFORM_TEXTDOMAIN ); ?> </label>
 
 					<div id="template-msg" class="controls clearfix">
 						<div class="template-msg-content">
 							<textarea class="input-xxlarge" id="jform_template_message" name="template_message"></textarea>
 						</div>
-						<button class="btn " id="btn-select-field-message" onclick="return false;" title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SETTINGS_INSERT_FIELD', WR_CONTACTFORM_TEXTDOMAIN ); ?>">...</button>
+						<button class="btn " id="btn-select-field-message" onclick="return false;" title="<?php echo '' . __( 'Insert form field', WR_CONTACTFORM_TEXTDOMAIN ); ?>">...</button>
 					</div>
 				</div>
 				<div class="control-group">
-					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_ATTACH_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SETTINGS_ATTACH', WR_CONTACTFORM_TEXTDOMAIN ); ?> </label>
+					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __( 'WR_CONTACTFORM_EMAIL_SPECIFY_THE_ATTACH_' . $action, WR_CONTACTFORM_TEXTDOMAIN ); ?>"><?php echo '' . __( 'Attach File', WR_CONTACTFORM_TEXTDOMAIN ); ?> </label>
 
 					<div id="attach-file" class="controls">
 						<ul class="jsn-items-list ui-sortable">

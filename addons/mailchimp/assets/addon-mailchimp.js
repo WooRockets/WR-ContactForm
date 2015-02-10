@@ -132,7 +132,14 @@
 										$( '#wr-cf-mailchimp-list-id-' + responseData.data[i].id + ' .wr-cf-mailchimp-merge-clone' ).append( '<tr class="wr-cf-mailchimp-merge-field"></tr>' );
 										var mergeFieldRow = $( '#wr-cf-mailchimp-list-id-' + responseData.data[i].id + ' .wr-cf-mailchimp-merge-clone tr.wr-cf-mailchimp-merge-field' );
 										mergeFieldRow.append( '<td><select class="wr-cf-mailchimp-select-form-fields" data-value=""></select></td>' );
-										mergeFieldRow.append( '<td><select class="wr-cf-mailchimp-select-fields" data-value=""></select><a class="wr-cf-mailchimp-merge-field-remove" title="Remove"><i class="icon-trash"></i></a><div class="clear"></div><input type="checkbox" class="wr-cf-mailchimp-check-other"><span>Custom field</span><input type="text" class="wr-cf-mailchimp-text-other" data-tag="" style="display: none;"></td>' );
+										var htmlTpl = '';
+										htmlTpl += '<td>';
+										htmlTpl += '<select class="wr-cf-mailchimp-select-fields" data-value=""></select>';
+										htmlTpl += '<a class="wr-cf-mailchimp-merge-field-remove" title="Remove"><i class="icon-trash"></i></a>';
+										htmlTpl += '<div class="clear"></div><input type="checkbox" class="wr-cf-mailchimp-check-other"><span>Custom field</span>';
+										htmlTpl += '<input type="text" class="wr-cf-mailchimp-text-other" data-tag="" style="display: none;">';
+										htmlTpl += '<div class="clear"></div><span class="error-alert wr-cf-mailchimp-duplicate-field-alert">Duplicated field name, please check again</span></td>';
+										mergeFieldRow.append( htmlTpl );
 										var fieldsSelectOptions = '<option value="">--Select Field--</option>';
 										for ( var j = 0; j < responseData.data[i].merge_vars.length; j++ ) {
 											fieldsSelectOptions += '<option value="' + responseData.data[i].merge_vars[j].tag + '">' + responseData.data[i].merge_vars[j].name + '</option>';
@@ -335,7 +342,14 @@
 				self.disableDuplicatedOption();
 			} );
 			element.find( '.wr-cf-mailchimp-text-other' ).change( function() {
+				var thisOther = this;
 				self.storeMergeFieldConfigs();
+				element.find( '.wr-cf-mailchimp-duplicate-field-alert' ).hide();
+				element.find( '.wr-cf-mailchimp-select-fields option' ).each( function() {
+					if ( $( thisOther ).val() == $( this ).html() ) {
+						element.find( '.wr-cf-mailchimp-duplicate-field-alert' ).show();
+					}
+				} );
 			} );
 			element.find( '.wr-cf-mailchimp-merge-field-remove' ).click( function() {
 				element.remove();

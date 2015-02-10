@@ -33,7 +33,7 @@ if ( ! empty( $this->items ) ) {
 			$output .= '</select>';
 		}
 		else {
-			$output .= __( 'WR_CONTACTFORM_SELECT_CHOICE_NO', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . str_replace(
+			$output .= __( 'No', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . str_replace(
 				array( '_', '-' ), ' ', $items[ 'name' ]
 			) . ' found';
 		}

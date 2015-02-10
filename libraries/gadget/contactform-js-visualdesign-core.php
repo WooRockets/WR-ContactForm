@@ -414,8 +414,8 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                    $("#email .email-submitters .jsn-items-list").append(
 				                        $("<div/>", {
 				                            "class":"ui-state-default ui-state-disabled",
-				                            "text":lang["WR_CONTACTFORM_NO_EMAIL"],
-				                            "title":lang["WR_CONTACTFORM_NO_EMAIL_DES"]
+				                            "text":lang["No email field found"],
+				                            "title":lang["You must add some email-type field in your form in order to select it here"]
 				                        }))
 				                }
 				                $("#email .email-submitters .jsn-items-list").parent().parent().show();
@@ -467,7 +467,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                JSNVisualDesign.contentGoogleMaps();
 				            });';
 		$actionFunctionCreateElement[ 'delete' ] = 'wrapper.find(\'.element-delete\').click(function () {
-								if (confirm(lang["WR_CONTACTFORM_CONFIRM_DELETING_A_FIELD"])) {
+								if (confirm(lang["Are you sure you want to delete this field?"])) {
 									$("#form-design-header .jsn-iconbar").css("display", "none");
 					                $(".jsn-page-actions").css("display", "none");
 					                if (id) {
@@ -861,7 +861,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				            });
 				        }';
 		$actionOpenOptionsBox[ 'file-upload' ] = 'if (type == "file-upload") {
-				            $("#visualdesign-options #visualdesign-options-general #limit-size-upload").attr("original-title", lang["WR_CONTACTFORM_FORM_LIMIT_FILE_SIZE"] + limitSize + " MB");
+				            $("#visualdesign-options #visualdesign-options-general #limit-size-upload").attr("original-title", lang["Even if you do not set limitation here, there will still be a limitation set by server which is: "] + limitSize + " MB");
 				        }';
 		$actionOpenOptionsBox[ 'check-field-number' ] = '$("#option-limitMin-number,#option-limitMax-number,#option-rows-number,#option-maxSize-number,#option-width-number,#option-height-number").keypress(function (e) {
 				            if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
@@ -2111,7 +2111,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				            JSNVisualDesign.checkLimitation();
 				        });
 
-				        $("#option-firstItemAsPlaceholder-checkbox").after(\'<i class="icon-question-sign" original-title="\' + lang["WR_CONTACTFORM_SET_ITEM_PLACEHOLDER_DES"] + \'"></i>\');
+				        $("#option-firstItemAsPlaceholder-checkbox").after(\'<i class="icon-question-sign" original-title="\' + lang["When checked, the first item will be used as placeholder without contributing value to form data."] + \'"></i>\');
 						' . implode( '', $actionOpenOptionsBox ) . '
 				        JSNVisualDesign.position(JSNVisualDesign.optionsBox, sender, \'bottom\', {
 				            bottom:-5

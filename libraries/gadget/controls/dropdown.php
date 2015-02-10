@@ -117,7 +117,7 @@ class WR_CF_Gadget_Controls_Dropdown {
 							'allowOther' => array(
 								'type' => 'checkbox',
 								'field' => 'allowOther',
-								'label' => __( 'WR_CONTACTFORM_ALLOW_USER_CHOICE', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Allow user’s choice', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'labelOthers' => array(
 								'type' => '_text',
@@ -132,7 +132,7 @@ class WR_CF_Gadget_Controls_Dropdown {
 							),
 							'firstItemAsPlaceholder' => array(
 								'type' => 'checkbox',
-								'label' => __( 'WR_CONTACTFORM_SET_ITEM_PLACEHOLDER', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Set the first item as placeholder', WR_CONTACTFORM_TEXTDOMAIN )
 							)
 						)
 					)

@@ -70,7 +70,7 @@ if ( ! empty( $submissionData ) ) {
 						</tr>
 						<tr>
 							<th>
-								<?php echo '' . __( 'WR_CONTACTFORM_SUBMISSION_CREATED_AT', WR_CONTACTFORM_TEXTDOMAIN ); ?>
+								<?php echo '' . __( 'Date Created', WR_CONTACTFORM_TEXTDOMAIN ); ?>
 							</th>
 							<td>
 								<?php
@@ -81,19 +81,19 @@ if ( ! empty( $submissionData ) ) {
 						</tr>
 						<tr>
 							<th>
-								<?php echo '' . __( 'WR_CONTACTFORM_SUBMISSION_IP', WR_CONTACTFORM_TEXTDOMAIN ); ?>
+								<?php echo '' . __( 'IP Address', WR_CONTACTFORM_TEXTDOMAIN ); ?>
 							</th>
 							<td><?php echo '' . $submission->ip; ?></td>
 						</tr>
 						<tr>
 							<th>
-								<?php echo '' . __( 'WR_CONTACTFORM_SUBMISSION_BROWSER', WR_CONTACTFORM_TEXTDOMAIN ); ?>
+								<?php echo '' . __( 'Browser', WR_CONTACTFORM_TEXTDOMAIN ); ?>
 							</th>
 							<td><?php echo  '' . $submission->browser; ?></td>
 						</tr>
 						<tr>
 							<th>
-								<?php echo '' . __( 'WR_CONTACTFORM_SUBMISSION_OS', WR_CONTACTFORM_TEXTDOMAIN ); ?>
+								<?php echo '' . __( 'Operating System', WR_CONTACTFORM_TEXTDOMAIN ); ?>
 							</th>
 							<td><?php echo  '' . $submission->os; ?></td>
 						</tr>
@@ -107,11 +107,11 @@ $formType = isset( $formPostMeta[ 'form_type' ][ 0 ] ) ? $formPostMeta[ 'form_ty
 if ( $formType == 2 ) {
 	?>
 	<div class="control-group ">
-		<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_DATA_PRESENTATION', WR_CONTACTFORM_TEXTDOMAIN ); ?>:</label>
+		<label class="control-label"><?php echo '' . __( 'Data Presentation', WR_CONTACTFORM_TEXTDOMAIN ); ?>:</label>
 		<div class="controls">
 			<select class="jsn-input-fluid" data-value="<?php echo '' . $formType; ?>" id="jform_form_type">
-				<option value="1"><?php echo '' . __( 'WR_CONTACTFORM_TYPE_SINGLE_PAGE', WR_CONTACTFORM_TEXTDOMAIN ); ?></option>
-				<option value="2"><?php echo '' . __( 'WR_CONTACTFORM_TYPE_MULTIPLE_PAGES', WR_CONTACTFORM_TEXTDOMAIN ); ?></option>
+				<option value="1"><?php echo '' . __( 'Single page', WR_CONTACTFORM_TEXTDOMAIN ); ?></option>
+				<option value="2"><?php echo '' . __( 'Multiple pages', WR_CONTACTFORM_TEXTDOMAIN ); ?></option>
 			</select>
 		</div>
 	</div>
@@ -124,7 +124,7 @@ if ( $formType == 2 ) {
 								<i class="icon-pencil"></i><?php echo '' . __( 'Edit', WR_CONTACTFORM_TEXTDOMAIN ); ?>
 							</button>
 							<button class="btn btn-primary hide" id="wr-submission-save" onclick="return false;">
-								<i class="icon-pencil"></i><?php echo '' . __( 'WR_CONTACTFORM_DONE', WR_CONTACTFORM_TEXTDOMAIN ); ?>
+								<i class="icon-pencil"></i><?php echo '' . __( 'Done', WR_CONTACTFORM_TEXTDOMAIN ); ?>
 							</button>
 						</div>
 					</div>

@@ -142,7 +142,7 @@ class WR_Contactform_Helpers_Form_Edit {
 							</ul>
 							<div id="formStyleContainer">
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_BACKGROUND_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Background Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" data-value="background-color" data-type="jsn-element" value="<?php echo '' . $formStyle->background_color;?>" class="jsn-input-fluid" name="form_style[background_color]" id="style_background_color" />
@@ -153,7 +153,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_BACKGROUND_ACTIVE_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Background Active Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" data-value="background-color" data-type="ui-state-edit" value="<?php echo '' . $formStyle->background_active_color;?>" class="jsn-input-fluid" name="form_style[background_active_color]" id="style_background_active_color" />
@@ -164,7 +164,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_BORDER_THICKNESS', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Border Thickness', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<div class="input-append">
@@ -173,7 +173,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_BORDER_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Border Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" data-value="border-color" data-type="jsn-element" value="<?php echo '' . $formStyle->border_color;?>" class="jsn-input-fluid" name="form_style[border_color]" id="style_border_color" />
@@ -184,7 +184,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_BORDER_ACTIVE_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Border Active Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" data-value="border-color" data-type="ui-state-edit" value="<?php echo '' . $formStyle->border_active_color;?>" class="jsn-input-fluid" name="form_style[border_active_color]" id="style_border_active_color" />
@@ -195,7 +195,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_ROUNDED_CORNER_RADIUS', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Rounded Corner Radius', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<div class="input-append">
@@ -204,7 +204,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_PADDING_SPACE', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Padding Space', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<div class="input-append">
@@ -213,7 +213,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_MARGIN_SPACE', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Vertical Space', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<div class="input-append">
@@ -224,7 +224,7 @@ class WR_Contactform_Helpers_Form_Edit {
 							</div>
 							<div id="formStyleTitle">
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_TEXT_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Text Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" data-value="color" data-type="control-label" value="<?php echo '' . $formStyle->text_color;?>" class="jsn-input-fluid" name="form_style[text_color]" id="style_text_color" />
@@ -235,7 +235,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_FONT_TYPE', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Font Type', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<select data-value="font-family" data-type="control-label" name="form_style[font_type]" id="style_font_type">
@@ -252,7 +252,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_FONT_SIZE', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Font Size', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<div class="input-append">
@@ -263,7 +263,7 @@ class WR_Contactform_Helpers_Form_Edit {
 							</div>
 							<div id="formStyleField">
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_BACKGROUND_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Background Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" data-value="background-color" data-type="field" value="<?php echo '' . $formStyle->field_background_color;?>" class="jsn-input-fluid" name="form_style[field_background_color]" id="style_field_background_color" />
@@ -274,7 +274,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_BORDER_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Border Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" data-value="border-color" data-type="field" value="<?php echo '' . $formStyle->field_border_color;?>" class="jsn-input-fluid" name="form_style[field_border_color]" id="style_field_border_color" />
@@ -285,7 +285,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_SHADOW_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Shadow Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" data-value="box-shadow" data-type="field" value="<?php echo '' . $formStyle->field_shadow_color;?>" class="jsn-input-fluid" name="form_style[field_shadow_color]" id="style_field_shadow_color" />
@@ -296,7 +296,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_TEXT_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Text Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" data-value="color" data-type="field" value="<?php echo '' . $formStyle->field_text_color;?>" class="jsn-input-fluid" name="form_style[field_text_color]" id="style_field_text_color" />
@@ -310,7 +310,7 @@ class WR_Contactform_Helpers_Form_Edit {
 							</div>
 							<div id="formStyleMessageError">
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_BACKGROUND_COLOR', WR_CONTACTFORM_TEXTDOMAIN );?></label>
+									<label class="control-label"><?php echo '' . __( 'Background Color', WR_CONTACTFORM_TEXTDOMAIN );?></label>
 
 									<div class="controls">
 										<input type="text" value="<?php echo '' . $formStyle->message_error_background_color;?>" class="jsn-input-fluid" name="form_style[message_error_background_color]" id="style_message_error_background_color" />
@@ -321,7 +321,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label"><?php echo '' . __( 'WR_CONTACTFORM_TEXT_COLOR', WR_CONTACTFORM_TEXTDOMAIN )?></label>
+									<label class="control-label"><?php echo '' . __( 'Text Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
 										<input type="text" value="<?php echo '' . $formStyle->message_error_text_color;?>" class="jsn-input-fluid" name="form_style[message_error_text_color]" id="style_message_error_text_color" />
@@ -517,22 +517,22 @@ class WR_Contactform_Helpers_Form_Edit {
 					<?php
 					$titleForm = isset( $_GET[ 'form' ] ) ? $_GET[ 'form' ] : '';
 					$arrayTranslated = array(
-						'WR_CONTACTFORM_FORM_NEW_PAGE',
-						'WR_CONTACTFORM_EMAIL_SUBMITTER_TITLE',
+						'New Page',
+						'Email content being sent to form submitter',
 						'WR_CONTACTFORM_MOVE_UP_CONTAINER',
-						'WR_CONTACTFORM_EMAIL_ADDRESS_TITLE',
+						'Edit email content being sent to specified address(es)',
 						'WR_CONTACTFORM_MOVE_DOWN_CONTAINER',
 						'WR_CONTACTFORM_ADD_CONTAINER_COLUMN',
 						'WR_CONTACTFORM_DELETE_CONTAINER',
 						'WR_CONTACTFORM_DELETE_CONTAINER_COLUMN',
 						'WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER',
 						'WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER_COLUMN',
-						'WR_CONTACTFORM_COLOR_CONFIRM_RESET',
-						'WR_CONTACTFORM_COLOR_CONFIRM_DELETE',
-						'WR_CONTACTFORM_COLOR_CONFIRM_EXISTS',
+						'you sure you want to restore all style settings to default state?',
+						'Are you sure you want to delete current color scheme?',
+						'Color scheme with such name already exists',
 						'WR_CONTACTFORM_ALL_FORM_FIELD_ARE_HIDDEN',
 						'WR_CONTACTFORM_ALL_FORM_FIELD_ARE_DISPLAYED',
-						'WR_CONTACTFORM_ENABLE_RANGE_SELECTION',
+						'Enable Range selection',
 						'TITLES',
 						'WR_CONTACTFORM_DATE_HOUR_TEXT',
 						'WR_CONTACTFORM_DATE_MINUTE_TEXT',
@@ -587,32 +587,32 @@ class WR_Contactform_Helpers_Form_Edit {
 						'WR_CONTACTFORM_DATE_DAY_SATURDAY_MIN',
 						'WR_CONTACTFORM_DATE_DAY_WEEK_HEADER',
 						'WR_CONTACTFORM__MAIL_SETTINGS',
-						'WR_CONTACTFORM_SELECT_MENU_ITEM',
-						'WR_CONTACTFORM_SELECT_ARTICLE',
-						'WR_CONTACTFORM_FORM_APPEARANCE',
-						'WR_CONTACTFORM_SELECT',
-						'WR_CONTACTFORM_SAVE',
-						'WR_CONTACTFORM_CANCEL',
+						'Select menu item',
+						'Select article',
+						'Appearance',
+						'Select',
+						'Save',
+						'Cancel',
 						'WR_CONTACTFORM_ADD_FIELD',
 						'WR_CONTACTFORM_BUTTON_SAVE',
-						'WR_CONTACTFORM_BUTTON_CANCEL',
-						'WR_CONTACTFORM_CONFIRM_CONVERTING_FORM',
+						'Cancel',
+						'Converting form type to Single Page will combine fields from all pages into one single page. Are you sure?',
 						'WR_CONTACTFORM_UPGRADE__DITION_TITLE',
 						'WR_CONTACTFORM_UPGRADE__DITION',
-						'WR_CONTACTFORM_CONFIRM_SAVE_FORM',
+						'Do you want to save changes before leaving this page?',
 						'WR_CONTACTFORM_NO__MAIL',
 						'WR_CONTACTFORM_NO__MAIL_DES',
-						'WR_CONTACTFORM_CONFIRM_DELETING_A_FIELD',
-						'WR_CONTACTFORM_CONFIRM_DELETING_A_FIELD_DES',
+						'Are you sure you want to delete this field?',
+						'Deleting a field means that all data collected by the field will be deleted immediately. Because this action cannot be undone, you might want to consider backup your data first.',
 						'WR_CONTACTFORM_BTN_BACKUP',
-						'WR_CONTACTFORM_IF_CHECKED_VALUE_DUPLICATION',
+						'If checked no value duplication will be allowed for this field.',
 						'WR_CONTACTFORM__MAIL_SUBMITTER_TITLE',
 						'WR_CONTACTFORM__MAIL_ADDRESS_TITLE',
-						'WR_CONTACTFORM_LAUNCHPAD_PLUGIN_SYNTAX',
-						'WR_CONTACTFORM_LAUNCHPAD_PLUGIN_SYNTAX_DES',
-						'WR_CONTACTFORM_FORM_LIMIT_FILE_EXTENSIONS',
-						'WR_CONTACTFORM_FOR_SECURITY_REASONS_FOLLOWING_FILE_EXTENSIONS',
-						'WR_CONTACTFORM_FORM_LIMIT_FILE_SIZE',
+						'Plugin syntax details',
+						'Please insert following text to your article at the position where you want to show form',
+						'Even if you do not set limitation here, there will still be a limitation set by server which is: ',
+						'For security reasons following file extensions are always prohibited: ',
+						'Even if you do not set limitation here, there will still be a limitation set by server which is: ',
 						'STREET_ADDRESS',
 						'ADDRESS_LINE_2',
 						'CITY',
@@ -622,18 +622,18 @@ class WR_Contactform_Helpers_Form_Edit {
 						'MIDDLE',
 						'LAST',
 						'COUNTRY',
-						'WR_CONTACTFORM_ALLOW_USER_CHOICE',
-						'WR_CONTACTFORM_SET_ITEM_PLACEHOLDER',
-						'WR_CONTACTFORM_SET_ITEM_PLACEHOLDER_DES',
-						'WR_CONTACTFORM_SHOW_DATE_FORMAT',
-						'WR_CONTACTFORM_SHOW_TIME_FORMAT',
+						'Allow user’s choice',
+						'Set the first item as placeholder',
+						'When checked, the first item will be used as placeholder without contributing value to form data.',
+						'Show Date in format',
+						'Show Time in format',
 						'WR_CONTACTFORM__NABLE_RANGE_SELECTION',
-						'WR_CONTACTFORM_YOU_CAN_NOT_HIDE_THE_COPYLINK',
-						'WR_CONTACTFORM_CUSTOM_DATE_FORMAT',
-						'WR_CONTACTFORM_UPGRADE_EDITION',
-						'WR_CONTACTFORM_UPGRADE_EDITION_TITLE',
-						'WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_1_PAGE_IN_FREE_EDITION',
-						'WR_CONTACTFORM_YOU_HAVE_REACHED_THE_LIMITATION_OF_10_FIELD_IN_FREE_EDITION',
+						'Please upgrade to PRO edition to be able to hide the copyright link.',
+						'Custom date format',
+						'Upgrade to PRO edition',
+						'Upgrade to PRO edition for more',
+						'<p>The multiple pages feature is available only in PRO edition. Please upgrade to PRO edition to get this and other awesome features. Also you will get professional and fast support.</p>',
+						'In Free edition, you can only create <strong>up to 10 fields</strong> in one form. Please upgrade to PRO edition to create unlimited number of fields in one form.',
 					);
 					$formSubmitter = isset( $items->form_submitter ) ? json_decode( $items->form_submitter ) : '';
 					$languages = WR_Contactform_Helpers_Contactform::get_translated( $arrayTranslated );
@@ -683,8 +683,8 @@ class WR_Contactform_Helpers_Form_Edit {
 
 				<div class="control-group">
 					<label class="control-label wr-label-des-tipsy" original-title="<?php echo '' . __(
-						'WR_CONTACTFORM_SELECT_THE_ACTION_TO_TAKE_AFTER', WR_CONTACTFORM_TEXTDOMAIN
-					); ?>"><?php echo '' . __( 'WR_CONTACTFORM_ALERT_FORM_SUBMITSSION', WR_CONTACTFORM_TEXTDOMAIN ); ?></label>
+						'Select the action to take after user submits the form data.', WR_CONTACTFORM_TEXTDOMAIN
+					); ?>"><?php echo '' . __( 'Do Action', WR_CONTACTFORM_TEXTDOMAIN ); ?></label>
 
 					<div class="controls">
 						<?php
@@ -705,7 +705,7 @@ class WR_Contactform_Helpers_Form_Edit {
 		<div class="row-fluid">
 			<fieldset id="email">
 				<legend>
-					<?php echo '' . __( 'WR_CONTACTFORM_FORM_EMAIL_NOTIFICATION', WR_CONTACTFORM_TEXTDOMAIN ); ?>
+					<?php echo '' . __( 'Email Notification', WR_CONTACTFORM_TEXTDOMAIN ); ?>
 				</legend>
 				<?php
 				$fieldContentEmailSendTo = $form[ 'wr-form-field-content_email_send_to' ];
@@ -719,7 +719,7 @@ class WR_Contactform_Helpers_Form_Edit {
 				?>
 				<div class="wr-cf-panel">
 					<div class="wr-cf-panel-heading clearfix">
-						<h4 class="wr-cf-panel-title"><?php _e( 'WR_CONTACTFORM_SEND_EMAIL_TO', WR_CONTACTFORM_TEXTDOMAIN ); ?></h4>
+						<h4 class="wr-cf-panel-title"><?php _e( 'Send to email(s)', WR_CONTACTFORM_TEXTDOMAIN ); ?></h4>
 					</div>
 					<div class="wr-cf-panel-body hide">
 						<div class="control-group">

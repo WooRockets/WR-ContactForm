@@ -117,7 +117,7 @@
             }, this);
             this.jsnContactformModal = new JSNModal({
                 url:self.params.baseUrl + '?wr-cf-gadget=contactform-email-settings&layout=config&tmpl=component&action=default&email=1&control=config',
-                title:this.lang['WR_CONTACTFORM_EMAIL_ADDRESS_TITLE'],
+                title:this.lang['Edit email content being sent to specified address(es)'],
                 buttons:buttons,
                 height:600,
                 width:850,
@@ -152,7 +152,7 @@
             }, this);
             this.jsnContactformModal = new JSNModal({
                 url:self.params.baseUrl + '?wr-cf-gadget=contactform-email-settings&email=1&action=default&control=form&form_id=' + $("#jform_form_id").val(),
-                title:this.lang['WR_CONTACTFORM_EMAIL_ADDRESS_TITLE'],
+                title:this.lang['Edit email content being sent to specified address(es)'],
                 buttons:buttons,
                 height:750,
                 width:850,
@@ -188,7 +188,7 @@
             }, this);
             this.jsnContactformModal = new JSNModal({
                 url:self.params.baseUrl + '?wr-cf-gadget=contactform-email-settings&email=0&action=default&control=form&form_id=' + $("#jform_form_id").val(),
-                title:this.lang['WR_CONTACTFORM_EMAIL_SUBMITTER_TITLE'],
+                title:this.lang['Email content being sent to form submitter'],
                 buttons:buttons,
                 height:750,
                 width:850,
@@ -232,7 +232,7 @@
                         $("<button/>", {
                             "class":"btn btn-icon input-cancel",
                             "onclick":"return false;",
-                            "title":self.lang['WR_CONTACTFORM_BUTTON_CANCEL']
+                            "title":self.lang['Cancel']
                         }).append(
                             $("<i/>", {
                                 "class":"icon-remove"

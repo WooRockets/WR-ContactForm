@@ -470,7 +470,7 @@ class WR_Contactform_Helpers_Contactform {
 				}
 				if ( $i == 0 ) {
 					$defaultListpage .= '<div data-value="' . $fContent->page_id . '" id="form-design-header" class="jsn-section-header"><div class="jsn-iconbar-trigger page-title"><h1>' . $fContent->page_title . '</h1><div class="jsn-iconbar"><a href="javascript:void(0)" title="Edit page" class="element-edit"><i class="icon-pencil"></i></a><a href="javascript:void(0)" title="Delete page" class="element-delete"><i class="icon-trash"></i></a></div></div><div class="jsn-page-actions jsn-buttonbar"><div class="jsn-page-pagination pull-left btn-group"><button onclick="return false;" class="btn btn-icon prev-page"><i class="icon-arrow-left"></i></button><button onclick="return false;" class="btn btn-icon next-page"><i class="icon-arrow-right"></i></button></div><button onclick="return false;" class="btn btn-success new-page">' . __(
-						'WR_CONTACTFORM_FORM_NEW_PAGE', WR_CONTACTFORM_TEXTDOMAIN
+						'New Page', WR_CONTACTFORM_TEXTDOMAIN
 					) . '</button></div><div class="clearbreak"></div>';
 					$dataValue = $fContent->page_id;
 				}
@@ -487,7 +487,7 @@ class WR_Contactform_Helpers_Contactform {
 			foreach ( $listPages as $i => $page ) {
 				if ( $i == 0 ) {
 					$defaultListpage .= '<div data-value="' . $page[ 0 ] . '" id="form-design-header" class="jsn-section-header"><div class="jsn-iconbar-trigger page-title"><h1>' . $page[ 1 ] . '</h1><div class="jsn-iconbar"><a href="javascript:void(0)" title="Edit page" class="element-edit"><i class="icon-pencil" ></i></a><a href="javascript:void(0)" title="Delete page" class="element-delete"><i class="icon-trash" ></i></a></div></div><div class="jsn-page-actions jsn-buttonbar"><div class="jsn-page-pagination pull-left btn-group"><button onclick="return false;" class="btn btn-icon prev-page"><i class="icon-arrow-left"></i></button><button onclick="return false;" class="btn btn-icon next-page"><i class="icon-arrow-right"></i></button></div><button onclick="return false;" class="btn btn-success new-page">' . __(
-						'WR_CONTACTFORM_FORM_NEW_PAGE', WR_CONTACTFORM_TEXTDOMAIN
+						'New Page', WR_CONTACTFORM_TEXTDOMAIN
 					) . '</button></div><div class="clearbreak"></div>';
 					$dataValue = $page[ 0 ];
 				}
@@ -497,7 +497,7 @@ class WR_Contactform_Helpers_Contactform {
 		else {
 			$randomID = rand( 1000000, 10000000000 );
 			$defaultListpage = '<div data-value="' . $randomID . '" id="form-design-header" class="jsn-section-header"><div class="jsn-iconbar-trigger page-title"><h1>Page 1</h1><div class="jsn-iconbar"><a href="javascript:void(0)" title="Edit page" class="element-edit"><i class="icon-pencil"></i></a><a href="javascript:void(0)" title="Delete page" class="element-delete"><i class="icon-trash" ></i></a></div></div><div class="jsn-page-actions jsn-buttonbar"><div class="jsn-page-pagination pull-left btn-group"><button onclick="return false;" class="btn btn-icon prev-page"><i class="icon-arrow-left"></i></button><button onclick="return false;" class="btn btn-icon next-page"><i class="icon-arrow-right"></i></button></div><button onclick="return false;" class="btn btn-success new-page">' . __(
-				'WR_CONTACTFORM_FORM_NEW_PAGE', WR_CONTACTFORM_TEXTDOMAIN
+				'New Page', WR_CONTACTFORM_TEXTDOMAIN
 			) . '</button></div><div class="clearbreak"></div>';
 			$dataValue = $randomID;
 			$option = '<li id="new_' . $randomID . '" data-value="' . $randomID . '" class="page-items"><input type="hidden" value="Page 1" data-id="' . $randomID . '" name="name_page[' . $randomID . ']"/></li>';
@@ -822,8 +822,8 @@ class WR_Contactform_Helpers_Contactform {
 		$taxonomies = self::get_public_taxonomies();
 		$post_types = self::get_post_types();
 		$action = array(
-			'contactform_no_action' => __( 'WR_CONTACTFORM_NO_ACTION', WR_CONTACTFORM_TEXTDOMAIN ),
-			'contactform_show_message' => __( 'WR_CONTACTFORM_SHOW_CUSTOM_MESSAGE', WR_CONTACTFORM_TEXTDOMAIN ),
+			'contactform_no_action' => __( 'No Action', WR_CONTACTFORM_TEXTDOMAIN ),
+			'contactform_show_message' => __( 'Show Custom Message', WR_CONTACTFORM_TEXTDOMAIN ),
 			'contactform_url' => __( 'Go to URL', WR_CONTACTFORM_TEXTDOMAIN ),
 			'single_entry' => array(
 				'text' => __( 'Go to Single Entry', WR_CONTACTFORM_TEXTDOMAIN ),

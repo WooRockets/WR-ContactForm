@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WR ContactForm\n"
 "POT-Creation-Date: 2013-10-28 10:39+0700\n"
-"PO-Revision-Date: 2014-09-10 14:26+0700\n"
+"PO-Revision-Date: 2015-01-13 09:10+0700\n"
 "Last-Translator: \n"
 "Language-Team: Innogears Team <support@woorockets.com>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -47,7 +47,7 @@ msgstr "The value %s is not valid"
 msgid "WR_CONTACTFORM_FIELD_WEBSITE"
 msgstr "The value %s is not valid"
 
-msgid "WR_CONTACTFORM_VIEW_FORM "
+msgid "WR ContactForm - View Form"
 msgstr "WR ContactForm - View Form"
 
 msgid "WR_CONTACTFORM_SELECT_FORM"
@@ -74,7 +74,7 @@ msgstr "Thank you for your email."
 msgid "WR_CONTACTFORM_ERROR_CAPTCHA"
 msgstr "Incorrect captcha text!"
 
-msgid "COM_CONTACTFORM"
+msgid "WR ContactForm"
 msgstr "WR ContactForm"
 
 msgid "WR_CONTACTFORM_SELECT_FORM_DES"
@@ -96,8 +96,7 @@ msgid "WR_CONTACTFORM_CONFIRM_FIELD_MIN_LENGTH"
 msgstr "The information cannot contain less than"
 
 msgid "WR_CONTACTFORM_POST_MAX_SIZE"
-msgstr ""
-"The file you want to upload is too big. Please keep file size under %s MB"
+msgstr "The file you want to upload is too big. Please keep file size under %s MB"
 
 msgid "WR_CONTACTFORM_POST_UPLOAD_SIZE"
 msgstr "The file you want to upload is too big. Please keep file size under %s"
@@ -150,112 +149,106 @@ msgstr "Last"
 msgid "OTHERS"
 msgstr "Others"
 
-msgid "WR_CONTACTFORM_CAPTCHA"
+msgid "Captcha"
 msgstr "Captcha"
 
-msgid "WR_CONTACTFORM_SUBMISSIONS_DETAIL"
+msgid "WR ContactForm: Submission Settings"
 msgstr "WR ContactForm: Submission Settings"
 
-msgid "WR_CONTACTFORM_SUBMISSION_COUNTRY"
+msgid "Country"
 msgstr "Country"
 
-msgid "WR_CONTACTFORM_SUBMISSION_BROWSER"
+msgid "Browser"
 msgstr "Browser"
 
-msgid "WR_CONTACTFORM_SUBMISSION_OS"
+msgid "Operating System"
 msgstr "Operating System"
 
-msgid "WR_CONTACTFORM_SUBMISSION_CREATED_BY"
+msgid "Created By"
 msgstr "Created By"
 
-msgid "WR_CONTACTFORM_SUBMISSION_CREATED_AT"
+msgid "Date Created"
 msgstr "Date Created"
 
 msgid "WR_CONTACTFORM_DATE"
 msgstr "Date"
 
-msgid "WR_CONTACTFORM_DATE_SUBMISSION"
+msgid "Select date submission"
 msgstr "Select date submission"
 
-msgid "WR_CONTACTFORM_FORM_SEARCH_IN_DATE_SUBMISSION"
+msgid "Search in date sunbmission"
 msgstr "Search in date sunbmission"
 
-msgid "WR_CONTACTFORM_SUBMISSION_DATA"
+msgid "Submission data"
 msgstr "Submission data"
 
-msgid "WR_CONTACTFORM_SUBMISSION_DETAIL"
+msgid "Submission details"
 msgstr "Submission details"
 
-msgid "WR_CONTACTFORM_PRINT"
+msgid "Print"
 msgstr "Print"
 
-msgid "WR_CONTACTFORM_FORM_CREATED"
-msgstr "Created By"
-
-msgid "WR_CONTACTFORM_FORM_CREATED_AT"
-msgstr "Date Created"
-
-msgid "WR_CONTACTFORM_FORM_LAST_SUBMITTED_AT"
+msgid "Last Submitted"
 msgstr "Last Submitted"
 
-msgid "WR_CONTACTFORM_FORM_SUBMISSION"
+msgid "Submissions"
 msgstr "Submissions"
 
-msgid "WR_CONTACTFORM_SUBMISSION_IP"
+msgid "IP Address"
 msgstr "IP Address"
 
-msgid "WR_CONTACTFORM_SUBMISSION_STATE"
+msgid "State"
 msgstr "State"
 
-msgid "WR_CONTACTFORM_SUBMISSIONS_SELECT_FORM"
+msgid "Please select the form to get submissions of:"
 msgstr "Please select the form to get submissions of:"
 
-msgid "WR_CONTACTFORM_SUBMISSIONS_MANAGER"
+msgid "WR ContactForm: Submissions Manager"
 msgstr "WR ContactForm: Submissions Manager"
 
-msgid "WR_CONTACTFORM_SELECT_FIELDS"
+msgid "Select Fields"
 msgstr "Select Fields"
 
-msgid "WR_CONTACTFORM_FORM_SEARCH_IN_TITLE"
+msgid "Search in title"
 msgstr "Search in title"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_SELECT_DATE"
+msgid "Select Date"
 msgstr "Select Date"
 
 msgid "WR_CONTACTFORM_SUBMISSION_ID"
 msgstr "ID"
 
-msgid "WR_CONTACTFORM_FORMS"
+msgid "Form"
 msgstr "Form"
 
 msgid "JTOOLBAR_EDIT"
 msgstr "Edit"
 
-msgid "WR_CONTACTFORM_DONE"
+msgid "Done"
 msgstr "Done"
 
-msgid "WR_CONTACTFORM_SAVE"
+msgid "Save"
 msgstr "Save"
 
 msgid "WR_CONTACTFORM_SAVE_CLOSE"
 msgstr "Save & Close"
 
-msgid "WR_CONTACTFORM_CLOSE"
+msgid "Close"
 msgstr "Close"
 
-msgid "WR_CONTACTFORM_DATA_PRESENTATION"
+msgid "Data Presentation"
 msgstr "Data Presentation"
 
-msgid "WR_CONTACTFORM_TYPE_SINGLE_PAGE"
+msgid "Single page"
 msgstr "Single page"
 
-msgid "WR_CONTACTFORM_TYPE_MULTIPLE_PAGES"
+msgid "Multiple pages"
 msgstr "Multiple pages"
 
-msgid "WR_CONTACTFORM_NO_DATA"
+msgid "No data"
 msgstr "No data"
 
-msgid "WR_CONTACTFORM_CANCEL"
+msgid "Cancel"
 msgstr "Cancel"
 
 msgid "WR_CONTACTFORM_NEXT_SUBMISSION"

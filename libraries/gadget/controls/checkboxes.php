@@ -114,7 +114,7 @@ class WR_CF_Gadget_Controls_Checkboxes {
 							'allowOther' => array(
 								'type' => 'checkbox',
 								'field' => 'allowOther',
-								'label' => __( 'WR_CONTACTFORM_ALLOW_USER_CHOICE', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Allow user’s choice', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'labelOthers' => array(
 								'type' => '_text',

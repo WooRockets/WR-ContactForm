@@ -99,15 +99,15 @@ class WR_CF_Gadget_Controls_Date {
 						'elements' => array(
 							'dateFormat' => array(
 								'type' => 'checkbox',
-								'label' => __( 'WR_CONTACTFORM_SHOW_DATE_FORMAT', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Show Date in format', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'timeFormat' => array(
 								'type' => 'checkbox',
-								'label' => __( 'WR_CONTACTFORM_SHOW_TIME_FORMAT', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Show Time in format', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'enableRageSelection' => array(
 								'type' => 'checkbox',
-								'label' => __( 'WR_CONTACTFORM_ENABLE_RANGE_SELECTION', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Enable Range selection', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'dateOptionFormat' => array(
 								'type' => 'select',
@@ -124,7 +124,7 @@ class WR_CF_Gadget_Controls_Date {
 								'type' => 'text',
 								'attrs' => array(
 									'id' => 'wr-custom-date-field',
-									'placeholder' => __( 'WR_CONTACTFORM_CUSTOM_DATE_FORMAT', WR_CONTACTFORM_TEXTDOMAIN )
+									'placeholder' => __( 'Custom date format', WR_CONTACTFORM_TEXTDOMAIN )
 								)
 							),
 							'timeOptionFormat' => array(

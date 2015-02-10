@@ -58,7 +58,7 @@
 	display: none;
 }
  */
-#wr-cf-addon-mailchimp #wr-cf-mailchimp-api-key ~ .error-alert {
+#wr-cf-addon-mailchimp .error-alert {
 	display: none;
 	color: red;
 	padding: 6px 6px 0px 6px;
