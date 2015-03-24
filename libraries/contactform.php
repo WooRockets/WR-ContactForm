@@ -103,21 +103,24 @@ class WR_Contactform {
 			//get language contactform in frontend
 			$this->wr_contactform_frontend_languages();
 
-			//if ( $pagenow == 'index.php' && ! empty( $_GET[ 'post_type' ] ) && $_GET[ 'post_type' ] == 'wr_cf_post_type' && ! empty( $_GET[ 'p' ] ) ) {
-			if ( $pagenow == 'index.php' && ( ( ! empty( $_GET[ 'post_type' ] ) && $_GET[ 'post_type' ] == 'wr_cf_post_type' && ! empty( $_GET[ 'preview' ] ) && $_GET[ 'preview' ] == true ) || ! empty( $_GET[ 'wr_cf_post_type' ] ) ) ) {
-				add_filter( 'the_content', array( &$this, 'wr_contactform_front_end_preview' ) );
-			}
+			//set content preview
+			add_filter( 'the_content', array( &$this, 'wr_contactform_front_end_preview' ) );
 		}
 	}
 
-	public function wr_contactform_front_end_preview( $postId ) {
-		if ( ! empty( $_GET[ 'wr_cf_post_type' ] ) )
-			$data[ 'name' ] = $_GET[ 'wr_cf_post_type' ];
-		if ( ! empty( $_GET[ 'preview_id' ] ) )
-			$data[ 'id' ] = (int)$_GET[ 'preview_id' ];
-		elseif ( ! empty( $_GET[ 'p' ] ) )
-			$data[ 'id' ] = (int)$_GET[ 'p' ];
-		return self::contactform_to_frontend( $data );
+	public function wr_contactform_front_end_preview( $content ) {
+            
+        $post_type = get_post_type();
+
+        // Check type post
+        if ( $post_type == 'wr_cf_post_type' ) {
+        	global $post;
+        	$data[ 'id' ] = $post->ID;
+        	return self::contactform_to_frontend( $data );
+        } else {
+        	return $content;
+        }
+
 	}
 
 	/**

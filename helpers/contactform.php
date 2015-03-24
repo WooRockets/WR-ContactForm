@@ -438,9 +438,9 @@ class WR_Contactform_Helpers_Contactform {
 	 */
 	public static function get_list_page( $formContent, $formId = 0 ) {
 		//$session = JFactory::getSession();
-		session_start();
+		//session_start();
 		//$listPage = $session->get('form_list_page', '', 'form-design-' . $formId);
-		$listPage = $_SESSION[ 'form-design-' . $formId ][ 'form_list_page' ];
+		$listPage = isset ( $_SESSION[ 'form-design-' . $formId ][ 'form_list_page' ] ) ? $_SESSION[ 'form-design-' . $formId ][ 'form_list_page' ] : NULL;
 
 		$option = '';
 

@@ -266,7 +266,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									<label class="control-label"><?php echo '' . __( 'Background Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
-										<input type="text" data-value="background-color" data-type="field" value="<?php echo '' . $formStyle->field_background_color;?>" class="jsn-input-fluid" name="form_style[field_background_color]" id="style_field_background_color" />
+										<input type="text" data-value="background-color" data-type="field" value="<?php echo '' . ! empty( $formStyle->field_background_color ) ?  $formStyle->field_background_color : ''  ;?>" class="jsn-input-fluid" name="form_style[field_background_color]" id="style_field_background_color" />
 
 										<div class="jsn-select-color">
 											<div></div>
@@ -277,7 +277,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									<label class="control-label"><?php echo '' . __( 'Border Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
-										<input type="text" data-value="border-color" data-type="field" value="<?php echo '' . $formStyle->field_border_color;?>" class="jsn-input-fluid" name="form_style[field_border_color]" id="style_field_border_color" />
+										<input type="text" data-value="border-color" data-type="field" value="<?php echo '' . ! empty( $formStyle->field_border_color ) ?  $formStyle->field_border_color : '';?>" class="jsn-input-fluid" name="form_style[field_border_color]" id="style_field_border_color" />
 
 										<div class="jsn-select-color">
 											<div></div>
@@ -288,7 +288,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									<label class="control-label"><?php echo '' . __( 'Shadow Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
-										<input type="text" data-value="box-shadow" data-type="field" value="<?php echo '' . $formStyle->field_shadow_color;?>" class="jsn-input-fluid" name="form_style[field_shadow_color]" id="style_field_shadow_color" />
+										<input type="text" data-value="box-shadow" data-type="field" value="<?php echo '' . ! empty( $formStyle->field_shadow_color ) ?  $formStyle->field_shadow_color : '' ;?>" class="jsn-input-fluid" name="form_style[field_shadow_color]" id="style_field_shadow_color" />
 
 										<div class="jsn-select-color">
 											<div></div>
@@ -299,7 +299,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									<label class="control-label"><?php echo '' . __( 'Text Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
-										<input type="text" data-value="color" data-type="field" value="<?php echo '' . $formStyle->field_text_color;?>" class="jsn-input-fluid" name="form_style[field_text_color]" id="style_field_text_color" />
+										<input type="text" data-value="color" data-type="field" value="<?php echo '' . ! empty( $formStyle->field_text_color ) ? $formStyle->field_text_color : '' ;?>" class="jsn-input-fluid" name="form_style[field_text_color]" id="style_field_text_color" />
 
 										<div class="jsn-select-color">
 											<div></div>
@@ -313,7 +313,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									<label class="control-label"><?php echo '' . __( 'Background Color', WR_CONTACTFORM_TEXTDOMAIN );?></label>
 
 									<div class="controls">
-										<input type="text" value="<?php echo '' . $formStyle->message_error_background_color;?>" class="jsn-input-fluid" name="form_style[message_error_background_color]" id="style_message_error_background_color" />
+										<input type="text" value="<?php echo '' . ! empty( $formStyle->message_error_background_color ) ? $formStyle->message_error_background_color : '' ;?>" class="jsn-input-fluid" name="form_style[message_error_background_color]" id="style_message_error_background_color" />
 
 										<div class="jsn-select-color">
 											<div></div>
@@ -324,7 +324,7 @@ class WR_Contactform_Helpers_Form_Edit {
 									<label class="control-label"><?php echo '' . __( 'Text Color', WR_CONTACTFORM_TEXTDOMAIN )?></label>
 
 									<div class="controls">
-										<input type="text" value="<?php echo '' . $formStyle->message_error_text_color;?>" class="jsn-input-fluid" name="form_style[message_error_text_color]" id="style_message_error_text_color" />
+										<input type="text" value="<?php echo '' . ! empty( $formStyle->message_error_text_color ) ? $formStyle->message_error_text_color : '' ;?>" class="jsn-input-fluid" name="form_style[message_error_text_color]" id="style_message_error_text_color" />
 
 										<div class="jsn-select-color">
 											<div></div>
@@ -427,7 +427,7 @@ class WR_Contactform_Helpers_Form_Edit {
 								</div>
 							</div>
 							<div id="formCustomCss">
-								<textarea id="style_custom_css" name="form_style[custom_css]"><?php echo '' . $formStyle->custom_css;?></textarea>
+								<textarea id="style_custom_css" name="form_style[custom_css]"><?php echo '' . ! empty( $formStyle->custom_css ) ? $formStyle->custom_css : '' ;?></textarea>
 							</div>
 						</div>
 						<div class="clearfix">
@@ -495,9 +495,8 @@ class WR_Contactform_Helpers_Form_Edit {
 		}
 
 									?>
-									<button onclick="return false;" class="<?php echo '' . $buttonPrevColor;?> jsn-form-prev hide"><?php echo '' . $formSettings->form_btn_prev_text ? $formSettings->form_btn_prev_text : 'Prev'; ?></button>
-									<button onclick="return false;" class="<?php echo '' . $buttonNextColor;?> jsn-form-next hide"><?php echo '' . $formSettings->form_btn_next_text ? $formSettings->form_btn_next_text : 'Next'; ?></button>
-
+									<button onclick="return false;" class="<?php echo '' . $buttonPrevColor;?> jsn-form-prev hide"><?php echo '' . ( isset ( $formSettings->form_btn_prev_text ) && $formSettings->form_btn_prev_text ) ? $formSettings->form_btn_prev_text : 'Prev'; ?></button>
+									<button onclick="return false;" class="<?php echo '' . $buttonNextColor;?> jsn-form-next hide"><?php echo '' . ( isset ( $formSettings->form_btn_next_text ) && $formSettings->form_btn_next_text ) ? $formSettings->form_btn_next_text : 'Next'; ?></button>
 									<button class="<?php echo '' . $buttonSubmitColor;?> jsn-form-submit hide" onclick="return false;"><?php echo '' . isset( $formSettings->form_btn_submit_text ) && $formSettings->form_btn_submit_text ? $formSettings->form_btn_submit_text : 'Submit'; ?></button>
 									<button class="<?php echo '' . $buttonResetColor;?> jsn-form-reset hide" onclick="return false;"><?php echo '' . isset( $formSettings->form_btn_reset_text ) && $formSettings->form_btn_reset_text ? $formSettings->form_btn_reset_text : 'Reset'; ?></button>
 									<input type="hidden" id="jform_form_btn_next_text" name="wr_contactform[form_settings][form_btn_next_text]" value="<?php echo '' . ( ! empty( $formSettings->form_btn_next_text ) ? $formSettings->form_btn_next_text : 'Next' );?>">
@@ -727,10 +726,10 @@ class WR_Contactform_Helpers_Form_Edit {
 								Send to:
 							</label>
 							<div class="controls">
-								<input id="wr-cf-list-email-send-to" name="wr_contactform[list_email_send_to]" pre-value="<?php echo $_COOKIE[ 'wr-cf-list_email_send_to' ]; ?>">
+								<input id="wr-cf-list-email-send-to" name="wr_contactform[list_email_send_to]" pre-value="<?php echo isset ( $_COOKIE[ 'wr-cf-list_email_send_to' ] ) ? $_COOKIE[ 'wr-cf-list_email_send_to' ] : '' ; ?>">
 							</div>
 						</div>
-						<iframe id="wr-cf-send-to-email-iframe" scrolling="yes" frameborder="0" src="<?php echo admin_url( '?wr-cf-gadget=contactform-email-settings&email=1&action=default&control=form&form_id=' . $_GET['post'] ); ?>"></iframe>
+						<iframe id="wr-cf-send-to-email-iframe" scrolling="yes" frameborder="0" src="<?php echo admin_url( '?wr-cf-gadget=contactform-email-settings&email=1&action=default&control=form&form_id=' . ( isset ( $_GET['post'] ) ? $_GET['post'] : '' ) ); ?>"></iframe>
 					</div>
 				</div>
 				<div class="wr-cf-panel">
@@ -748,7 +747,7 @@ class WR_Contactform_Helpers_Form_Edit {
 								</div>
 							</div>
 						</div>
-						<iframe id="wr-cf-send-to-responder-iframe" scrolling="yes" frameborder="0" src="<?php echo admin_url( '?wr-cf-gadget=contactform-email-settings&email=0&action=default&control=form&form_id=' . $_GET['post'] ); ?>"></iframe>
+						<iframe id="wr-cf-send-to-responder-iframe" scrolling="yes" frameborder="0" src="<?php echo admin_url( '?wr-cf-gadget=contactform-email-settings&email=0&action=default&control=form&form_id=' . ( isset ( $_GET['post'] ) ? $_GET['post'] : '' ) ); ?>"></iframe>
 					</div>
 				</div>
 			</fieldset>

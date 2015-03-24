@@ -341,7 +341,7 @@ class WR_Contactform_Helpers_Hook {
 		if ( in_array( $pagenow, array( 'edit.php', 'post.php', 'post-new.php' ) ) ) {
 			$post_type = $pagenow == 'post.php' ? ( isset( $_REQUEST[ 'post' ] ) ? get_post_type(
 				$_REQUEST[ 'post' ]
-			) : '' ) : $_REQUEST[ 'post_type' ];
+			) : '' ) : ( isset ( $_REQUEST[ 'post_type' ] ) ? $_REQUEST[ 'post_type' ] : '' );	
 			if ( $post_type == 'wr_cf_post_type' || $post_type == 'wr_cfsb_post_type' ) {
 				// Load common assets
 				$assets = WR_Contactform_Helpers_Contactform::load_asset_edit_form();

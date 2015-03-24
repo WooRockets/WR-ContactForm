@@ -711,17 +711,17 @@ class WR_Contactform_Helpers_Form {
 								$html .= '<option ' . $selected . ' value="' . $option->text . '">' . $option->text . '</option>';
 							}
 						}
-						$html .= '</select>&nbsp;&nbsp;';
+						$html .= '</select> ';
 					}
 					break;
 				case 'vfirst':
 					if ( ! empty( $data->options->vfirst ) ) {
-						$html .= '<input type="text" class="' . $sizeInput . '" value=\'' . htmlentities( $valueFirstName, ENT_QUOTES, 'UTF-8' ) . '\' name="name[' . $data->id . '][first]" placeholder="' . htmlentities( __( 'FIRST', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" />&nbsp;&nbsp;';
+						$html .= ' <input type="text" class="' . $sizeInput . '" value=\'' . htmlentities( $valueFirstName, ENT_QUOTES, 'UTF-8' ) . '\' name="name[' . $data->id . '][first]" placeholder="' . htmlentities( __( 'FIRST', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" /> ';
 					}
 					break;
 				case 'vmiddle':
 					if ( ! empty( $data->options->vmiddle ) ) {
-						$html .= '<input name="name[' . $data->id . '][suffix]" type="text" value="' . htmlentities( $valueMiddle, ENT_QUOTES, 'UTF-8' ) . '" class="' . $sizeInput . '" placeholder="' . htmlentities( __( 'MIDDLE', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" />&nbsp;&nbsp;';
+						$html .= '<input name="name[' . $data->id . '][suffix]" type="text" value="' . htmlentities( $valueMiddle, ENT_QUOTES, 'UTF-8' ) . '" class="' . $sizeInput . '" placeholder="' . htmlentities( __( 'MIDDLE', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" /> ';
 					}
 					break;
 				case 'vlast':

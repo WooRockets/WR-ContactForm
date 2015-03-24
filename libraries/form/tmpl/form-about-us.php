@@ -93,7 +93,7 @@ if( !in_array( 'wr_pb_settings_pointer_contactform_thank_installing', $dismissed
 			<div role="tabpanel">
 				<ul class="nav nav-tabs wr-pb-tabs" role="tablist">
 					<li role="presentation" class="active">
-						<a href="#hot-features" aria-controls="hot-features" role="tab" data-toggle="tab"><?php _e( 'Hot Features', WR_PBL ); ?></a>
+						<a href="#hot-features" aria-controls="hot-features" role="tab" data-toggle="tab"><?php _e( 'Hot Features', WR_CONTACTFORM_TEXTDOMAIN ); ?></a>
 					</li>
 				</ul>
 				<div class="tab-content">
