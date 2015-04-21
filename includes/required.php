@@ -114,7 +114,7 @@ class WR_Contactform_Includes_Required {
 		$postAddress = $post[ 'address' ][ $fieldName ];
 		$requiredForm = array();
 		if ( $postAddress[ 'street' ] == '' && $postAddress[ 'line2' ] == '' && $postAddress[ 'city' ] == '' && $postAddress[ 'code' ] == '' && $postAddress[ 'state' ] == '' ) {
-			$requiredForm[ 'address' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+			$requiredForm[ 'address' ][ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 		}
 		return $requiredForm;
 	}
@@ -126,7 +126,7 @@ class WR_Contactform_Includes_Required {
 		$postFieldName = isset( $post[ 'name' ][ $fieldName ] ) ? $post[ 'name' ][ $fieldName ] : '';
 		$requiredForm = array();
 		if ( $postFieldName[ 'first' ] == '' && $postFieldName[ 'last' ] == '' && $postFieldName[ 'suffix' ] == '' ) {
-			$requiredForm[ 'name' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+			$requiredForm[ 'name' ][ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 		}
 		return $requiredForm;
 	}
@@ -139,7 +139,7 @@ class WR_Contactform_Includes_Required {
 		$requiredForm = array();
 		$regex = '/^((http|https|ftp):\/\/|www([0-9]{0,9})?\.)?([a-zA-Z0-9][a-zA-Z0-9_-]*(?:\.[a-zA-Z0-9][a-zA-Z0-9_-]*)+):?(\d+)?\/?/i';
 		if ( ! preg_match( $regex, $postWebsite ) ) {
-			$requiredForm[ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_INVALID', WR_CONTACTFORM_TEXTDOMAIN );
+			$requiredForm[ $fieldName ] = __( 'The information is invalid, please correct.', WR_CONTACTFORM_TEXTDOMAIN );
 		}
 		return $requiredForm;
 	}
@@ -150,7 +150,7 @@ class WR_Contactform_Includes_Required {
 	function filter_wr_contactform_filter_required_type_file_upload( $checkValidation, $post, $fieldName, $colum, $fieldSettings ) {
 		$requiredForm = array();
 		if ( empty( $_FILES[ $fieldName ][ 'name' ] ) ) {
-			$requiredForm[ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+			$requiredForm[ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 		}
 		return $requiredForm;
 	}
@@ -165,7 +165,7 @@ class WR_Contactform_Includes_Required {
 		$postEmail = stripslashes( $postFieldEmail );
 		$regex = '/^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,6})$/';
 		if ( ! preg_match( $regex, $postEmail ) ) {
-			$requiredForm[ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_INVALID', WR_CONTACTFORM_TEXTDOMAIN );
+			$requiredForm[ $fieldName ] = __( 'The information is invalid, please correct.', WR_CONTACTFORM_TEXTDOMAIN );
 		}
 		return $requiredForm;
 	}
@@ -176,7 +176,7 @@ class WR_Contactform_Includes_Required {
 	function filter_wr_contactform_filter_required_type_number( $checkValidation, $post, $fieldName, $colum, $fieldSettings ) {
 		$requiredForm = array();
 		if ( $post[ 'number' ][ $fieldName ] == '' ) {
-			$requiredForm[ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+			$requiredForm[ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 		}
 		else {
 			$postNumber = $post[ 'number' ][ $fieldName ][ 'value' ];
@@ -198,7 +198,7 @@ class WR_Contactform_Includes_Required {
 				}
 			}
 			if ( ! $checkNumber ) {
-				$requiredForm[ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+				$requiredForm[ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 			}
 		}
 		return $requiredForm;
@@ -211,12 +211,12 @@ class WR_Contactform_Includes_Required {
 		$requiredForm = array();
 		if ( isset( $fieldSettings->options->enableRageSelection ) && $fieldSettings->options->enableRageSelection == '1' ) {
 			if ( $post[ 'date' ][ $fieldName ][ 'date' ] == '' || $post[ 'date' ][ $fieldName ][ 'daterange' ] == '' ) {
-				$requiredForm[ 'date' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+				$requiredForm[ 'date' ][ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 			}
 		}
 		else {
 			if ( $post[ 'date' ][ $fieldName ][ 'date' ] == '' ) {
-				$requiredForm[ 'date' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+				$requiredForm[ 'date' ][ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 			}
 		}
 		return $requiredForm;
@@ -229,12 +229,12 @@ class WR_Contactform_Includes_Required {
 		$requiredForm = array();
 		if ( isset( $fieldSettings->options->format ) && $fieldSettings->options->format == '3-field' ) {
 			if ( $post[ 'phone' ][ $fieldName ][ 'one' ] == '' || $post[ 'phone' ][ $fieldName ][ 'two' ] == '' || $post[ 'phone' ][ $fieldName ][ 'three' ] == '' ) {
-				$requiredForm[ 'phone' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+				$requiredForm[ 'phone' ][ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 			}
 		}
 		else {
 			if ( $post[ 'phone' ][ $fieldName ][ 'default' ] == '' ) {
-				$requiredForm[ 'phone' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+				$requiredForm[ 'phone' ][ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 			}
 		}
 		return $requiredForm;
@@ -246,7 +246,7 @@ class WR_Contactform_Includes_Required {
 	function filter_wr_contactform_filter_required_type_currency( $checkValidation, $post, $fieldName, $colum, $fieldSettings ) {
 		$requiredForm = array();
 		if ( $post[ 'currency' ][ $fieldName ][ 'value' ] == '' ) {
-			$requiredForm[ 'currency' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+			$requiredForm[ 'currency' ][ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 		}
 		return $requiredForm;
 	}
@@ -258,15 +258,15 @@ class WR_Contactform_Includes_Required {
 		$requiredForm = array();
 		if ( count( $post[ 'password' ][ $fieldName ] ) > 1 ) {
 			if ( $post[ 'password' ][ $fieldName ][ 0 ] == '' || $post[ 'password' ][ $fieldName ][ 1 ] == '' ) {
-				$requiredForm[ 'password' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+				$requiredForm[ 'password' ][ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 			}
 			else if ( $post[ 'password' ][ $fieldName ][ 0 ] != '' && $post[ 'password' ][ $fieldName ][ 1 ] != '' && $post[ 'password' ][ $fieldName ][ 0 ] != $post[ 'password' ][ $fieldName ][ 1 ] ) {
-				$requiredForm[ 'password' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_PASSWORD_CONFIRM', WR_CONTACTFORM_TEXTDOMAIN );
+				$requiredForm[ 'password' ][ $fieldName ] = __( 'Both password must be the same.', WR_CONTACTFORM_TEXTDOMAIN );
 			}
 		}
 		else {
 			if ( $post[ 'password' ][ $fieldName ][ 0 ] == '' ) {
-				$requiredForm[ 'password' ][ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+				$requiredForm[ 'password' ][ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 			}
 		}
 		return $requiredForm;

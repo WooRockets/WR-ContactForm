@@ -15,12 +15,12 @@ $arrayTranslated = array(
 	'No email field found',
 	'Select Field',
 	'Select Fields',
-	'WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_0',
-	'WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_0',
-	'WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_0',
-	'WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_1',
-	'WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_1',
-	'WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_1',
+	'e.g. Customer Department',
+	'e.g. support@yourdomain.com',
+	'e.g. Thank you for contacting us',
+	'Click the button on the right to select the form field identifying submitter name',
+	'Click the button on the right to select the form field identifying submitter email',
+	'e.g. Contact inquiry',
 );
 $languages = WR_Contactform_Helpers_Contactform::get_translated( $arrayTranslated );
 ?>

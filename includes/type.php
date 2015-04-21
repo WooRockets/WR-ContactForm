@@ -169,7 +169,7 @@ class WR_Contactform_Includes_Type {
 						define( 'UPLOADS', 'wp-content/uploads/wr_contactform' );
 						$movefile = wp_handle_upload( $file, false );
 						if ( ! $movefile ) {
-							$validationForm[ $fieldIdentifier ] = __( 'WR_CONTACTFORM_ERROR_UNABLE_TO_UPLOAD_FILE', WR_CONTACTFORM_TEXTDOMAIN );
+							$validationForm[ $fieldIdentifier ] = __( 'Unable to upload file.', WR_CONTACTFORM_TEXTDOMAIN );
 							return $validationForm;
 						}
 						else {
@@ -348,7 +348,7 @@ class WR_Contactform_Includes_Type {
 				$value = ! empty( $post[ 'password' ][ $fieldIdentifier ][ 0 ] ) ? $post[ 'password' ][ $fieldIdentifier ][ 0 ] : '';
 			}
 			else {
-				$validationForm[ 'password' ][ $fieldIdentifier ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_PASSWORD_CONFIRM', WR_CONTACTFORM_TEXTDOMAIN );
+				$validationForm[ 'password' ][ $fieldIdentifier ] = __( 'Both password must be the same.', WR_CONTACTFORM_TEXTDOMAIN );
 				return $validationForm;
 			}
 		}

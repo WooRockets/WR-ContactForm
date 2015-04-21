@@ -62,7 +62,7 @@ class WR_Contactform_Includes_Upload {
 		if ( $uploadMaxSize > (int)( ini_get( 'upload_max_filesize' ) ) * 1024 * 1024 ) {
 
 			if ( (int)$file[ 'size' ] == 0 && (int)$file[ 'error' ] == 1 && empty( $file[ 'tmp_name' ] ) ) {
-				$err = __( 'WR_CONTACTFORM_POST_UPLOAD_SIZE', WR_CONTACTFORM_TEXTDOMAIN );
+				$err = __( 'The file you want to upload is too big. Please keep file size under %s', WR_CONTACTFORM_TEXTDOMAIN );
 				$err = str_replace( '%s', (int)( ini_get( 'upload_max_filesize' ) ) . ' MB', $err );
 				return false;
 			}
@@ -89,17 +89,17 @@ class WR_Contactform_Includes_Upload {
 			)
 		)
 		) {
-			$err = __( 'WR_CONTACTFORM_ERROR_WARNFILETYPE', WR_CONTACTFORM_TEXTDOMAIN );
+			$err = __( 'This file type %s is not supported.', WR_CONTACTFORM_TEXTDOMAIN );
 			$err = str_replace( '%s', '.' . $format, $err );
 			return false;
 		}
 		if ( (int)$file[ 'size' ] > $uploadMaxSize ) {
-			$err = __( 'WR_CONTACTFORM_POST_UPLOAD_SIZE', WR_CONTACTFORM_TEXTDOMAIN );
+			$err = __( 'The file you want to upload is too big. Please keep file size under %s', WR_CONTACTFORM_TEXTDOMAIN );
 			$err = str_replace( '%s', $settings->options->maxSize . ' ' . $settings->options->maxSizeUnit, $err );
 			return false;
 		}
 		elseif ( (int)$file[ 'size' ] == 0 && (int)$file[ 'error' ] == 1 && empty( $file[ 'tmp_name' ] ) ) {
-			$err = __( 'WR_CONTACTFORM_POST_UPLOAD_SIZE', WR_CONTACTFORM_TEXTDOMAIN );
+			$err = __( 'The file you want to upload is too big. Please keep file size under %s', WR_CONTACTFORM_TEXTDOMAIN );
 			$err = str_replace( '%s', $settings->options->maxSize . ' ' . $settings->options->maxSizeUnit, $err );
 			return false;
 		}

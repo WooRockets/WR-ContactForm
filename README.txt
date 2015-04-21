@@ -77,3 +77,9 @@ For further information, product details, help and tutorials, please visit our w
  * Fixed php errors detected by Query Monitor plugin
  * Fixed Viewing function of created forms not working
  * Fixed Alignment issue in responsive layout
+
+= 1.1.8 =
+ * Fixed form fields not disappear after submission
+ * Fixed conflict between Wr Contact Form and NextGen Gallery
+ * Fixed blank Add New form on Xampp
+ * Fixed some bugs on our themes

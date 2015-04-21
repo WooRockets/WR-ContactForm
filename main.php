@@ -3,7 +3,7 @@
  * Plugin Name: WR ContactForm
  * Plugin URI: http://woorockets.com
  * Description: Super easy form builder bringing to your Wordpress website contact form, survey and much more.
- * Version: 1.1.7
+ * Version: 1.1.8
  * Author: WooRockets Team <support@woorockets.com>
  * Author URI: http://woorockets.com
  * License: GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html

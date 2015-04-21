@@ -86,12 +86,12 @@ class WR_CF_Gadget_Controls_Address {
 							'vstreetAddress' => array(
 								'field' => 'address',
 								'type' => 'checkbox',
-								'label' => __( 'STREET_ADDRESS', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Street Address', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'vstreetAddress2' => array(
 								'field' => 'address',
 								'type' => 'checkbox',
-								'label' => __( 'ADDRESS_LINE_2', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Address Line 2', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'vcity' => array(
 								'field' => 'address',
@@ -101,17 +101,17 @@ class WR_CF_Gadget_Controls_Address {
 							'vstate' => array(
 								'field' => 'address',
 								'type' => 'checkbox',
-								'label' => __( 'STATE_PROVINCE_REGION', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'State/Province/Region', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'vcode' => array(
 								'field' => 'address',
 								'type' => 'checkbox',
-								'label' => __( 'POSTAL_ZIP_CODE', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Postal/Zip code', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'vcountry' => array(
 								'field' => 'address',
 								'type' => 'checkbox',
-								'label' => __( 'COUNTRY', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Country', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'sortableField' => array(
 								'type' => 'hidden'
@@ -120,7 +120,7 @@ class WR_CF_Gadget_Controls_Address {
 					),
 				),
 			),
-			'tmpl' => '<div class="control-group {{if hideField}}wr-hidden-field{{/if}} wr-group-field"><label class="control-label">${label}{{if required==1||required=="1"}}<span class="required">*</span>{{/if}}{{if instruction}}<i class="icon-question-sign"></i><p class="wr-help-text">${instruction}</p>{{/if}}</label><div class="controls">{{if vstreetAddress}}<div class="row-fluid"><input type="text" placeholder="' . __( 'STREET_ADDRESS', WR_CONTACTFORM_TEXTDOMAIN ) . '" class="jsn-input-xxlarge-fluid" /></div>{{/if}}{{if vstreetAddress2}}<div class="row-fluid"><input type="text" placeholder="' . __( 'ADDRESS_LINE_2', WR_CONTACTFORM_TEXTDOMAIN ) . '" class="jsn-input-xxlarge-fluid" /></div>{{/if}}{{if vcity || vstate}}<div class="row-fluid">{{if vcity}}<div class="span6"><input type="text" class="jsn-input-xlarge-fluid" placeholder="' . __( 'CITY', WR_CONTACTFORM_TEXTDOMAIN ) . '" /></div>{{/if}}{{if vstate}}<div class="span6"><input type="text" class="jsn-input-xlarge-fluid" placeholder="' . __( 'STATE_PROVINCE_REGION', WR_CONTACTFORM_TEXTDOMAIN ) . '" /></div>{{/if}}</div>{{/if}} {{if vcode || vcountry}}<div class="row-fluid">{{if vcode}}<div class="span6"><input type="text" class="jsn-input-xlarge-fluid" placeholder="' . __( 'POSTAL_ZIP_CODE', WR_CONTACTFORM_TEXTDOMAIN ) . '" /></div>{{/if}}{{if vcountry}}<div class="span6"><select class="jsn-input-xlarge-fluid">{{each(i, val) country}}<option value="${val.text}" {{if val.checked == true || val.checked=="true"}}selected{{/if}}>${val.text}</option>{{/each}}</select></div>{{/if}}</div>{{/if}}</div></div>'
+			'tmpl' => '<div class="control-group {{if hideField}}wr-hidden-field{{/if}} wr-group-field"><label class="control-label">${label}{{if required==1||required=="1"}}<span class="required">*</span>{{/if}}{{if instruction}}<i class="icon-question-sign"></i><p class="wr-help-text">${instruction}</p>{{/if}}</label><div class="controls">{{if vstreetAddress}}<div class="row-fluid"><input type="text" placeholder="' . __( 'Street Address', WR_CONTACTFORM_TEXTDOMAIN ) . '" class="jsn-input-xxlarge-fluid" /></div>{{/if}}{{if vstreetAddress2}}<div class="row-fluid"><input type="text" placeholder="' . __( 'Address Line 2', WR_CONTACTFORM_TEXTDOMAIN ) . '" class="jsn-input-xxlarge-fluid" /></div>{{/if}}{{if vcity || vstate}}<div class="row-fluid">{{if vcity}}<div class="span6"><input type="text" class="jsn-input-xlarge-fluid" placeholder="' . __( 'City', WR_CONTACTFORM_TEXTDOMAIN ) . '" /></div>{{/if}}{{if vstate}}<div class="span6"><input type="text" class="jsn-input-xlarge-fluid" placeholder="' . __( 'State/Province/Region', WR_CONTACTFORM_TEXTDOMAIN ) . '" /></div>{{/if}}</div>{{/if}} {{if vcode || vcountry}}<div class="row-fluid">{{if vcode}}<div class="span6"><input type="text" class="jsn-input-xlarge-fluid" placeholder="' . __( 'Postal/Zip code', WR_CONTACTFORM_TEXTDOMAIN ) . '" /></div>{{/if}}{{if vcountry}}<div class="span6"><select class="jsn-input-xlarge-fluid">{{each(i, val) country}}<option value="${val.text}" {{if val.checked == true || val.checked=="true"}}selected{{/if}}>${val.text}</option>{{/each}}</select></div>{{/if}}</div>{{/if}}</div></div>'
 		);
 		
 		return 'JSNVisualDesign.register("' . $identify . '", ' . json_encode($options) . ');';

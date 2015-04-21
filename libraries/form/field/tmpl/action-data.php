@@ -15,7 +15,7 @@ $output .= '<div id="action_data_contactform_url" class="hide action-options">';
 $output .= '<input type="text" name="contactform_action_data[contactform_url]" value="' . ( ! empty( $getValue[ 'contactform_url' ] ) ? $getValue[ 'contactform_url' ] : '' ) . '" />';
 $output .= '</div>';
 $output .= '<div id="action_data_contactform_show_message" class="hide action-options">';
-$output .= '<textarea name="contactform_action_data[contactform_show_message]" id="action_contactform_show_message" class="jsn-input-xlarge-fluid">' . ( ! empty( $getValue[ 'contactform_show_message' ] ) ? $getValue[ 'contactform_show_message' ] : '' ) . '</textarea>';
+$output .= '<textarea name="contactform_action_data[contactform_show_message]" id="action_contactform_show_message" class="jsn-input-xlarge-fluid">' . ( ! empty( $getValue[ 'contactform_show_message' ] ) ? $getValue[ 'contactform_show_message' ] : 'Thanks for your submit! ' ) . '</textarea>';
 $output .= '</div>';
 if ( ! empty( $this->items ) ) {
 	foreach ( $this->items as $items ) {

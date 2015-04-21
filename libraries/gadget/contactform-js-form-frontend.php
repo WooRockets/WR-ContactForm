@@ -110,6 +110,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                        self.createRecaptcha(selfsubmit, publickey, error);
 					                                        $(".jsn-modal-overlay,.jsn-modal-indicator").remove();
 					                                    }, 1000 );
+					                                    $(".jsn-form-content, .form-actions").hide(200);
 					                                }
 					                            });
 					                        } else {
@@ -131,6 +132,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                        self.createRecaptcha(selfsubmit, publickey, error);
 					                                        $(".jsn-modal-overlay,.jsn-modal-indicator").remove();
 					                                    }, 1000 );
+					                                    $(".jsn-form-content, .form-actions").hide(200);
 					                                }
 					                            });
 					                        }
@@ -186,55 +188,55 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            hourText:lang[\'WR_CONTACTFORM_DATE_HOUR_TEXT\'],
 					                            minuteText:lang[\'WR_CONTACTFORM_DATE_MINUTE_TEXT\'],
 					                            closeText:lang[\'WR_CONTACTFORM_DATE_CLOSE_TEXT\'],
-					                            prevText:lang[\'WR_CONTACTFORM_DATE_PREV_TEXT\'],
-					                            nextText:lang[\'WR_CONTACTFORM_DATE_NEXT_TEXT\'],
-					                            currentText:lang[\'WR_CONTACTFORM_DATE_CURRENT_TEXT\'],
-					                            monthNames:[lang[\'WR_CONTACTFORM_DATE_MONTH_JANUARY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_FEBRUARY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MARCH\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_APRIL\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JUNE\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JULY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_AUGUST\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_SEPTEMBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_OCTOBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_NOVEMBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_DECEMBER\']],
-					                            monthNamesShort:[lang[\'WR_CONTACTFORM_DATE_MONTH_JANUARY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_FEBRUARY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MARCH_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_APRIL_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JUNE_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JULY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_AUGUST_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_SEPTEMBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_OCTOBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_NOVEMBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_DECEMBER_SHORT\']],
-					                            dayNames:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY\']],
-					                            dayNamesShort:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY_SHORT\']],
-					                            dayNamesMin:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY_MIN\']],
-					                            weekHeader:lang[\'WR_CONTACTFORM_DATE_DAY_WEEK_HEADER\']
+					                            prevText:lang[\'Prev\'],
+					                            nextText:lang[\'Next\'],
+					                            currentText:lang[\'Today\'],
+					                            monthNames:[lang[\'January\'],
+					                                lang[\'February\'],
+					                                lang[\'March\'],
+					                                lang[\'April\'],
+					                                lang[\'May\'],
+					                                lang[\'June\'],
+					                                lang[\'July\'],
+					                                lang[\'August\'],
+					                                lang[\'September\'],
+					                                lang[\'October\'],
+					                                lang[\'November\'],
+					                                lang[\'December\']],
+					                            monthNamesShort:[lang[\'Jan\'],
+					                                lang[\'Feb\'],
+					                                lang[\'Mar\'],
+					                                lang[\'Apr\'],
+					                                lang[\'May\'],
+					                                lang[\'Jun\'],
+					                                lang[\'Jul\'],
+					                                lang[\'Aug\'],
+					                                lang[\'Sep\'],
+					                                lang[\'Oct\'],
+					                                lang[\'Nov\'],
+					                                lang[\'Dec\']],
+					                            dayNames:[lang[\'Sunday\'],
+					                                lang[\'Monday\'],
+					                                lang[\'Tuesday\'],
+					                                lang[\'Wednesday\'],
+					                                lang[\'Thursday\'],
+					                                lang[\'Friday\'],
+					                                lang[\'Saturday\']],
+					                            dayNamesShort:[lang[\'Sun\'],
+					                                lang[\'Mon\'],
+					                                lang[\'Tue\'],
+					                                lang[\'Wed\'],
+					                                lang[\'Thu\'],
+					                                lang[\'Fri\'],
+					                                lang[\'Sat\']],
+					                            dayNamesMin:[lang[\'Su\'],
+					                                lang[\'Mo\'],
+					                                lang[\'Tu\'],
+					                                lang[\'We\'],
+					                                lang[\'Th\'],
+					                                lang[\'Fr\'],
+					                                lang[\'Sa\']],
+					                            weekHeader:lang[\'Wk\']
 					                        });
 					                    } else if (dateSettings.dateFormat == "1") {
 					                        $(this).datepicker({
@@ -246,55 +248,55 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            hourText:lang[\'WR_CONTACTFORM_DATE_HOUR_TEXT\'],
 					                            minuteText:lang[\'WR_CONTACTFORM_DATE_MINUTE_TEXT\'],
 					                            closeText:lang[\'WR_CONTACTFORM_DATE_CLOSE_TEXT\'],
-					                            prevText:lang[\'WR_CONTACTFORM_DATE_PREV_TEXT\'],
-					                            nextText:lang[\'WR_CONTACTFORM_DATE_NEXT_TEXT\'],
-					                            currentText:lang[\'WR_CONTACTFORM_DATE_CURRENT_TEXT\'],
-					                            monthNames:[lang[\'WR_CONTACTFORM_DATE_MONTH_JANUARY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_FEBRUARY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MARCH\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_APRIL\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JUNE\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JULY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_AUGUST\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_SEPTEMBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_OCTOBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_NOVEMBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_DECEMBER\']],
-					                            monthNamesShort:[lang[\'WR_CONTACTFORM_DATE_MONTH_JANUARY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_FEBRUARY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MARCH_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_APRIL_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JUNE_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JULY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_AUGUST_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_SEPTEMBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_OCTOBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_NOVEMBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_DECEMBER_SHORT\']],
-					                            dayNames:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY\']],
-					                            dayNamesShort:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY_SHORT\']],
-					                            dayNamesMin:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY_MIN\']],
-					                            weekHeader:lang[\'WR_CONTACTFORM_DATE_DAY_WEEK_HEADER\']
+					                            prevText:lang[\'Prev\'],
+					                            nextText:lang[\'Next\'],
+					                            currentText:lang[\'Today\'],
+					                            monthNames:[lang[\'January\'],
+					                                lang[\'February\'],
+					                                lang[\'March\'],
+					                                lang[\'April\'],
+					                                lang[\'May\'],
+					                                lang[\'June\'],
+					                                lang[\'July\'],
+					                                lang[\'August\'],
+					                                lang[\'September\'],
+					                                lang[\'October\'],
+					                                lang[\'November\'],
+					                                lang[\'December\']],
+					                            monthNamesShort:[lang[\'Jan\'],
+					                                lang[\'Feb\'],
+					                                lang[\'Mar\'],
+					                                lang[\'Apr\'],
+					                                lang[\'May\'],
+					                                lang[\'Jun\'],
+					                                lang[\'Jul\'],
+					                                lang[\'Aug\'],
+					                                lang[\'Sep\'],
+					                                lang[\'Oct\'],
+					                                lang[\'Nov\'],
+					                                lang[\'Dec\']],
+					                            dayNames:[lang[\'Sunday\'],
+					                                lang[\'Monday\'],
+					                                lang[\'Tuesday\'],
+					                                lang[\'Wednesday\'],
+					                                lang[\'Thursday\'],
+					                                lang[\'Friday\'],
+					                                lang[\'Saturday\']],
+					                            dayNamesShort:[lang[\'Sun\'],
+					                                lang[\'Mon\'],
+					                                lang[\'Tue\'],
+					                                lang[\'Wed\'],
+					                                lang[\'Thu\'],
+					                                lang[\'Fri\'],
+					                                lang[\'Sat\']],
+					                            dayNamesMin:[lang[\'Su\'],
+					                                lang[\'Mo\'],
+					                                lang[\'Tu\'],
+					                                lang[\'We\'],
+					                                lang[\'Th\'],
+					                                lang[\'Fr\'],
+					                                lang[\'Sa\']],
+					                            weekHeader:lang[\'Wk\']
 					                        });
 					                    } else if (dateSettings.timeFormat == "1") {
 					                        $(this).timepicker({
@@ -304,55 +306,55 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            hourText:lang[\'WR_CONTACTFORM_DATE_HOUR_TEXT\'],
 					                            minuteText:lang[\'WR_CONTACTFORM_DATE_MINUTE_TEXT\'],
 					                            closeText:lang[\'WR_CONTACTFORM_DATE_CLOSE_TEXT\'],
-					                            prevText:lang[\'WR_CONTACTFORM_DATE_PREV_TEXT\'],
-					                            nextText:lang[\'WR_CONTACTFORM_DATE_NEXT_TEXT\'],
-					                            currentText:lang[\'WR_CONTACTFORM_DATE_CURRENT_TEXT\'],
-					                            monthNames:[lang[\'WR_CONTACTFORM_DATE_MONTH_JANUARY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_FEBRUARY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MARCH\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_APRIL\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JUNE\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JULY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_AUGUST\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_SEPTEMBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_OCTOBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_NOVEMBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_DECEMBER\']],
-					                            monthNamesShort:[lang[\'WR_CONTACTFORM_DATE_MONTH_JANUARY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_FEBRUARY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MARCH_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_APRIL_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JUNE_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JULY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_AUGUST_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_SEPTEMBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_OCTOBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_NOVEMBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_DECEMBER_SHORT\']],
-					                            dayNames:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY\']],
-					                            dayNamesShort:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY_SHORT\']],
-					                            dayNamesMin:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY_MIN\']],
-					                            weekHeader:lang[\'WR_CONTACTFORM_DATE_DAY_WEEK_HEADER\']
+					                            prevText:lang[\'Prev\'],
+					                            nextText:lang[\'Next\'],
+					                            currentText:lang[\'Today\'],
+					                            monthNames:[lang[\'January\'],
+					                                lang[\'February\'],
+					                                lang[\'March\'],
+					                                lang[\'April\'],
+					                                lang[\'May\'],
+					                                lang[\'June\'],
+					                                lang[\'July\'],
+					                                lang[\'August\'],
+					                                lang[\'September\'],
+					                                lang[\'October\'],
+					                                lang[\'November\'],
+					                                lang[\'December\']],
+					                            monthNamesShort:[lang[\'Jan\'],
+					                                lang[\'Feb\'],
+					                                lang[\'Mar\'],
+					                                lang[\'Apr\'],
+					                                lang[\'May\'],
+					                                lang[\'Jun\'],
+					                                lang[\'Jul\'],
+					                                lang[\'Aug\'],
+					                                lang[\'Sep\'],
+					                                lang[\'Oct\'],
+					                                lang[\'Nov\'],
+					                                lang[\'Dec\']],
+					                            dayNames:[lang[\'Sunday\'],
+					                                lang[\'Monday\'],
+					                                lang[\'Tuesday\'],
+					                                lang[\'Wednesday\'],
+					                                lang[\'Thursday\'],
+					                                lang[\'Friday\'],
+					                                lang[\'Saturday\']],
+					                            dayNamesShort:[lang[\'Sun\'],
+					                                lang[\'Mon\'],
+					                                lang[\'Tue\'],
+					                                lang[\'Wed\'],
+					                                lang[\'Thu\'],
+					                                lang[\'Fri\'],
+					                                lang[\'Sat\']],
+					                            dayNamesMin:[lang[\'Su\'],
+					                                lang[\'Mo\'],
+					                                lang[\'Tu\'],
+					                                lang[\'We\'],
+					                                lang[\'Th\'],
+					                                lang[\'Fr\'],
+					                                lang[\'Sa\']],
+					                            weekHeader:lang[\'Wk\']
 					                        });
 					                    } else {
 					                        $(this).datepicker({
@@ -363,55 +365,55 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            hourText:lang[\'WR_CONTACTFORM_DATE_HOUR_TEXT\'],
 					                            minuteText:lang[\'WR_CONTACTFORM_DATE_MINUTE_TEXT\'],
 					                            closeText:lang[\'WR_CONTACTFORM_DATE_CLOSE_TEXT\'],
-					                            prevText:lang[\'WR_CONTACTFORM_DATE_PREV_TEXT\'],
-					                            nextText:lang[\'WR_CONTACTFORM_DATE_NEXT_TEXT\'],
-					                            currentText:lang[\'WR_CONTACTFORM_DATE_CURRENT_TEXT\'],
-					                            monthNames:[lang[\'WR_CONTACTFORM_DATE_MONTH_JANUARY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_FEBRUARY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MARCH\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_APRIL\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JUNE\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JULY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_AUGUST\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_SEPTEMBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_OCTOBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_NOVEMBER\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_DECEMBER\']],
-					                            monthNamesShort:[lang[\'WR_CONTACTFORM_DATE_MONTH_JANUARY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_FEBRUARY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MARCH_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_APRIL_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_MAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JUNE_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_JULY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_AUGUST_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_SEPTEMBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_OCTOBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_NOVEMBER_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_MONTH_DECEMBER_SHORT\']],
-					                            dayNames:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY\']],
-					                            dayNamesShort:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY_SHORT\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY_SHORT\']],
-					                            dayNamesMin:[lang[\'WR_CONTACTFORM_DATE_DAY_SUNDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_MONDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_TUESDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_WEDNESDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_THURSDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_FRIDAY_MIN\'],
-					                                lang[\'WR_CONTACTFORM_DATE_DAY_SATURDAY_MIN\']],
-					                            weekHeader:lang[\'WR_CONTACTFORM_DATE_DAY_WEEK_HEADER\']
+					                            prevText:lang[\'Prev\'],
+					                            nextText:lang[\'Next\'],
+					                            currentText:lang[\'Today\'],
+					                            monthNames:[lang[\'January\'],
+					                                lang[\'February\'],
+					                                lang[\'March\'],
+					                                lang[\'April\'],
+					                                lang[\'May\'],
+					                                lang[\'June\'],
+					                                lang[\'July\'],
+					                                lang[\'August\'],
+					                                lang[\'September\'],
+					                                lang[\'October\'],
+					                                lang[\'November\'],
+					                                lang[\'December\']],
+					                            monthNamesShort:[lang[\'Jan\'],
+					                                lang[\'Feb\'],
+					                                lang[\'Mar\'],
+					                                lang[\'Apr\'],
+					                                lang[\'May\'],
+					                                lang[\'Jun\'],
+					                                lang[\'Jul\'],
+					                                lang[\'Aug\'],
+					                                lang[\'Sep\'],
+					                                lang[\'Oct\'],
+					                                lang[\'Nov\'],
+					                                lang[\'Dec\']],
+					                            dayNames:[lang[\'Sunday\'],
+					                                lang[\'Monday\'],
+					                                lang[\'Tuesday\'],
+					                                lang[\'Wednesday\'],
+					                                lang[\'Thursday\'],
+					                                lang[\'Friday\'],
+					                                lang[\'Saturday\']],
+					                            dayNamesShort:[lang[\'Sun\'],
+					                                lang[\'Mon\'],
+					                                lang[\'Tue\'],
+					                                lang[\'Wed\'],
+					                                lang[\'Thu\'],
+					                                lang[\'Fri\'],
+					                                lang[\'Sat\']],
+					                            dayNamesMin:[lang[\'Su\'],
+					                                lang[\'Mo\'],
+					                                lang[\'Tu\'],
+					                                lang[\'We\'],
+					                                lang[\'Th\'],
+					                                lang[\'Fr\'],
+					                                lang[\'Sa\']],
+					                            weekHeader:lang[\'Wk\']
 					                        });
 					                    }
 					                    $("button.ui-datepicker-trigger").addClass("btn btn-icon").html($("<i/>", {
@@ -540,13 +542,13 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                    $(this).keypress(function (e) {
 					                            if (e.which != 27 && e.which != 13 && e.which != 8) {
 					                                if (limitSettings.limitType == "Characters" && $(this).val().length == limitSettings.limitMax) {
-					                                    alert(lang[\'WR_CONTACTFORM_CONFIRM_FIELD_MAX_LENGTH\'] + " " + limitSettings.limitMax + " Characters");
+					                                    alert(lang[\'The information cannot contain more than\'] + " " + limitSettings.limitMax + " Characters");
 					                                    return false;
 					                                }
 					                                if (limitSettings.limitType == "Words") {
 					                                    var lengthValue = $.trim($(this).val() + String.fromCharCode(e.which)).split(/[\s]+/);
 					                                    if (lengthValue.length > limitSettings.limitMax && e.which != 0) {
-					                                        alert(lang[\'WR_CONTACTFORM_CONFIRM_FIELD_MAX_LENGTH\'] + " " + limitSettings.limitMax + " Words");
+					                                        alert(lang[\'The information cannot contain more than\'] + " " + limitSettings.limitMax + " Words");
 					                                        return false;
 					                                    }
 					                                }
@@ -972,7 +974,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }).append(
 					                                $("<span/>", {
 					                                    "class":"validation-result label label-important",
-					                                    text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY\']
+					                                    text:lang[\'This field can not be empty, please enter required information.\']
 					                                })));
 					                        check++;
 					                    }
@@ -1002,7 +1004,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }).append(
 					                                $("<span/>", {
 					                                    "class":"validation-result label label-important",
-					                                    text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY\']
+					                                    text:lang[\'This field can not be empty, please enter required information.\']
 					                                })));
 					                        check++;
 					                    }
@@ -1021,7 +1023,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }).append(
 					                                $("<span/>", {
 					                                    "class":"validation-result label label-important",
-					                                    text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY\']
+					                                    text:lang[\'This field can not be empty, please enter required information.\']
 					                                })))
 					                        check++;
 					                    } else if ($(this).find("select option:selected").hasClass(\'lbl-allowOther\')) {
@@ -1043,7 +1045,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                    }).append(
 					                                        $("<span/>", {
 					                                            "class":"validation-result label label-important",
-					                                            text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY\']
+					                                            text:lang[\'This field can not be empty, please enter required information.\']
 					                                        })))
 					                                check++;
 					                            }
@@ -1070,7 +1072,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }).append(
 					                                $("<span/>", {
 					                                    "class":"validation-result label label-important",
-					                                    text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_INVALID\']
+					                                    text:lang[\'The information is invalid, please correct.\']
 					                                })));
 					                        check++;
 					                    } else if (!$(this).hasClass("email-required") && val && !filter.test(val)) {
@@ -1081,7 +1083,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }).append(
 					                                $("<span/>", {
 					                                    "class":"validation-result label label-important",
-					                                    text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_INVALID\']
+					                                    text:lang[\'The information is invalid, please correct.\']
 					                                })));
 					                        check++;
 					                    }
@@ -1094,7 +1096,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                }).append(
 					                                    $("<span/>", {
 					                                        "class":"validation-result label label-important",
-					                                        text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_EMAIL_CONFIRM\']
+					                                        text:lang[\'Both email addresses must be the same.\']
 					                                    })));
 					                            check++;
 					                        }
@@ -1116,7 +1118,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }).append(
 					                                $("<span/>", {
 					                                    "class":"validation-result label label-important",
-					                                    text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_INVALID\']
+					                                    text:lang[\'The information is invalid, please correct.\']
 					                                })));
 					                        check++;
 					                    }
@@ -1148,7 +1150,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 												}).append(
 													$("<span/>", {
 														"class":"validation-result label label-important",
-														text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_INVALID\']
+														text:lang[\'The information is invalid, please correct.\']
 													})
 												)
 											);
@@ -1202,7 +1204,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 
 					                            if (checkPassword) {
 					                                check++;
-					                                var textLang = lang[\'WR_CONTACTFORM_CONFIRM_FIELD_PASSWORD_MIN_MAX_CHARACTER\'];
+					                                var textLang = lang[\'The password must contain minimum %mi% and maximum %mx% character(s)\'];
 					                                textLang = textLang.replace("%mi%", limitSettings.limitMin);
 					                                textLang = textLang.replace("%mx%", limitSettings.limitMax);
 					                                $(this).parent().addClass("error");
@@ -1272,7 +1274,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                        }).append(
 					                                            $("<span/>", {
 					                                                "class":"validation-result label label-important",
-					                                                text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_MIN_LENGTH\'] + " " + limitSettings.limitMin + " Words"
+					                                                text:lang[\'The information cannot contain less than\'] + " " + limitSettings.limitMin + " Words"
 					                                            })));
 					                                } else if (lengthValue.length > limitSettings.limitMax) {
 					                                    check++;
@@ -1283,7 +1285,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                        }).append(
 					                                            $("<span/>", {
 					                                                "class":"validation-result label label-important",
-					                                                text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_MAX_LENGTH\'] + " " + limitSettings.limitMax + " Words"
+					                                                text:lang[\'The information cannot contain more than\'] + " " + limitSettings.limitMax + " Words"
 					                                            })));
 					                                }
 					                            } else {
@@ -1296,7 +1298,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                        }).append(
 					                                            $("<span/>", {
 					                                                "class":"validation-result label label-important",
-					                                                text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_MIN_LENGTH\'] + " " + limitSettings.limitMin + " Character"
+					                                                text:lang[\'The information cannot contain less than\'] + " " + limitSettings.limitMin + " Character"
 					                                            })));
 					                                } else if ($(this).val().length > limitSettings.limitMax) {
 					                                    check++;
@@ -1307,7 +1309,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                        }).append(
 					                                            $("<span/>", {
 					                                                "class":"validation-result label label-important",
-					                                                text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_MAX_LENGTH\'] + " " + limitSettings.limitMax + " Character"
+					                                                text:lang[\'The information cannot contain more than\'] + " " + limitSettings.limitMax + " Character"
 					                                            })));
 					                                }
 					                            }
@@ -1341,7 +1343,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                        }).append(
 					                                            $("<span/>", {
 					                                                "class":"validation-result label label-important",
-					                                                text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_MIN_NUMBER\'] + " " + limitNumberSettings.limitMin
+					                                                text:lang[\'The number cannot be less than\'] + " " + limitNumberSettings.limitMin
 					                                            })));
 					                                } else if (parseInt($(this).val(), 10) > limitNumberSettings.limitMax) {
 					                                    check++;
@@ -1352,7 +1354,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                        }).append(
 					                                            $("<span/>", {
 					                                                "class":"validation-result label label-important",
-					                                                text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_MAX_NUMBER\'] + " " + limitNumberSettings.limitMax
+					                                                text:lang[\'The number cannot be greater than\'] + " " + limitNumberSettings.limitMax
 					                                            })));
 					                                }
 					                            }
@@ -1374,7 +1376,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }).append(
 					                                $("<span/>", {
 					                                    "class":"validation-result label label-important",
-					                                    text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_INVALID\']
+					                                    text:lang[\'The information is invalid, please correct.\']
 					                                })));
 					                        check++;
 					                    }
@@ -1393,7 +1395,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }).append(
 					                                $("<span/>", {
 					                                    "class":"validation-result label label-important",
-					                                    text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY\']
+					                                    text:lang[\'This field can not be empty, please enter required information.\']
 					                                })))
 					                        check++;
 					                    } else if ($(this).find("input[type=radio]:checked").hasClass(\'allowOther\') && $(this).find("input[type=radio]:checked").length == 1) {
@@ -1414,7 +1416,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                    }).append(
 					                                        $("<span/>", {
 					                                            "class":"validation-result label label-important",
-					                                            text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY\']
+					                                            text:lang[\'This field can not be empty, please enter required information.\']
 					                                        })))
 					                                check++;
 					                            }
@@ -1441,7 +1443,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                        }).append(
 					                                            $("<span/>", {
 					                                                "class":"validation-result label label-important",
-					                                                text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY\']
+					                                                text:lang[\'This field can not be empty, please enter required information.\']
 					                                            })))
 					                                }
 					                                check++;
@@ -1464,7 +1466,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }).append(
 					                                $("<span/>", {
 					                                    "class":"validation-result label label-important",
-					                                    text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY\']
+					                                    text:lang[\'This field can not be empty, please enter required information.\']
 					                                })))
 					                        check++;
 					                    } else if ($(this).find("input[type=checkbox]:checked").length == 1 && $(this).find("input[type=checkbox]:checked").hasClass(\'allowOther\')) {
@@ -1485,7 +1487,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                                    }).append(
 					                                        $("<span/>", {
 					                                            "class":"validation-result label label-important",
-					                                            text:lang[\'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY\']
+					                                            text:lang[\'This field can not be empty, please enter required information.\']
 					                                        })))
 					                                check++;
 					                            }

@@ -68,13 +68,13 @@
             }
 
             if ($("#template_notify_to").val() == 0) {
-                $("#jform_template_from").attr("placeholder", this.lang['WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_0']);
-                $("#jform_template_reply_to").attr("placeholder", this.lang['WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_0']);
-                $("#jform_template_subject").attr("placeholder", this.lang['WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_0']);
+                $("#jform_template_from").attr("placeholder", this.lang['e.g. Customer Department']);
+                $("#jform_template_reply_to").attr("placeholder", this.lang['e.g. support@yourdomain.com']);
+                $("#jform_template_subject").attr("placeholder", this.lang['e.g. Thank you for contacting us']);
             } else {
-                $("#jform_template_from").attr("placeholder", this.lang['WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_1']);
-                $("#jform_template_reply_to").attr("placeholder", this.lang['WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_1']);
-                $("#jform_template_subject").attr("placeholder", this.lang['WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_1']);
+                $("#jform_template_from").attr("placeholder", this.lang['Click the button on the right to select the form field identifying submitter name']);
+                $("#jform_template_reply_to").attr("placeholder", this.lang['Click the button on the right to select the form field identifying submitter email']);
+                $("#jform_template_subject").attr("placeholder", this.lang['e.g. Contact inquiry']);
             }
             parent.jQuery(" ul.jsn-page-list li.page-items").each(function () {
                 listOptionPage.push([$(this).find("input").attr('data-id'), $(this).find("input").attr('value')]);

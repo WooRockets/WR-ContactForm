@@ -6,6 +6,24 @@
  * @version $Id:
  * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
 */
+ .ui-datepicker-trigger {
+     height: 26px !important;
+ }
+ .wr-daterangepicker {
+     width:221px !important;
+     height: 30px !important;
+     padding: 4px 6px !important;
+ }
+ 
+ .jsn-bootstrap .jsn-row-container .jsn-form-content input{height:30px !important}
+ .jsn-bootstrap label.radio {
+     line-height: 36px !important;
+ }
+ input[type="text"], input[type="password"], input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"],  input[type="color"],.jsn-input-xxlarge-fluid,.jsn-input-xlarge-fluid,select, .uneditable-input{
+     min-height: 30px !important;
+     padding-top: 0px !important;
+     padding-bottom: 0px !important;
+ }
 .jsn-bootstrap * {
     word-wrap: break-word;
 }

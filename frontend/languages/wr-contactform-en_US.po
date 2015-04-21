@@ -50,28 +50,28 @@ msgstr "The value %s is not valid"
 msgid "WR ContactForm - View Form"
 msgstr "WR ContactForm - View Form"
 
-msgid "WR_CONTACTFORM_SELECT_FORM"
+msgid "Select Form"
 msgstr "Select Form"
 
-msgid "WR_CONTACTFORM_ERROR_WARNFILETYPE"
+msgid "This file type %s is not supported."
 msgstr "This file type '%s' is not supported."
 
-msgid "WR_CONTACTFORM_ERROR_WARNFILETOOLARGE"
+msgid "This file is too large to upload."
 msgstr "This file is too large to upload."
 
-msgid "WR_CONTACTFORM_ERROR_UNABLE_TO_UPLOAD_FILE"
+msgid "Unable to upload file."
 msgstr "Unable to upload file."
 
-msgid "WR_CONTACTFORM_ERROR_UPLOAD_INPUT"
+msgid "Please input a file for upload"
 msgstr "Please input a file for upload"
 
-msgid "WR_CONTACTFORM_ERROR_FIELD_INTEGER"
+msgid "The value %s is not integer"
 msgstr "The value %s is not integer"
 
-msgid "WR_CONTACTFORM_EMAIL_THANKS"
+msgid "Thank you for your email."
 msgstr "Thank you for your email."
 
-msgid "WR_CONTACTFORM_ERROR_CAPTCHA"
+msgid "Incorrect captcha text!"
 msgstr "Incorrect captcha text!"
 
 msgid "WR ContactForm"
@@ -83,67 +83,67 @@ msgstr "WR ContactForm - Select Form"
 msgid "WR_CONTACTFORM_BUTTON_SUBMIT"
 msgstr "Submit"
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY"
+msgid "This field can not be empty, please enter required information."
 msgstr "This field can not be empty, please enter required information."
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_INVALID"
+msgid "The information is invalid, please correct."
 msgstr "The information is invalid, please correct."
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_MAX_LENGTH"
+msgid "The information cannot contain more than"
 msgstr "The information cannot contain more than"
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_MIN_LENGTH"
+msgid "The information cannot contain less than"
 msgstr "The information cannot contain less than"
 
-msgid "WR_CONTACTFORM_POST_MAX_SIZE"
+msgid "The file you want to upload is too big. Please keep file size under %s MB"
 msgstr "The file you want to upload is too big. Please keep file size under %s MB"
 
-msgid "WR_CONTACTFORM_POST_UPLOAD_SIZE"
+msgid "The file you want to upload is too big. Please keep file size under %s"
 msgstr "The file you want to upload is too big. Please keep file size under %s"
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_MAX_NUMBER"
+msgid "The number cannot be greater than"
 msgstr "The number cannot be greater than"
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_MIN_NUMBER"
+msgid "The number cannot be less than"
 msgstr "The number cannot be less than"
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_EMAIL_CONFIRM"
+msgid "Both email addresses must be the same."
 msgstr "Both email addresses must be the same."
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_CONFIRM"
+msgid "Both %s addresses must be the same."
 msgstr "Both %s addresses must be the same."
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_PASSWORD_CONFIRM"
+msgid "Both password must be the same."
 msgstr "Both password must be the same."
 
-msgid "WR_CONTACTFORM_CONFIRM_FIELD_PASSWORD_MIN_MAX_CHARACTER"
+msgid "The password must contain minimum %mi% and maximum %mx% character(s)"
 msgstr "The password must contain minimum %mi% and maximum %mx% character(s)"
 
 msgid "WR_CONTACTFORM_FIELD_PASSWORD"
 msgstr "The value %s is not valid"
 
-msgid "STREET_ADDRESS"
+msgid "Street Address"
 msgstr "Street Address"
 
-msgid "ADDRESS_LINE_2"
+msgid "Address Line 2"
 msgstr "Address Line 2"
 
-msgid "CITY"
+msgid "City"
 msgstr "City"
 
-msgid "POSTAL_ZIP_CODE"
+msgid "Postal/Zip code"
 msgstr "Postal/Zip code"
 
-msgid "STATE_PROVINCE_REGION"
+msgid "State/Province/Region"
 msgstr "State/Province/Region "
 
-msgid "FIRST"
+msgid "First"
 msgstr "First"
 
-msgid "MIDDLE"
+msgid "Middle"
 msgstr "Middle"
 
-msgid "LAST"
+msgid "Last"
 msgstr "Last"
 
 msgid "OTHERS"
@@ -269,149 +269,149 @@ msgstr "Minute"
 msgid "WR_CONTACTFORM_DATE_CLOSE_TEXT"
 msgstr "Close"
 
-msgid "WR_CONTACTFORM_DATE_PREV_TEXT"
+msgid "Prev"
 msgstr "Prev"
 
-msgid "WR_CONTACTFORM_DATE_NEXT_TEXT"
+msgid "Next"
 msgstr "Next"
 
-msgid "WR_CONTACTFORM_DATE_CURRENT_TEXT"
+msgid "Today"
 msgstr "Today"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JANUARY"
+msgid "January"
 msgstr "January"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_FEBRUARY"
+msgid "February"
 msgstr "February"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_MARCH"
+msgid "March"
 msgstr "March"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_APRIL"
+msgid "April"
 msgstr "April"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_MAY"
+msgid "May"
 msgstr "May"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JUNE"
+msgid "June"
 msgstr "June"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JULY"
+msgid "July"
 msgstr "July"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_AUGUST"
+msgid "August"
 msgstr "August"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_SEPTEMBER"
+msgid "September"
 msgstr "September"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_OCTOBER"
+msgid "October"
 msgstr "October"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_NOVEMBER"
+msgid "November"
 msgstr "November"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_DECEMBER"
+msgid "December"
 msgstr "December"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JANUARY_SHORT"
+msgid "Jan"
 msgstr "Jan"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_FEBRUARY_SHORT"
+msgid "Feb"
 msgstr "Feb"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_MARCH_SHORT"
+msgid "Mar"
 msgstr "Mar"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_APRIL_SHORT"
+msgid "Apr"
 msgstr "Apr"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_MAY_SHORT"
+msgid "May"
 msgstr "May"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JUNE_SHORT"
+msgid "Jun"
 msgstr "Jun"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JULY_SHORT"
+msgid "Jul"
 msgstr "Jul"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_AUGUST_SHORT"
+msgid "Aug"
 msgstr "Aug"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_SEPTEMBER_SHORT"
+msgid "Sep"
 msgstr "Sep"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_OCTOBER_SHORT"
+msgid "Oct"
 msgstr "Oct"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_NOVEMBER_SHORT"
+msgid "Nov"
 msgstr "Nov"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_DECEMBER_SHORT"
+msgid "Dec"
 msgstr "Dec"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SUNDAY"
+msgid "Sunday"
 msgstr "Sunday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_MONDAY"
+msgid "Monday"
 msgstr "Monday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_TUESDAY"
+msgid "Tuesday"
 msgstr "Tuesday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_WEDNESDAY"
+msgid "Wednesday"
 msgstr "Wednesday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_THURSDAY"
+msgid "Thursday"
 msgstr "Thursday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_FRIDAY"
+msgid "Friday"
 msgstr "Friday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SATURDAY"
+msgid "Saturday"
 msgstr "Saturday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SUNDAY_SHORT"
+msgid "Sun"
 msgstr "Sun"
 
-msgid "WR_CONTACTFORM_DATE_DAY_MONDAY_SHORT"
+msgid "Mon"
 msgstr "Mon"
 
-msgid "WR_CONTACTFORM_DATE_DAY_TUESDAY_SHORT"
+msgid "Tue"
 msgstr "Tue"
 
-msgid "WR_CONTACTFORM_DATE_DAY_WEDNESDAY_SHORT"
+msgid "Wed"
 msgstr "Wed"
 
-msgid "WR_CONTACTFORM_DATE_DAY_THURSDAY_SHORT"
+msgid "Thu"
 msgstr "Thu"
 
-msgid "WR_CONTACTFORM_DATE_DAY_FRIDAY_SHORT"
+msgid "Fri"
 msgstr "Fri"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SATURDAY_SHORT"
+msgid "Sat"
 msgstr "Sat"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SUNDAY_MIN"
+msgid "Su"
 msgstr "Su"
 
-msgid "WR_CONTACTFORM_DATE_DAY_MONDAY_MIN"
+msgid "Mo"
 msgstr "Mo"
 
-msgid "WR_CONTACTFORM_DATE_DAY_TUESDAY_MIN"
+msgid "Tu"
 msgstr "Tu"
 
-msgid "WR_CONTACTFORM_DATE_DAY_WEDNESDAY_MIN"
+msgid "We"
 msgstr "We"
 
-msgid "WR_CONTACTFORM_DATE_DAY_THURSDAY_MIN"
+msgid "Th"
 msgstr "Th"
 
-msgid "WR_CONTACTFORM_DATE_DAY_FRIDAY_MIN"
+msgid "Fr"
 msgstr "Fr"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SATURDAY_MIN"
+msgid "Sa"
 msgstr "Sa"
 
-msgid "WR_CONTACTFORM_DATE_DAY_WEEK_HEADER"
+msgid "Wk"
 msgstr "Wk"

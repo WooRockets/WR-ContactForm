@@ -139,22 +139,22 @@ class WR_CF_Gadget_Controls_Name {
 							'vtitle' => array(
 								'field' => 'name',
 								'type' => 'checkbox',
-								'label' => __( 'TITLES', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Titles', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'vfirst' => array(
 								'field' => 'name',
 								'type' => 'checkbox',
-								'label' => __( 'FIRST', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'First', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'vmiddle' => array(
 								'field' => 'name',
 								'type' => 'checkbox',
-								'label' => __( 'MIDDLE', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Last', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'vlast' => array(
 								'field' => 'name',
 								'type' => 'checkbox',
-								'label' => __( 'LAST', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Last', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'sortableField' => array(
 								'type' => 'hidden'
@@ -163,7 +163,7 @@ class WR_CF_Gadget_Controls_Name {
 					)
 				)
 			),
-			'tmpl' => '<div class="control-group ${customClass} {{if hideField}}wr-hidden-field{{/if}}"><label class="control-label">${label}{{if required==1||required=="1"}}<span class="required">*</span>{{/if}}{{if instruction}}<i class="icon-question-sign"></i><p class="wr-help-text">${instruction}</p>{{/if}}</label><div class="controls">{{if vtitle}}<select class="input-small" >{{each(i, val) items}}<option value="${val.text}" {{if val.checked == true || val.checked=="true"}}selected{{/if}}>${val.text}</option>{{/each}}</select>&nbsp;{{/if}}{{if vfirst}}<input type="text" class="${size}" placeholder="' . __( 'FIRST', WR_CONTACTFORM_TEXTDOMAIN ) . '" />&nbsp;{{/if}}{{if vmiddle}}<input type="text" class="${size}" placeholder="' . __( 'MIDDLE', WR_CONTACTFORM_TEXTDOMAIN ) . '" />&nbsp;{{/if}}{{if vlast}}<input type="text" class="${size}" placeholder="' . __( 'LAST', WR_CONTACTFORM_TEXTDOMAIN ) . '" />{{/if}}</div></div>'
+			'tmpl' => '<div class="control-group ${customClass} {{if hideField}}wr-hidden-field{{/if}}"><label class="control-label">${label}{{if required==1||required=="1"}}<span class="required">*</span>{{/if}}{{if instruction}}<i class="icon-question-sign"></i><p class="wr-help-text">${instruction}</p>{{/if}}</label><div class="controls">{{if vtitle}}<select class="input-small" >{{each(i, val) items}}<option value="${val.text}" {{if val.checked == true || val.checked=="true"}}selected{{/if}}>${val.text}</option>{{/each}}</select>&nbsp;{{/if}}{{if vfirst}}<input type="text" class="${size}" placeholder="' . __( 'First', WR_CONTACTFORM_TEXTDOMAIN ) . '" />&nbsp;{{/if}}{{if vmiddle}}<input type="text" class="${size}" placeholder="' . __( 'Middle', WR_CONTACTFORM_TEXTDOMAIN ) . '" />&nbsp;{{/if}}{{if vlast}}<input type="text" class="${size}" placeholder="' . __( 'Last', WR_CONTACTFORM_TEXTDOMAIN ) . '" />{{/if}}</div></div>'
 		);
 		
 		return 'JSNVisualDesign.register("' . $identify . '", ' . json_encode($options) . ');';

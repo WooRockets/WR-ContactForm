@@ -88,7 +88,7 @@ class WR_CF_Gadget_Contactform_Frontend extends WR_CF_Gadget_Base {
 			if ( $postMaxSize > (int)( ini_get( 'upload_max_filesize' ) ) ) {
 				$postMaxSize = (int)( ini_get( 'upload_max_filesize' ) );
 			}
-			echo '<input type="hidden" name="error" value=\'' . htmlentities( json_encode( array( 'max-upload' => __( 'WR_CONTACTFORM_POST_MAX_SIZE', WR_CONTACTFORM_TEXTDOMAIN ) ) ), ENT_QUOTES, 'UTF-8' ) . '\'/>';
+			echo '<input type="hidden" name="error" value=\'' . htmlentities( json_encode( array( 'max-upload' => __( 'The file you want to upload is too big. Please keep file size under %s MB', WR_CONTACTFORM_TEXTDOMAIN ) ) ), ENT_QUOTES, 'UTF-8' ) . '\'/>';
 			exit();
 		}
 	}
@@ -228,27 +228,27 @@ class WR_CF_Gadget_Contactform_Frontend extends WR_CF_Gadget_Base {
 			$countValue = explode( ' ', preg_replace( '/\s+/', ' ', trim( $postIndentifier ) ) );
 
 			if ( count( $countValue ) < $fieldSettings->options->limitMin ) {
-				$validationForm[ $fieldIdentifier ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_MIN_LENGTH', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMin . ' Words';
+				$validationForm[ $fieldIdentifier ] = __( 'The information cannot contain less than', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMin . ' Words';
 			}
 			else if ( count( $countValue ) > $fieldSettings->options->limitMax ) {
-				$validationForm[ $fieldIdentifier ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_MAX_LENGTH', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMax . ' Words';
+				$validationForm[ $fieldIdentifier ] = __( 'The information cannot contain more than', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMax . ' Words';
 			}
 		}
 		else {
 			if ( isset( $fieldSettings->type ) && $fieldSettings->type != 'password' ) {
 				if ( strlen( $postIndentifier ) < $fieldSettings->options->limitMin ) {
-					$validationForm[ $fieldIdentifier ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_MIN_LENGTH', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMin . ' Character';
+					$validationForm[ $fieldIdentifier ] = __( 'The information cannot contain less than', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMin . ' Character';
 				}
 				else if ( strlen( $postIndentifier ) > $fieldSettings->options->limitMax ) {
-					$validationForm[ $fieldIdentifier ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_MAX_LENGTH', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMax . ' Character';
+					$validationForm[ $fieldIdentifier ] = __( 'The information cannot contain more than', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMax . ' Character';
 				}
 			}
 			else {
 				if ( strlen( $postIndentifier ) < $fieldSettings->options->limitMin ) {
-					$validationForm[ 'password' ][ $fieldIdentifier ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_MIN_LENGTH', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMin . ' Character';
+					$validationForm[ 'password' ][ $fieldIdentifier ] = __( 'The information cannot contain less than', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMin . ' Character';
 				}
 				else if ( strlen( $postIndentifier ) > $fieldSettings->options->limitMax ) {
-					$validationForm[ 'password' ][ $fieldIdentifier ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_MAX_LENGTH', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMax . ' Character';
+					$validationForm[ 'password' ][ $fieldIdentifier ] = __( 'The information cannot contain more than', WR_CONTACTFORM_TEXTDOMAIN ) . ' ' . $fieldSettings->options->limitMax . ' Character';
 				}
 			}
 		}
@@ -311,7 +311,7 @@ class WR_CF_Gadget_Contactform_Frontend extends WR_CF_Gadget_Base {
 				$resp = recaptcha_check_answer( WR_CONTACTFORM_CAPTCHA_PRIVATEKEY, $_SERVER[ 'REMOTE_ADDR' ], $recaptchaChallenge, $recaptchaResponse );
 
 				if ( ! $resp->is_valid ) {
-					$return->error[ 'captcha' ] = __( 'WR_CONTACTFORM_ERROR_CAPTCHA', WR_CONTACTFORM_TEXTDOMAIN );
+					$return->error[ 'captcha' ] = __( 'Incorrect captcha text!', WR_CONTACTFORM_TEXTDOMAIN );
 
 					return $return;
 				}
@@ -320,12 +320,12 @@ class WR_CF_Gadget_Contactform_Frontend extends WR_CF_Gadget_Base {
 				if ( ! empty( $_POST[ 'form_name' ] ) && ! empty( $_POST[ 'captcha' ] ) ) {
 					$sCaptcha = $_SESSION[ 'securimage_code_value' ][ $_POST[ 'form_name' ] ] ? $_SESSION[ 'securimage_code_value' ][ $_POST[ 'form_name' ] ] : '';
 					if ( strtolower( $sCaptcha ) != strtolower( $_POST[ 'captcha' ] ) ) {
-						$return->error[ 'captcha_2' ] = __( 'WR_CONTACTFORM_ERROR_CAPTCHA', WR_CONTACTFORM_TEXTDOMAIN );
+						$return->error[ 'captcha_2' ] = __( 'Incorrect captcha text!', WR_CONTACTFORM_TEXTDOMAIN );
 						return $return;
 					}
 				}
 				else {
-					$return->error[ 'captcha_2' ] = __( 'WR_CONTACTFORM_ERROR_CAPTCHA', WR_CONTACTFORM_TEXTDOMAIN );
+					$return->error[ 'captcha_2' ] = __( 'Incorrect captcha text!', WR_CONTACTFORM_TEXTDOMAIN );
 					return $return;
 				}
 			}
@@ -466,11 +466,11 @@ class WR_CF_Gadget_Contactform_Frontend extends WR_CF_Gadget_Base {
 						$postData = isset( $post[ $fieldName ] ) ? $post[ $fieldName ] : '';
 						$postDataConfirm = isset( $post[ $fieldName . '_confirm' ] ) ? $post[ $fieldName . '_confirm' ] : '';
 						if ( isset( $fieldSettings->options->required ) && (int)$fieldSettings->options->required == 1 && $postData != $postDataConfirm ) {
-							$error = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CONFIRM', WR_CONTACTFORM_TEXTDOMAIN );
+							$error = __( 'Both %s addresses must be the same.', WR_CONTACTFORM_TEXTDOMAIN );
 							$validationForm[ $fieldName ] = str_replace( '%s', $colum->field_title, $error );
 						}
 						else if ( ! empty( $postData ) && ! empty( $postDataConfirm ) && $postData != $postDataConfirm ) {
-							$error = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CONFIRM', WR_CONTACTFORM_TEXTDOMAIN );
+							$error = __( 'Both %s addresses must be the same.', WR_CONTACTFORM_TEXTDOMAIN );
 							$validationForm[ $fieldName ] = str_replace( '%s', $colum->field_title, $error );
 						}
 					}
@@ -484,7 +484,7 @@ class WR_CF_Gadget_Contactform_Frontend extends WR_CF_Gadget_Base {
 						}
 						else {
 							if ( isset( $post[ $fieldName ] ) && $post[ $fieldName ] == '' ) {
-								$validationForm[ $fieldName ] = __( 'WR_CONTACTFORM_CONFIRM_FIELD_CANNOT_EMPTY', WR_CONTACTFORM_TEXTDOMAIN );
+								$validationForm[ $fieldName ] = __( 'This field can not be empty, please enter required information.', WR_CONTACTFORM_TEXTDOMAIN );
 							}
 						}
 					}

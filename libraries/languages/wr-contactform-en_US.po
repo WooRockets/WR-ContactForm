@@ -493,7 +493,7 @@ msgstr "Select Field"
 msgid "Select Email Field"
 msgstr "Select Email Field"
 
-msgid "WR_CONTACTFORM_ADD_FIELD"
+msgid "Add Field"
 msgstr "Add Field"
 
 msgid "Captcha Integration"
@@ -601,8 +601,8 @@ msgstr "Form Style"
 msgid "Select style to apply to the form."
 msgstr "Select style to apply to the form."
 
-msgid "Allow user’s choice"
-msgstr "Allow user’s choice"
+msgid "Allow user's choice"
+msgstr "Allow user's choice"
 
 msgid "Set the first item as placeholder"
 msgstr "Set the first item as placeholder"
@@ -778,22 +778,22 @@ msgid "Access Configuration "
 msgstr "Access Configuration"
 
 # PLACEHOLDER form
-msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_1"
+msgid "Click the button on the right to select the form field identifying submitter name"
 msgstr "Click the button on the right to select the form field identifying submitter's name"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_1"
+msgid "Click the button on the right to select the form field identifying submitter email"
 msgstr "Click the button on the right to select the form field identifying submitter's email"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_1"
+msgid "e.g. Contact inquiry"
 msgstr "e.g. Contact inquiry"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_FROM_0"
+msgid "e.g. Customer Department"
 msgstr "e.g. Customer Department"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_REPLY_TO_0"
+msgid "e.g. support@yourdomain.com"
 msgstr "e.g. support@yourdomain.com"
 
-msgid "WR_CONTACTFORM_PLACEHOLDER_EMAIL_SUBJECT_0"
+msgid "e.g. Thank you for contacting us"
 msgstr "e.g. Thank you for contacting us"
 
 msgid "Enter your email message"
@@ -1001,13 +1001,13 @@ msgstr "Vote on JED"
 msgid "WR_GENERAL_KEEP_IN_TOUCH"
 msgstr "Follow us"
 
-msgid "WR_GENERAL_UPGRADE_TO_PRO"
+msgid "Upgrade to pro"
 msgstr "Upgrade to pro"
 
-msgid "WR_VIEW_UPDATE_AVAILALBE"
+msgid "Updates are available."
 msgstr "Updates are available."
 
-msgid "WR_GENERAL_UPDATE_NOW"
+msgid "Update Now"
 msgstr "Update Now"
 
 # task view select form
@@ -1017,7 +1017,7 @@ msgstr "Form: "
 msgid "WR_CONTACTFORM_MODULE_LIST_FORM_DES"
 msgstr "WR ContactForm - Select Form"
 
-msgid "WR_CONTACTFORM_SELECT_FORM"
+msgid "Select Form"
 msgstr "Select Form"
 
 msgid "WR_CONTACTFORM_MODULE_DES"
@@ -1044,10 +1044,10 @@ msgstr "See all forms"
 msgid "WR_CONTACTFORM_YOU_MUST_SELECT_SOME_FORM"
 msgstr "You must select some form to edit"
 
-msgid "WR_CONTACTFORM_FIELD_TITLE_FORM_WARNING"
+msgid "Form is not defined"
 msgstr "Form is not defined"
 
-msgid "WR_CONTACTFORM_FIELD_DES_FORM_WARNING"
+msgid "You must select some form. You can create one by clicking icon Plus on the right."
 msgstr "You must select some form. You can create one by clicking icon 'Plus' on the right."
 
 # configuration data
@@ -1096,10 +1096,10 @@ msgstr "Sample data is successfully installed"
 msgid "WR_DATA_SAMPLE_INSTALL_SUCCESS_MESSAGE"
 msgstr "Congratulations, now you can operate on sample Form"
 
-msgid "WR_GENERAL_UPGRADE_TO_PRO_UNLIMITED"
+msgid "Upgrade to PRO UNLIMITED"
 msgstr "Upgrade to PRO UNLIMITED"
 
-msgid "WR_EXTFW_CONFIG_BACKUP_SUCCESS"
+msgid "Backup data successfully"
 msgstr "Backup data successfully"
 
 # About
@@ -1190,44 +1190,44 @@ msgstr "<p>Dedicated Helpdesk System is for developers who bought PRO UNLIMITED 
 msgid "WR_CONTACTFORM_HELP_BUY_PRO_STANDARD_EDITION"
 msgstr "Buy PRO STANDARD edition"
 
-msgid "WR_CONTACTFORM_HELP_BUY_PRO_UNLIMITED_EDITION"
+msgid "Buy PRO UNLIMITED edition"
 msgstr "Buy PRO UNLIMITED edition"
 
-msgid "WR_CONTACTFORM_HELP_UPGRADE_TO_PRO_UNLIMITED_EDITION"
+msgid "Upgrade to PRO UNLIMITED edition"
 msgstr "Upgrade to PRO UNLIMITED edition"
 
-msgid "WR_CONTACTFORM_HELP_WATCH_QUICK_START_VIDEO"
+msgid "Watch Quick Start Video"
 msgstr "Watch Quick Start Video"
 
 # placeholder controls
-msgid "STREET_ADDRESS"
+msgid "Street Address"
 msgstr "Street Address"
 
-msgid "ADDRESS_LINE_2"
+msgid "Address Line 2"
 msgstr "Address Line 2"
 
-msgid "CITY"
+msgid "City"
 msgstr "City"
 
-msgid "POSTAL_ZIP_CODE"
+msgid "Postal/Zip code"
 msgstr "Postal/Zip code"
 
-msgid "STATE_PROVINCE_REGION"
+msgid "State/Province/Region"
 msgstr "State/Province/Region"
 
-msgid "FIRST"
+msgid "First"
 msgstr "First"
 
-msgid "MIDDLE"
+msgid "Last"
 msgstr "Middle"
 
-msgid "LAST"
+msgid "Last"
 msgstr "Last"
 
-msgid "COUNTRY"
+msgid "Country"
 msgstr "Country"
 
-msgid "TITLES"
+msgid "Titles"
 msgstr "Titles"
 
 # date time
@@ -1240,151 +1240,151 @@ msgstr "Minute"
 msgid "WR_CONTACTFORM_DATE_CLOSE_TEXT"
 msgstr "Close"
 
-msgid "WR_CONTACTFORM_DATE_PREV_TEXT"
+msgid "Prev"
 msgstr "Prev"
 
-msgid "WR_CONTACTFORM_DATE_NEXT_TEXT"
+msgid "Next"
 msgstr "Next"
 
-msgid "WR_CONTACTFORM_DATE_CURRENT_TEXT"
+msgid "Today"
 msgstr "Today"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JANUARY"
+msgid "January"
 msgstr "January"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_FEBRUARY"
+msgid "February"
 msgstr "February"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_MARCH"
+msgid "March"
 msgstr "March"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_APRIL"
+msgid "April"
 msgstr "April"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_MAY"
+msgid "May"
 msgstr "May"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JUNE"
+msgid "June"
 msgstr "June"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JULY"
+msgid "July"
 msgstr "July"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_AUGUST"
+msgid "August"
 msgstr "August"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_SEPTEMBER"
+msgid "September"
 msgstr "September"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_OCTOBER"
+msgid "October"
 msgstr "October"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_NOVEMBER"
+msgid "November"
 msgstr "November"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_DECEMBER"
+msgid "December"
 msgstr "December"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JANUARY_SHORT"
+msgid "Jan"
 msgstr "Jan"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_FEBRUARY_SHORT"
+msgid "Feb"
 msgstr "Feb"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_MARCH_SHORT"
+msgid "Mar"
 msgstr "Mar"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_APRIL_SHORT"
+msgid "Apr"
 msgstr "Apr"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_MAY_SHORT"
+msgid "May"
 msgstr "May"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JUNE_SHORT"
+msgid "Jun"
 msgstr "Jun"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_JULY_SHORT"
+msgid "Jul"
 msgstr "Jul"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_AUGUST_SHORT"
+msgid "Aug"
 msgstr "Aug"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_SEPTEMBER_SHORT"
+msgid "Sep"
 msgstr "Sep"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_OCTOBER_SHORT"
+msgid "Oct"
 msgstr "Oct"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_NOVEMBER_SHORT"
+msgid "Nov"
 msgstr "Nov"
 
-msgid "WR_CONTACTFORM_DATE_MONTH_DECEMBER_SHORT"
+msgid "Dec"
 msgstr "Dec"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SUNDAY"
+msgid "Sunday"
 msgstr "Sunday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_MONDAY"
+msgid "Monday"
 msgstr "Monday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_TUESDAY"
+msgid "Tuesday"
 msgstr "Tuesday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_WEDNESDAY"
+msgid "Wednesday"
 msgstr "Wednesday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_THURSDAY"
+msgid "Thursday"
 msgstr "Thursday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_FRIDAY"
+msgid "Friday"
 msgstr "Friday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SATURDAY"
+msgid "Saturday"
 msgstr "Saturday"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SUNDAY_SHORT"
+msgid "Sun"
 msgstr "Sun"
 
-msgid "WR_CONTACTFORM_DATE_DAY_MONDAY_SHORT"
+msgid "Mon"
 msgstr "Mon"
 
-msgid "WR_CONTACTFORM_DATE_DAY_TUESDAY_SHORT"
+msgid "Tue"
 msgstr "Tue"
 
-msgid "WR_CONTACTFORM_DATE_DAY_WEDNESDAY_SHORT"
+msgid "Wed"
 msgstr "Wed"
 
-msgid "WR_CONTACTFORM_DATE_DAY_THURSDAY_SHORT"
+msgid "Thu"
 msgstr "Thu"
 
-msgid "WR_CONTACTFORM_DATE_DAY_FRIDAY_SHORT"
+msgid "Fri"
 msgstr "Fri"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SATURDAY_SHORT"
+msgid "Sat"
 msgstr "Sat"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SUNDAY_MIN"
+msgid "Su"
 msgstr "Su"
 
-msgid "WR_CONTACTFORM_DATE_DAY_MONDAY_MIN"
+msgid "Mo"
 msgstr "Mo"
 
-msgid "WR_CONTACTFORM_DATE_DAY_TUESDAY_MIN"
+msgid "Tu"
 msgstr "Tu"
 
-msgid "WR_CONTACTFORM_DATE_DAY_WEDNESDAY_MIN"
+msgid "We"
 msgstr "We"
 
-msgid "WR_CONTACTFORM_DATE_DAY_THURSDAY_MIN"
+msgid "Th"
 msgstr "Th"
 
-msgid "WR_CONTACTFORM_DATE_DAY_FRIDAY_MIN"
+msgid "Fr"
 msgstr "Fr"
 
-msgid "WR_CONTACTFORM_DATE_DAY_SATURDAY_MIN"
+msgid "Sa"
 msgstr "Sa"
 
-msgid "WR_CONTACTFORM_DATE_DAY_WEEK_HEADER"
+msgid "Wk"
 msgstr "Wk"
 
 # Container
@@ -1394,38 +1394,38 @@ msgstr "Move Up"
 msgid "WR_CONTACTFORM_MOVE_DOWN_CONTAINER"
 msgstr "Move Down"
 
-msgid "WR_CONTACTFORM_ADD_CONTAINER_COLUMN"
+msgid "Add Column"
 msgstr "Add Column"
 
-msgid "WR_CONTACTFORM_DELETE_CONTAINER"
+msgid "Delete Container"
 msgstr "Delete Container"
 
-msgid "WR_CONTACTFORM_DELETE_CONTAINER_COLUMN"
+msgid "Delete Column"
 msgstr "Delete Column"
 
-msgid "WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER"
+msgid "Are you sure you want to delete the whole row including all elements it contains?"
 msgstr "Are you sure you want to delete the whole row including all elements it contains?"
 
-msgid "WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER_COLUMN"
+msgid "Are you sure you want to delete the whole column including all elements it contains?"
 msgstr "Are you sure you want to delete the whole column including all elements it contains?"
 
 msgid "WR_CONTACTFORM_BUTTONS"
 msgstr "Buttons"
 
-msgid "WR_CONTACTFORM_BUTTON_POSITION"
+msgid "Button Position"
 msgstr "Button Position"
 
-msgid "WR_CONTACTFORM_ADD_CONTAINER"
+msgid "Add Container"
 msgstr "Add Container"
 
 # Custom Css
 msgid "WR_CONTACTFORM_CUSTOM_CSS"
 msgstr "CSS"
 
-msgid "WR_CONTACTFORM_SAVE_SUBMISSIONS"
+msgid "Save Submissions"
 msgstr "Save Submissions"
 
-msgid "WR_CONTACTFORM_SAVE_SUBMISSIONS_DES"
+msgid "Select Yes if you want to save submissions to database for later utilization."
 msgstr "Select 'Yes' if you want to save submissions to database for later utilization."
 
 msgid "WR_CONTACTFORM_SHOW_FORM_TITLE"
@@ -1445,3 +1445,90 @@ msgstr "Show Submission Data Detail"
 
 msgid "WR_CONTACTFORM_SHOW_SUBMISSION_DATA_DETAIL_DES"
 msgstr "Show Submission Data Detail"
+
+msgid "Thank you for installing WR Contact Form from WooRockets Team! We are making new hi-quality themes and plugins for you ;) Follow us on <a href=\"%s\" target=\"_blank\" >Twitter</a> or <a href=\"%s\" target=\"_blank\" >Subscribe</a> to our email list and be the first to get updated."
+msgstr "Thank you for installing WR Contact Form from WooRockets Team! We are making new hi-quality themes and plugins for you ;) Follow us on <a href=\"%s\" target=\"_blank\" >Twitter</a> or <a href=\"%s\" target=\"_blank\" >Subscribe</a> to our email list and be the first to get updated."
+
+msgid "About WR Contact Form"
+msgstr "About WR Contact Form"
+
+msgid "You would never find any other easier WordPress Contact Form builder than <strong>WR ContactForm</strong>. This free user-oriented form creator with drag-and-drop interface makes the job easier than ever. You will no longer have to worry about writing code or learning any new skill"
+msgstr "You would never find any other easier WordPress Contact Form builder than <strong>WR ContactForm</strong>. This free user-oriented form creator with drag-and-drop interface makes the job easier than ever. You will no longer have to worry about writing code or learning any new skill"
+
+msgid "Current version"
+msgstr "Current version"
+
+msgid "Change log"
+msgstr "Change log"
+
+msgid "Follow us to get latest updates"
+msgstr "Follow us to get latest updates"
+
+msgid "Follow"
+msgstr "Follow"
+
+msgid "Join our mailing list"
+msgstr "Join our mailing list"
+
+msgid "Receive the latest updates about WR Contact Form as well as all the best news from WooRockets"
+msgstr "Receive the latest updates about WR Contact Form as well as all the best news from WooRockets"
+
+msgid "Documentation"
+msgstr "Documentation"
+
+msgid "Detailed construction of how to use WR Contact Form"
+msgstr "Detailed construction of how to use WR Contact Form"
+
+msgid "Hot Features"
+msgstr "Hot Features"
+
+msgid "Drag and drop"
+msgstr "Drag and drop"
+
+msgid "You can save a lot of time with intuitive drag and drop operations. This can be used in many processes when working with WR Contact Form."
+msgstr "You can save a lot of time with intuitive drag and drop operations. This can be used in many processes when working with WR Contact Form."
+
+msgid "Prevent Spam"
+msgstr "Prevent Spam"
+
+msgid "To protect your website from spam, the Captcha function should be used. The system will require users to fill in the CAPTCHA to protect forms from spam and abuse."
+msgstr "To protect your website from spam, the Captcha function should be used. The system will require users to fill in the CAPTCHA to protect forms from spam and abuse."
+
+msgid "Multiple forms"
+msgstr "Multiple forms"
+
+msgid "You can create as many forms as you want. In a single form you can also choose the most suitable fields for your form."
+msgstr "You can create as many forms as you want. In a single form you can also choose the most suitable fields for your form."
+
+msgid "GET INVOLVED"
+msgstr "GET INVOLVED"
+
+msgid "Rate WR Contact Form"
+msgstr "Rate WR Contact Form"
+
+msgid "Share your thoughts of WR Contact Form with other WordPress folks. Next versions of WR Contact Form will be improved basing on your opinions."
+msgstr "Share your thoughts of WR Contact Form with other WordPress folks. Next versions of WR Contact Form will be improved basing on your opinions."
+
+msgid "Submit your Website"
+msgstr "Submit your Website"
+
+msgid "Share your website using WR Contact Form with us. We can include it in our showcase collection and have it exposed to thousands of WooRockets's website visitors."
+msgstr "Share your website using WR Contact Form with us. We can include it in our showcase collection and have it exposed to thousands of WooRockets's website visitors."
+
+msgid "Review"
+msgstr "Review"
+
+msgid "Learn more from <strong>OUR BLOG</strong>"
+msgstr "Learn more from <strong>OUR BLOG</strong>"
+
+msgid "Follow our blog for latest news, tutorials & interviews about WooComerce & WordPress"
+msgstr "Follow our blog for latest news, tutorials & interviews about WooComerce & WordPress"
+
+msgid "SEE OUR OTHER AWESOMENESS"
+msgstr "SEE OUR OTHER AWESOMENESS"
+
+msgid "Freebies download"
+msgstr "Freebies download"
+
+msgid "Corsa theme"
+msgstr "Corsa theme"

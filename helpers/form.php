@@ -716,17 +716,17 @@ class WR_Contactform_Helpers_Form {
 					break;
 				case 'vfirst':
 					if ( ! empty( $data->options->vfirst ) ) {
-						$html .= ' <input type="text" class="' . $sizeInput . '" value=\'' . htmlentities( $valueFirstName, ENT_QUOTES, 'UTF-8' ) . '\' name="name[' . $data->id . '][first]" placeholder="' . htmlentities( __( 'FIRST', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" /> ';
+						$html .= ' <input type="text" class="' . $sizeInput . '" value=\'' . htmlentities( $valueFirstName, ENT_QUOTES, 'UTF-8' ) . '\' name="name[' . $data->id . '][first]" placeholder="' . htmlentities( __( 'First', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" /> ';
 					}
 					break;
 				case 'vmiddle':
 					if ( ! empty( $data->options->vmiddle ) ) {
-						$html .= '<input name="name[' . $data->id . '][suffix]" type="text" value="' . htmlentities( $valueMiddle, ENT_QUOTES, 'UTF-8' ) . '" class="' . $sizeInput . '" placeholder="' . htmlentities( __( 'MIDDLE', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" /> ';
+						$html .= '<input name="name[' . $data->id . '][suffix]" type="text" value="' . htmlentities( $valueMiddle, ENT_QUOTES, 'UTF-8' ) . '" class="' . $sizeInput . '" placeholder="' . htmlentities( __( 'Middle', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" /> ';
 					}
 					break;
 				case 'vlast':
 					if ( ! empty( $data->options->vlast ) ) {
-						$html .= '<input type="text" class="' . $sizeInput . '" value=\'' . htmlentities( $valueLastName, ENT_QUOTES, 'UTF-8' ) . '\' name="name[' . $data->id . '][last]" placeholder="' . htmlentities( __( 'LAST', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" />';
+						$html .= '<input type="text" class="' . $sizeInput . '" value=\'' . htmlentities( $valueLastName, ENT_QUOTES, 'UTF-8' ) . '\' name="name[' . $data->id . '][last]" placeholder="' . htmlentities( __( 'Last', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" />';
 					}
 					break;
 			}
@@ -891,19 +891,19 @@ class WR_Contactform_Helpers_Form {
 			}
 			switch ( $val ) {
 				case 'vstreetAddress':
-					$field[ $val ] = '<input type="text" value=\'' . htmlentities( $valueStreet, ENT_QUOTES, 'UTF-8' ) . '\' name="address[' . $data->id . '][street]" placeholder="' . htmlentities( __( 'STREET_ADDRESS', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" class="jsn-input-xxlarge-fluid" />';
+					$field[ $val ] = '<input type="text" value=\'' . htmlentities( $valueStreet, ENT_QUOTES, 'UTF-8' ) . '\' name="address[' . $data->id . '][street]" placeholder="' . htmlentities( __( 'Street Address', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" class="jsn-input-xxlarge-fluid" />';
 					break;
 				case 'vstreetAddress2':
-					$field[ $val ] = '<input type="text" value=\'' . htmlentities( $valueLine2, ENT_QUOTES, 'UTF-8' ) . '\' name="address[' . $data->id . '][line2]" placeholder="' . htmlentities( __( 'ADDRESS_LINE_2', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" class="jsn-input-xxlarge-fluid" />';
+					$field[ $val ] = '<input type="text" value=\'' . htmlentities( $valueLine2, ENT_QUOTES, 'UTF-8' ) . '\' name="address[' . $data->id . '][line2]" placeholder="' . htmlentities( __( 'Address Line 2', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" class="jsn-input-xxlarge-fluid" />';
 					break;
 				case 'vcity':
-					$field[ $val ] = '<input value=\'' . htmlentities( $valueCity, ENT_QUOTES, 'UTF-8' ) . '\' type="text" name="address[' . $data->id . '][city]" class="jsn-input-xlarge-fluid" placeholder="' . htmlentities( __( 'CITY', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" />';
+					$field[ $val ] = '<input value=\'' . htmlentities( $valueCity, ENT_QUOTES, 'UTF-8' ) . '\' type="text" name="address[' . $data->id . '][city]" class="jsn-input-xlarge-fluid" placeholder="' . htmlentities( __( 'City', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" />';
 					break;
 				case 'vstate':
-					$field[ $val ] = '<input value=\'' . htmlentities( $valueState, ENT_QUOTES, 'UTF-8' ) . '\'  name="address[' . $data->id . '][state]" type="text" placeholder="' . htmlentities( __( 'STATE_PROVINCE_REGION', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" class="jsn-input-xlarge-fluid" />';
+					$field[ $val ] = '<input value=\'' . htmlentities( $valueState, ENT_QUOTES, 'UTF-8' ) . '\'  name="address[' . $data->id . '][state]" type="text" placeholder="' . htmlentities( __( 'State/Province/Region', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" class="jsn-input-xlarge-fluid" />';
 					break;
 				case 'vcode':
-					$field[ $val ] = '<input value=\'' . htmlentities( $valueCode, ENT_QUOTES, 'UTF-8' ) . '\'  type="text" name="address[' . $data->id . '][code]" class="jsn-input-xlarge-fluid" placeholder="' . htmlentities( __( 'POSTAL_ZIP_CODE', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" />';
+					$field[ $val ] = '<input value=\'' . htmlentities( $valueCode, ENT_QUOTES, 'UTF-8' ) . '\'  type="text" name="address[' . $data->id . '][code]" class="jsn-input-xlarge-fluid" placeholder="' . htmlentities( __( 'Postal/Zip code', WR_CONTACTFORM_TEXTDOMAIN ), ENT_QUOTES, 'UTF-8' ) . '" />';
 					break;
 				case 'vcountry':
 					$field[ $val ] = "<select class=\"jsn-input-xlarge-fluid\" name=\"address[{$data->id}][country]\">";

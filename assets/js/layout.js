@@ -260,7 +260,7 @@
             $(".jsn-iconbar a.wr-move-up").parent().remove();
             $(".jsn-row-container").each(function (e) {
                 $(this).append(
-                    $("<div/>", {"class":"jsn-iconbar jsn-vertical", "title":self.lang['WR_CONTACTFORM_ADD_CONTAINER_COLUMN']}).append(
+                    $("<div/>", {"class":"jsn-iconbar jsn-vertical", "title":self.lang['Add Column']}).append(
                         $("<a/>", {"href":"javascript:void(0);", "class":"add-container"}).append(
                             $("<i/>", {"class":"icon-plus"})
                         ).click(function () {
@@ -310,11 +310,11 @@
                                 self.eventContainer();
                             })
                     ).append(
-                        $("<a/>", {"href":"javascript:void(0);", "title":self.lang['WR_CONTACTFORM_DELETE_CONTAINER']}).append(
+                        $("<a/>", {"href":"javascript:void(0);", "title":self.lang['Delete Container']}).append(
                             $("<i/>", {"class":"icon-trash"})
                         ).click(function () {
                                 if ($(this).parents(".jsn-row-container").find(".jsn-column-container .jsn-element").length > 0) {
-                                    if (confirm(self.lang['WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER'])) {
+                                    if (confirm(self.lang['Are you sure you want to delete the whole row including all elements it contains?'])) {
                                         $(this).parents(".jsn-row-container").remove();
                                         self.eventContainer();
                                     }
@@ -325,7 +325,7 @@
                             })
                     )
                 ).append(
-                    $("<div/>", {"class":"jsn-iconbar jsn-vertical iconbar-left", "title":self.lang['WR_CONTACTFORM_ADD_CONTAINER_COLUMN']}).append(
+                    $("<div/>", {"class":"jsn-iconbar jsn-vertical iconbar-left", "title":self.lang['Add Column']}).append(
                         $("<a/>", {"href":"javascript:void(0);", "title":self.lang['WR_CONTACTFORM_MOVE_UP_CONTAINER'], "class":"wr-move-up"}).append(
                             $("<i/>", {"class":"icon-chevron-up"})
                         ).click(function () {
@@ -391,7 +391,7 @@
                             self.eventContainer();
                         }
                         if ($(this).parents(".jsn-column-container").find(".jsn-element").length > 0) {
-                            if (confirm(self.lang['WR_CONTACTFORM_CONFIRM_DELETE_CONTAINER_COLUMN'])) {
+                            if (confirm(self.lang['Are you sure you want to delete the whole column including all elements it contains?'])) {
                                 actionDelete(selfContainer, $(this));
                             }
                         } else {
