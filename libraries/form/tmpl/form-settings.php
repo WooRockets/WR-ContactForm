@@ -107,19 +107,18 @@ switch ( $global_captcha_setting ) {
 			<input type="submit" value="Save Changes" class="button button-primary" id="submit" name="submit"></p>
 	</form>
 
-	<!-- Banners -->
-	<div class="wr-banner-wrapper">
-		<h3>See our other free awesomeness</h3>
-		<a class="wr-banner" href="http://www.woorockets.com/plugins/wr-megamenu/?utm_source=ContactForm%20Setting&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins" target="_blank">
-			<img width="278" height="156" src="<?php echo WR_CONTACTFORM_URI . 'assets/images/banners/MegaMenu_S.jpg'; ?>" alt="WR Mega Menu" />
-		</a>
-		<a class="wr-banner" href="http://www.woorockets.com/plugins/wr-pagebuilder/?utm_source=ContactForm%20Setting&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins" target="_blank">
-			<img width="278" height="156" src="<?php echo WR_CONTACTFORM_URI . 'assets/images/banners/PageBuilder_S.jpg'; ?>" alt="WR Page Builder" />
-		</a>
-		<a class="wr-banner" href="http://www.woorockets.com/themes/corsa/?utm_source=ContactForm%20Setting&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins" target="_blank">
-			<img width="278" height="156" src="<?php echo WR_CONTACTFORM_URI . 'assets/images/banners/Corsa_S.jpg'; ?>" alt="WR Corsa" />
-		</a>
+	<div id="wr-promo-ab">
+		<h3>Premium<br>
+		WooCommerce Themes</h3>
+		<ul>
+			<li><span><img src="<?php echo WR_CONTACTFORM_URI; ?>assets/images/about-us/excellent-icon.png"></span>Excellent designs</li>
+			<li><span><img src="<?php echo WR_CONTACTFORM_URI; ?>assets/images/about-us/unlimited-icon.png"></span>Unlimited customization ability</li>
+			<li><span><img src="<?php echo WR_CONTACTFORM_URI; ?>assets/images/about-us/additional-icon.png"></span>Additional eCommerce features</li>
+		</ul>
+		<p class="btn-premium"><a href="http://www.woorockets.com/themes/?utm_source=ContactForm&utm_medium=Setting&utm_campaign=Cross%20Promo%20Banner" target="_blank"><strong>View the collection now</strong><br>
+		<span>And learn how our themes can boost your business!</span></a></p>
 	</div>
+
 </div>
 <?php
 $script = '(function ($) {
@@ -147,5 +146,62 @@ WR_CF_Init_Assets::inline( 'js', $script );
 
 $style = '
 	.wr-banner-wrapper .wr-banner { float: left; line-height: 0; margin: 0px 10px 0px 10px; }
+
+	/*** Premium ***/
+	#wr-promo-ab {
+		background: url(' . WR_CONTACTFORM_URI . 'assets/images/about-us/bg-wr-promo.jpg) center top no-repeat;
+		background-size: auto 100%;
+		text-align: center;
+		width: 1030px;
+		margin-top: 20px;
+	}
+	#wr-promo-ab h3 {
+		margin: 70px 0 30px;
+		font-size: 32px;
+		line-height: 1.1;
+	}
+	#wr-promo-ab ul {
+	    margin: 0 10px 25px 10px;
+  		width: auto;
+	}
+	#wr-promo-ab li {
+	    display: inline-block;
+  		float: initial;
+	}
+	#wr-promo-ab li span {
+	    background: #6c7886;
+	    float: left;
+	    border-radius: 50%;
+	    -o-border-radius: 50%;
+	    -ms-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    margin: 0 5px 0 0;
+	}
+	#wr-promo-ab .btn-premium a {
+		padding: 10px 25px;
+		margin: 0;
+	}
+	
+
+	@media only screen and (max-width: 1232px), (max-device-width: 1232px) {
+		#wr-promo-ab {
+			width:100%
+		}
+	}
+
+	@media only screen and (max-width: 768px), (max-device-width: 768px) {
+	  #wr-promo-ab ul {
+	    width: 270px;
+	    margin-right: auto;
+	    margin-left: auto;
+	  }
+	  #wr-promo-ab ul li {
+	    display: block;
+	    text-align: left;
+	    margin-left: 0;
+	    margin-bottom: 20px;
+	  }
+	}
 ';
 WR_CF_Init_Assets::inline( 'css', $style );

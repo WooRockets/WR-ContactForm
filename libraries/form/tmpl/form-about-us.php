@@ -22,6 +22,56 @@ if( !in_array( 'wr_pb_settings_pointer_contactform_thank_installing', $dismissed
 		@media screen and (max-width:600px){
 			#wr-header {height: 172px; }
 		}
+
+		/*** Premium ***/
+		#wr-promo-ab {
+			background: url(' . WR_CONTACTFORM_URI . 'assets/images/about-us/bg-wr-promo.jpg) center top no-repeat;
+			background-size: auto 100%;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		#wr-promo-ab h3 {
+			margin: 70px 0 30px;
+			font-size: 32px;
+			line-height: 1.1;
+		}
+		#wr-promo-ab ul {
+		    margin: 0 10px 25px 10px;
+	  		width: auto;
+		}
+		#wr-promo-ab li {
+		    display: inline-block;
+	  		float: initial;
+		}
+		#wr-promo-ab li span {
+		    background: #6c7886;
+		    float: left;
+		    border-radius: 50%;
+		    -o-border-radius: 50%;
+		    -ms-border-radius: 50%;
+		    -moz-border-radius: 50%;
+		    -webkit-border-radius: 50%;
+		    margin: 0 5px 0 0;
+		}
+		#wr-promo-ab .btn-premium a {
+			padding: 10px 25px;
+			margin: 0;
+		}
+
+		@media only screen and (max-width: 768px), (max-device-width: 768px) {
+		  #wr-promo-ab ul {
+		    width: 270px;
+		    margin-right: auto;
+		    margin-left: auto;
+		  }
+		  #wr-promo-ab ul li {
+		    display: block;
+		    text-align: left;
+		    margin-left: 0;
+		    margin-bottom: 20px;
+		  }
+		}
+
 	';
 	WR_CF_Init_Assets::inline( 'css', $style );
 
@@ -146,31 +196,16 @@ if( !in_array( 'wr_pb_settings_pointer_contactform_thank_installing', $dismissed
 		</div>
 	</div>
 
-	<div id="our-blog">
-		<div class="left-ourblog">
-			<a class="link" target = "_black" href="http://www.woorockets.com/blog/?utm_source=ContactForm%20About&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins"></a>
-			<h3><?php _e( 'Learn more from <strong>OUR BLOG</strong>', WR_CONTACTFORM_TEXTDOMAIN ); ?></h3>
-			<span></span>
-			<p><?php _e( 'Follow our blog for latest news, tutorials & interviews about WooComerce & WordPress', WR_CONTACTFORM_TEXTDOMAIN ); ?></p>
-		</div>
-		<div class="right-ourblog">
-			<h3><?php _e( 'SEE OUR OTHER AWESOMENESS', WR_CONTACTFORM_TEXTDOMAIN ); ?></h3>
-			<span>***</span>
-			<div class="list-product">
-				<div class="item-product">
-					<div class="img-product"><a target="_blank" href="http://www.woorockets.com/freebie/?utm_source=ContactForm%20About&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins"><img src="<?php echo WR_CONTACTFORM_URI . 'assets/images/about-us/freebies.png'; ?>"  /></a></div>
-					<h4><a target="_blank" href="http://www.woorockets.com/freebie/?utm_source=ContactForm%20About&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins"><?php _e( 'Freebies download', WR_CONTACTFORM_TEXTDOMAIN ); ?></a></h4>
-				</div>
-				<div class="item-product">
-					<div class="img-product"><a target="_blank" href="http://www.woorockets.com/plugins/wr-pagebuilder/?utm_source=ContactForm%20About&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins"><img src="<?php echo WR_CONTACTFORM_URI . 'assets/images/about-us/page-builder.png'; ?>"  /></a></div>
-					<h4><a target="_blank" href="http://www.woorockets.com/plugins/wr-pagebuilder/?utm_source=ContactForm%20About&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins">WR PageBuilder</a></h4>
-				</div>
-				<div class="item-product">
-					<div class="img-product"><a target="_blank" href="http://www.woorockets.com/themes/corsa/?utm_source=ContactForm%20About&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins"><img src="<?php echo WR_CONTACTFORM_URI . 'assets/images/about-us/corsa.png'; ?>"  /></a></div>
-					<h4><a target="_blank" href="http://www.woorockets.com/themes/corsa/?utm_source=ContactForm%20About&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins"><?php _e( 'Corsa theme', WR_CONTACTFORM_TEXTDOMAIN ); ?></a></h4>
-				</div>
-			</div>
-		</div>
+	<div id="wr-promo-ab">
+		<h3>Premium<br>
+		WooCommerce Themes</h3>
+		<ul>
+		<li><span><img src="<?php echo WR_CONTACTFORM_URI; ?>assets/images/about-us/excellent-icon.png"></span>Excellent designs</li>
+		<li><span><img src="<?php echo WR_CONTACTFORM_URI; ?>assets/images/about-us/unlimited-icon.png"></span>Unlimited customization ability</li>
+		<li><span><img src="<?php echo WR_CONTACTFORM_URI; ?>assets/images/about-us/additional-icon.png"></span>Additional eCommerce features</li>
+		</ul>
+		<p class="btn-premium"><a href="http://www.woorockets.com/themes/?utm_source=ContactForm&utm_medium=About&utm_campaign=Cross%20Promo%20Banner" target="_blank"><strong>View the collection now</strong><br>
+		<span>And learn how our themes can boost your business!</span></a></p>
 	</div>
 
 	<div id="wr-logo">

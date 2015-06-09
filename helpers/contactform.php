@@ -1318,17 +1318,8 @@ class WR_Contactform_Helpers_Contactform {
 					<hr/>
 					<div class="pull-left">
 						<div>
-							<a href="http://www.woorockets.com/plugins/wr-contactform/?utm_source=ContactForm%20Backend&utm_medium=Text&utm_campaign=Powered%20By" target="_blank">WR ContactForm</a> by <a href="http://www.woorockets.com/?utm_source=ContactForm%20Backend&utm_medium=Text&utm_campaign=Powered%20By" target="_blank">WooRockets.com</a>
+							Powered by <a href="http://www.woorockets.com/?utm_source=ContactForm%20Backend&utm_medium=Text&utm_campaign=Powered%20By" target="_blank">WooRockets.com</a> | <a href="http://www.woorockets.com/docs/wr-contactform-user-manual/?utm_source=ContactForm%20Backend&utm_medium=Text&utm_campaign=Powered%20By" target="_blank">Documentation</a>
 						</div>
-						<div>
-							<a href="http://www.woorockets.com/docs/wr-contactform-user-manual/?utm_source=ContactForm%20Backend&utm_medium=Text&utm_campaign=Powered%20By" target="_blank">Documentation</a> |
-							<a href="http://www.woorockets.com/forum/product-support/wr-contactform/?utm_source=ContactForm%20Backend&utm_medium=Text&utm_campaign=Powered%20By" target="_blank">Support</a>
-						</div>
-					</div>
-					<div class="pull-right">
-						<span class="wr-other-free-plugins-text">Other free plugins</span>
-						<a class="wr-logo-40 pagebuilder" href="http://www.woorockets.com/plugins/wr-pagebuilder/?utm_source=ContactForm%20Footer&utm_medium=icon&utm_campaign=Cross%20Promo%20Plugins" target="_blank"></a>
-						<a class="wr-logo-40 megamenu" href="http://www.woorockets.com/plugins/wr-megamenu/?utm_source=ContactForm%20Footer&utm_medium=icon&utm_campaign=Cross%20Promo%20Plugins" target="_blank"></a>
 					</div>
 					<div class="clearbreak"></div>
 			</div>';

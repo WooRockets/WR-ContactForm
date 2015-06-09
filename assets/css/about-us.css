@@ -78,7 +78,7 @@
     padding: 0 200px 0 0;
 }
 #wr-about .content-about .info .twitter-follow-button{
-    position: absolute;
+    position: absolute !important;
     top: 50%;
     right: 15px;
     margin: -14px 0 0 0;
