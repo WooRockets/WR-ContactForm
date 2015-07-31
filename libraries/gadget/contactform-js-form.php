@@ -237,7 +237,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                             form_content:self.visualDesign.serialize(),
                                             form_page_name:$("#form-design-header").attr("data-value"),
                                             form_list_page:listOptionPage,
-                                            form_list_container:$.toJSON(listContainer)
+                                            form_list_container:JSON.stringify(listContainer)
                                         },
                                         success:function () {
                                             self.publishReady = true;
@@ -377,11 +377,11 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                             nameStyle = nameStyle.match(/form_style\[(.*?)\]/);
                                             styleTheme[nameStyle[1]] = $(this).val();
                                         }
-                                        $("#option_themes input[name$=\'[themes_style][" + colorScheme.replace("wr-style-", "") + "]\']").val($.toJSON(styleTheme));
+                                        $("#option_themes input[name$=\'[themes_style][" + colorScheme.replace("wr-style-", "") + "]\']").val(JSON.stringify(styleTheme));
                                     });
                                     var optionTheme = $("#option_themes input[name$=\'[themes_style][" + theme.replace("wr-style-", "") + "]\']").val();
                                     if (optionTheme) {
-                                        var options = $.evalJSON(optionTheme);
+                                        var options = $.parseJSON(optionTheme);
                                         $("#style_accordion_content input[type=text],#style_accordion_content input[type=number]").each(function () {
                                             if (!$(this).hasClass(\'select2-focusser\')) {
                                                 var className = $(this).attr("id");
@@ -567,7 +567,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                             }';
         $createPrototypeForm[ 'formatButtonSelect2' ] = 'formatButtonSelect2:function (state) {
                                 var imgName = state.id.split("-");
-                                return "<img class=\'imgSelect2\' src=\'" + siteUrl + "/wp-content/plugins/wr-contactform/assets/images/icons-16/" + imgName[imgName.length - 1] + ".png\'/>" + state.text;
+                                return "<img class=\'imgSelect2\' src=\'" + UrlPlugin + "assets/images/icons-16/" + imgName[imgName.length - 1] + ".png\'/>" + state.text;
                             }';
         $createPrototypeForm[ 'formatSelect2' ] = 'formatSelect2:function (state) {
                                 var self = this, imgName = "";
@@ -576,7 +576,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                 } else {
                                     imgName = "wr-style-custom";
                                 }
-                                return "<img class=\'imgSelect2\' src=\'" + siteUrl + "/wp-content/plugins/wr-contactform/assets/images/icons-16/" + imgName + ".png\'/>" + state.text;
+                                return "<img class=\'imgSelect2\' src=\'" + UrlPlugin + "assets/images/icons-16/" + imgName + ".png\'/>" + state.text;
                             }';
         $createPrototypeForm[ 'actionTheme' ] = 'actionTheme:function () {
                                 var valueSelectTheme = $("#jform_form_theme").val();
@@ -763,7 +763,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                                     styleTheme[nameStyle[1]] = $(this).val();
                                                 }
 
-                                                $("#option_themes input[name$=\'[themes_style][" + colorScheme.replace("wr-style-", "") + "]\']").val($.toJSON(styleTheme));
+                                                $("#option_themes input[name$=\'[themes_style][" + colorScheme.replace("wr-style-", "") + "]\']").val(JSON.stringify(styleTheme));
                                             });
                                         }
                                     });
@@ -777,7 +777,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                             nameStyle = nameStyle.match(/form_style\[(.*?)\]/);
                                             styleTheme[nameStyle[1]] = $(this).val();
                                         }
-                                        $("#option_themes input[name$=\'[themes_style][" + colorScheme.replace("wr-style-", "") + "]\']").val($.toJSON(styleTheme));
+                                        $("#option_themes input[name$=\'[themes_style][" + colorScheme.replace("wr-style-", "") + "]\']").val(JSON.stringify(styleTheme));
                                     });
                                 });
 
@@ -1043,7 +1043,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                         form_page_name:$("#form-design-header").attr("data-value"),
                                         form_page_old_name:oldValuePage,
                                         form_page_old_content:self.visualDesign.serialize(),
-                                        form_page_old_container:$.toJSON(listContainer),
+                                        form_page_old_container:JSON.stringify(listContainer),
                                         form_id:$("#jform_form_id").val(),
                                         form_list_page:listOptionPage,
                                         join_page:action
@@ -1054,7 +1054,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                             self.JSNLayoutCustomizer.renderContainer(data.containerPage);
 
                                             if ($("#jform_form_id").val() > 0 && self.pageContent) {
-                                                var pageContent = $.evalJSON(self.pageContent);
+                                                var pageContent = $.parseJSON(self.pageContent);
                                                 if (!data.dataField && action == "defaultPage" && $.inArray(oldValuePage, pageContent) != -1) {
                                                     location.reload();
                                                 }
@@ -1062,7 +1062,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                             self.visualDesign.clearElements();
 
                                             if (data.dataField) {
-                                                var dataField = $.evalJSON(data.dataField);
+                                                var dataField = $.parseJSON(data.dataField);
 
                                                 self.visualDesign.setElements(dataField);
                                             }
@@ -1193,7 +1193,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                                 self.JSNLayoutCustomizer.renderContainer(response.containerPage);
                                                 self.visualDesign.clearElements();
                                                 if (response.dataField) {
-                                                    var dataField = $.evalJSON(response.dataField);
+                                                    var dataField = $.parseJSON(response.dataField);
                                                     self.visualDesign.setElements(dataField);
                                                 }
                                                 JSNVisualDesign.savePage();
@@ -1337,6 +1337,9 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                             this.titleForm = params.titleForm;
                             urlBase = params.urlBase;
                             siteUrl = params.siteUrl;
+
+                            UrlPlugin = params.UrlPlugin;
+
                             this.init();
                         }
 
@@ -1349,12 +1352,15 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                         $("#wr_contactform_form_settings").parents("#advanced-sortables").hide();
                         $("#slugdiv").parent().remove();
                         var params = {};
-                        params.language = $.evalJSON($("#wr_contactform_languages").val());
+                        params.language = $.parseJSON($("#wr_contactform_languages").val());
 
-                        params.form_style = $.evalJSON($("#wr_contactform_formStyle").val());
-                        params.dataEmailSubmitter = $.evalJSON($("#wr_contactform_dataEmailSubmitter").val());
+                        params.form_style = $.parseJSON($("#wr_contactform_formStyle").val());
+                        params.dataEmailSubmitter = $.parseJSON($("#wr_contactform_dataEmailSubmitter").val());
                         params.urlBase = $("#wr_contactform_urlBase").val();
                         params.siteUrl = $("#wr_contactform_urlBase").val();
+
+                        params.UrlPlugin = $("#wr_contactform_urlPlugin").val();
+
                         $("#post-body-content .wr-editor-wrapper").remove();
                         $("#wp-admin-bar-view a.ab-item").html("View Form").show();
                         $("#screen-meta-links").remove();
@@ -1368,7 +1374,7 @@ class WR_CF_Gadget_Contactform_Js_Form extends WR_CF_Gadget_Base {
                                 )
                             )
                             var client = new ZeroClipboard( $("#jsn_contactform_copy_text"), {
-                                moviePath: params.urlBase+"/wp-content/plugins/wr-contactform/assets/3rd-party/zeroclipboard/ZeroClipboard.swf"
+                                moviePath: params.UrlPlugin+"assets/3rd-party/zeroclipboard/ZeroClipboard.swf"
                             } );
                             client.on("load", function (client) {
                                 client.on("complete", function (client, args) {

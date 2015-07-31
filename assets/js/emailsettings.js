@@ -42,9 +42,9 @@
         });
         data.attach = attach;
         if ($("#template_notify_to").val() == 1) {
-        	parent.jQuery("#wr-form-field-content_email_send_to").val($.toJSON(data));
+        	parent.jQuery("#wr-form-field-content_email_send_to").val(JSON.stringify(data));
         } else {
-        	parent.jQuery("#wr-form-field-content_email_send_to_submitter").val($.toJSON(data));
+        	parent.jQuery("#wr-form-field-content_email_send_to_submitter").val(JSON.stringify(data));
         }
     }
     JSNContactformEmailSettingsView.prototype = {
@@ -98,7 +98,7 @@
                     var defaultAttach = $("#attach-file ul").attr("data-value");
                     var dataAttach = "";
                     if (defaultAttach) {
-                        dataAttach = $.evalJSON(defaultAttach);
+                        dataAttach = $.parseJSON(defaultAttach);
                     }
                     if (response) {
                         $.each(response, function (i, item) {
@@ -203,7 +203,7 @@
                         html:'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body style="margin:0; padding:10px;">INITIAL_CONTENT</body></html>'
                     });
                     if (emailContent) {
-                        emailContent = $.evalJSON(emailContent);
+                        emailContent = $.parseJSON(emailContent);
                         if (emailContent.from) {
                             $("#jform_template_from").val(emailContent.from);
                         }
@@ -416,7 +416,7 @@
         }
     }
     var params = {};
-    params.language = $.evalJSON($("#wr_contactform_languages").val());
+    params.language = $.parseJSON($("#wr_contactform_languages").val());
     new JSNContactformEmailSettingsView(params);
     $("html").addClass("wr-contactform-modal");
 })(jQuery);

@@ -70,7 +70,7 @@
                 });
             var list_email_send_to = $("#wr-form-field-list_email_send_to").val();
             if (list_email_send_to) {
-                list_email_send_to = $.evalJSON(list_email_send_to);
+                list_email_send_to = $.parseJSON(list_email_send_to);
                 if (list_email_send_to) {
                     $.each(list_email_send_to, function (i, val) {
                         self.saveEmail('new', val);
@@ -143,7 +143,7 @@
                     }
                 });
                 data.attach = attach;
-                $("#wr-form-field-content_email_send_to").val($.toJSON(data));
+                $("#wr-form-field-content_email_send_to").val(JSON.stringify(data));
                 $.closeModalBox();
                 //this.jsnContactformModal.iframe[0].contentWindow.save();
             }, this);
@@ -179,7 +179,7 @@
                     }
                 });
                 data.attach = attach;
-                $("#wr-form-field-content_email_send_to_submitter").val($.toJSON(data));
+                $("#wr-form-field-content_email_send_to_submitter").val(JSON.stringify(data));
                 $.closeModalBox();
                 //this.jsnContactformModal.iframe[0].contentWindow.save();
             }, this);
@@ -392,14 +392,14 @@
         }
     }
     var params = {};
-    params.language = $.evalJSON($("#wr_contactform_languages").val());
+    params.language = $.parseJSON($("#wr_contactform_languages").val());
     params.baseUrl = $("#urlAdmin").val();
     new JSNContactform(params);
 
 	$(function() {
 		var list_email_send_to = $("#wr-form-field-list_email_send_to").val();
 		if (list_email_send_to) {
-			list_email_send_to = $.evalJSON(list_email_send_to);
+			list_email_send_to = $.parseJSON(list_email_send_to);
 			if (list_email_send_to) {
 				$.each(list_email_send_to, function (i, val) {
 					if (i == 0) $('#wr-cf-list-email-send-to').val(val);

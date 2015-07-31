@@ -382,7 +382,7 @@ class WR_Contactform_Helpers_Hook {
 					'wr-bootstrap2-jsn-gui-css',
 					'wr-jquery-ui-css',
 					'wr-contactform-css',
-					'wr-jquery-json-js',
+					//'wr-jquery-json-js',
 					'wr-jquery-daterangepicker-js',
 					'wr-jquery-daterangepicker-moment-js',
 					'wr-contactform-submissions-js',
@@ -731,12 +731,14 @@ class WR_Contactform_Helpers_Hook {
 				}
 			}
 			if ( ! empty( $_GET[ 's' ] ) ) {
+
+				$get_s = $_GET[ 's' ];
 				//replace query where
 				$where = preg_replace( '/AND \(\(\((.*?).post_title LIKE (.*?)\) OR \((.*?).post_content LIKE (.*?)\)\)\)/', '', $where );
 				// query get list submission id
 				$submissionData = $wpdb->get_results(
 					$wpdb->prepare(
-						"SELECT submission_id FROM {$wpdb->prefix}wr_contactform_submission_data WHERE form_id = %d AND submission_data_value LIKE '%%%s%%' ORDER BY submission_data_id ASC", (int)$formID, $_GET[ 's' ]
+						"SELECT submission_id FROM {$wpdb->prefix}wr_contactform_submission_data WHERE form_id = %d AND submission_data_value LIKE '%%%s%%' ORDER BY submission_data_id ASC", (int)$formID, $get_s
 					)
 				);
 				$listID = array();

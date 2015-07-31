@@ -61,7 +61,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Controls extends WR_CF_Gadget_Bas
 		$controls[ 'password' ] = WR_CF_Gadget_Controls_Password::register();
 		$controls = apply_filters( 'wr_contactform_filter_visualdesign_controls', $controls );
 		$javascript = '(function ($) {
-			    var t = $.evalJSON($("#wr_contactform_languages").val());
+			    var t = $.parseJSON($("#wr_contactform_languages").val());
 			    ' . implode( ' ', $controls ) . '
 			})(jQuery);';
 		echo '' . $javascript;

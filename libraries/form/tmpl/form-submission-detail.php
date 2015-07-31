@@ -12,7 +12,7 @@ $assets = array(
 	'wr-jquery-tipsy-css',
 	'wr-bootstrap2-responsive-css',
 	'wr-contactform-css',
-	'wr-jquery-json-js',
+	//'wr-jquery-json-js',
 	'wr-http-googlemaps-api-js',
 	'wr-googlemaps-ui-js',
 	'wr-googlemaps-services-js',
@@ -161,7 +161,9 @@ foreach ( $formContent as $formPages ) {
 					$contentFieldDetail = $contentField;
 				}
 			}
-			if ( isset( $fields->type ) && $fields->type == 'likert' )
+			//if ( isset( $fields->type ) && $fields->type == 'likert' )
+
+			if ( isset( $fields->type ) && ($fields->type == 'likert' || $fields->type == 'email' || $fields->type == 'file-upload' ))
 				$submissionDetail .= $contentFieldDetail ? str_replace( '\n', '<br/>', trim( $contentFieldDetail ) ) : 'N/A';
 			else
 				$submissionDetail .= $contentFieldDetail ? str_replace( '\n', '<br/>', htmlentities( html_entity_decode( trim( $contentFieldDetail ) ) ) ) : 'N/A';

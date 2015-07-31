@@ -162,9 +162,9 @@ class WR_CF_Gadget_Contactform_Js_Submission extends WR_CF_Gadget_Base {
 					                        var dataValue = $(this).attr("data-value");
 					                        var dataMarker = $(this).attr("data-marker");
 					                        if (dataValue) {
-					                            var gmapOptions = $.evalJSON(dataValue);
+					                            var gmapOptions = $.parseJSON(dataValue);
 					                            if (dataMarker) {
-					                                var gmapMarker = $.evalJSON(dataMarker);
+					                                var gmapMarker = $.parseJSON(dataMarker);
 					                            }
 					                            if (!gmapOptions.center.nb && gmapOptions.center.lb) {
 					                                gmapOptions.center.nb = gmapOptions.center.lb;
@@ -197,7 +197,7 @@ class WR_CF_Gadget_Contactform_Js_Submission extends WR_CF_Gadget_Base {
 					                                self.get(\'map\').setOptions({streetViewControl:false});
 					                                if (gmapMarker) {
 					                                    $.each(gmapMarker, function (i, val) {
-					                                        var position = $.evalJSON(val.position);
+					                                        var position = $.parseJSON(val.position);
 					                                        if (position) {
 					                                            if (!position.nb && position.lb) {
 					                                                position.nb = position.lb;

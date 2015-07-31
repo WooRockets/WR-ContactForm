@@ -80,7 +80,7 @@ class WR_CF_Gadget_Contactform_Js_Submissions extends WR_CF_Gadget_Base {
 		}
 		$javascript = '(function ($) {
 				    $(function () {
-					var listForm = $.evalJSON(\'' . json_encode( $listForm ) . '\');
+					var listForm = $.parseJSON(\'' . json_encode( $listForm ) . '\');
 				    $("#wpbody-content .wrap h2").append(
 				       $("<input/>",{"type":"button","class":"button","id":"btn-contactform-export","value":"Export"})
 				    );
@@ -227,7 +227,7 @@ class WR_CF_Gadget_Contactform_Js_Submissions extends WR_CF_Gadget_Base {
 				                    });
 				                    $("#dialog-export #contactform_form_export #form_id").val(formID);
 				                    $("#dialog-export #contactform_form_export #task").val(\'contactform.export\');
-				                    $("#dialog-export #contactform_form_export #fieldExport").val($.toJSON(fieldExport));
+				                    $("#dialog-export #contactform_form_export #fieldExport").val(JSON.stringify(fieldExport));
 				                    $("#dialog-export #contactform_form_export #exportType").val(exportType);
 				                    $("#dialog-export #contactform_form_export #exportDate").val(exportDate);
 				                    $("#dialog-export #contactform_form_export #form_title").val($("#dropdown_wr_form_id option:selected").text());

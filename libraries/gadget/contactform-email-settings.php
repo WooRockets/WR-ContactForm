@@ -55,7 +55,7 @@ class WR_CF_Gadget_Contactform_Email_Settings extends WR_CF_Gadget_Base {
 		$assets = array(
 			'wr-jquery-placeholder-js',
 			'wr-jquery-tipsy-js',
-			'wr-jquery-json-js',
+			//'wr-jquery-json-js',
 			'wr-jquery-select2-js',
 			'wr-jquery-wysiwyg-js',
 			'wr-jquery-wysiwyg-colorpicker-js',

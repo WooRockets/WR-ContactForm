@@ -75,7 +75,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                        if (redirect) {
 					                            window.location = redirect;
 					                        } else if (error) {
-					                            error = $.evalJSON(error);
+					                            error = $.parseJSON(error);
 					                            self.callMessageError(formname, error);
 					                            self.createRecaptcha(selfsubmit, publickey, error);
 					                            $(".jsn-modal-overlay,.jsn-modal-indicator").remove();
@@ -153,7 +153,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                });
 					            });';
 		$filterFunctionInit[ 'daterangepicker' ] = '$(formname).find("input.wr-daterangepicker").each(function () {
-					                var dateSettings = $.evalJSON($(this).attr("date-settings"));
+					                var dateSettings = $.parseJSON($(this).attr("date-settings"));
 					                if (dateSettings) {
 					                    var yearRangeList = [];
 					                    if (dateSettings.yearRangeMin && dateSettings.yearRangeMax) {
@@ -537,7 +537,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					            }).trigger("change");
 					            $(formname).find("input.limit-required,textarea.limit-required").each(function () {
 					                var settings = $(this).attr("data-limit");
-					                var limitSettings = $.evalJSON(settings);
+					                var limitSettings = $.parseJSON(settings);
 					                if (limitSettings) {
 					                    $(this).keypress(function (e) {
 					                            if (e.which != 27 && e.which != 13 && e.which != 8) {
@@ -597,7 +597,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 		$functionForm[ 'getActionField' ] = '$.getActionField = function (formname, selfInput, idField) {
 					            var dataSettings = $(selfInput).parents(".control-group").attr("data-settings");
 					            if (dataSettings) {
-					                dataSettings = $.evalJSON(dataSettings);
+					                dataSettings = $.parseJSON(dataSettings);
 					            }
 					            if (dataSettings) {
 					                $.each(dataSettings, function (i, item) {
@@ -823,9 +823,9 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
                 var dataValue = $(this).attr("data-value");
                 var dataMarker = $(this).attr("data-marker");
                 if (dataValue) {
-                    var gmapOptions = $.evalJSON(dataValue);
+                    var gmapOptions = $.parseJSON(dataValue);
                     if (dataMarker) {
-                        var gmapMarker = $.evalJSON(dataMarker);
+                        var gmapMarker = $.parseJSON(dataMarker);
                     }
                     if (!gmapOptions.center.nb && gmapOptions.center.lb) {
                         gmapOptions.center.nb = gmapOptions.center.lb;
@@ -858,7 +858,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
                         self.get(\'map\').setOptions({streetViewControl:false});
                         if (gmapMarker) {
                             $.each(gmapMarker, function (i, val) {
-                                var position = $.evalJSON(val.position);
+                                var position = $.parseJSON(val.position);
                                 if (position) {
                                     if (!position.nb && position.lb) {
                                         position.nb = position.lb;
@@ -1178,7 +1178,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                        }
 					                        if (!checkval) {
 					                            var inputPassword = $(this).find("input");
-					                            var limitSettings = $.evalJSON($(inputPassword).attr("data-limit"));
+					                            var limitSettings = $.parseJSON($(inputPassword).attr("data-limit"));
 					                            var checkPassword = false;
 					                            if ($(this).find("input").length > 1) {
 					                                $(this).parent().removeClass("error");
@@ -1224,7 +1224,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                var $valueLimit = $(_this).find(".limit-required");
 					                $valueLimit.each(function () {
 					                    if ($(this).parents(".control-group").css("display") != "none") {
-					                        var limitSettings = $.evalJSON($(this).attr("data-limit"));
+					                        var limitSettings = $.parseJSON($(this).attr("data-limit"));
 					                        var checkval = false;
 					                        if ($(this).parent().hasClass("group-blank-required")) {
 					                            $(this).find("input").each(function () {
@@ -1330,7 +1330,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                            }
 					                        }
 					                        if (!checkval) {
-					                            var limitNumberSettings = $.evalJSON($(this).attr("data-limit"));
+					                            var limitNumberSettings = $.parseJSON($(this).attr("data-limit"));
 					                            $(this).parent().find(".help-limit").remove();
 					                            $(this).parent().parent().removeClass("error");
 					                            if ($(this).val() != \'\' || $(this).val() != 0) {
@@ -1561,7 +1561,7 @@ class WR_CF_Gadget_Contactform_Js_Form_Frontend extends WR_CF_Gadget_Base {
 					                    var getLang = $(this).find("span.wr-language").attr("data-value");
 					                    baseUrl = $(this).find("span.wr-base-url").attr("data-value");
 					                    if (getLang) {
-					                        lang = $.evalJSON(getLang);
+					                        lang = $.parseJSON(getLang);
 					                    }
 
 					                    $.initJSNForm($(this));

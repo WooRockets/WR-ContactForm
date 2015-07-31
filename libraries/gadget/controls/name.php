@@ -149,7 +149,7 @@ class WR_CF_Gadget_Controls_Name {
 							'vmiddle' => array(
 								'field' => 'name',
 								'type' => 'checkbox',
-								'label' => __( 'Last', WR_CONTACTFORM_TEXTDOMAIN )
+								'label' => __( 'Middle', WR_CONTACTFORM_TEXTDOMAIN )
 							),
 							'vlast' => array(
 								'field' => 'name',

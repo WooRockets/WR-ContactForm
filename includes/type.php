@@ -166,7 +166,7 @@ class WR_Contactform_Includes_Type {
 					if ( WR_Contactform_Includes_Upload::can_upload( $file, $err, $fieldSettings ) ) {
 						if ( ! function_exists( 'wp_handle_upload' ) ) require_once( ABSPATH . 'wp-admin/includes/file.php' );
 						$_POST[ 'action' ] = 'wp_handle_upload';
-						define( 'UPLOADS', 'wp-content/uploads/wr_contactform' );
+						define( 'UPLOADS_CONTACFORM', 'wp-content/uploads/wr_contactform' );
 						$movefile = wp_handle_upload( $file, false );
 						if ( ! $movefile ) {
 							$validationForm[ $fieldIdentifier ] = __( 'Unable to upload file.', WR_CONTACTFORM_TEXTDOMAIN );

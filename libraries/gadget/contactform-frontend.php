@@ -38,7 +38,11 @@ class WR_CF_Gadget_Contactform_Frontend extends WR_CF_Gadget_Base {
 			self::task_save();
 		}
 		if ( ! empty( $_GET[ 'task' ] ) && $_GET[ 'task' ] == 'form.getHtmlForm' && ! empty( $_GET[ 'form_id' ] ) ) {
-			self::get_html_form( (int)$_GET[ 'form_id' ] );
+
+
+			$get_form_id = $_GET[ 'form_id' ];
+
+			self::get_html_form( (int)$get_form_id );
 		}
 		exit();
 	}

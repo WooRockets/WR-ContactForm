@@ -36,9 +36,11 @@ class WR_CF_Gadget_Contactform_Duplicate extends WR_CF_Gadget_Base {
 		auth_redirect();
 		if ( ! empty( $_GET[ 'form_id' ] ) ) {
 			global $wpdb;
-			$postId = $wpdb->get_var( $wpdb->prepare( "SELECT post_id FROM $wpdb->postmeta WHERE  meta_key='form_id' AND meta_value=%d", (int)$_GET[ 'form_id' ] ) );
+
+			$get_formid = $_GET[ 'form_id' ];
+			$postId = $wpdb->get_var( $wpdb->prepare( "SELECT post_id FROM $wpdb->postmeta WHERE  meta_key='form_id' AND meta_value=%d", (int)$get_formid ) );
 			if ( empty( $postId ) ) {
-				$postId = (int)$_GET[ 'form_id' ];
+				$postId = (int)$get_formid;
 			}
 			self::duplicate( $postId );
 		}

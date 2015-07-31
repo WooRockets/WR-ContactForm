@@ -62,7 +62,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
                 });
             });
             //this.updateAction();
-            $(\'#\' + this.options.id).val(\'json:\' + $.toJSON(listItems));
+            $(\'#\' + this.options.id).val(\'json:\' + JSON.stringify(listItems));
             $(\'#\' + this.options.id).trigger(\'change\');';
 		$updateItems = apply_filters( 'wr_contactform_filter_visualdesign_itemlist_update_items', $updateItems );
 
@@ -73,14 +73,14 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
                 var items = {}, checkActive = false;
                 items.showField = $(this).attr("action-show-field");
                 if (items.showField) {
-                    items.showField = $.evalJSON(items.showField);
+                    items.showField = $.parseJSON(items.showField);
                     if (items.showField.length > 0) {
                         checkActive = true;
                     }
                 }
                 items.hideField = $(this).attr("action-hide-field");
                 if (items.hideField) {
-                    items.hideField = $.evalJSON(items.hideField);
+                    items.hideField = $.parseJSON(items.hideField);
                     if (items.hideField.length > 0) {
                         checkActive = true;
                     }
@@ -94,7 +94,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
                     $(jsnItem).removeClass("jsn-highlight");
                 }
             });
-            $(\'#option-itemAction-hidden\').val($.toJSON(listItems));
+            $(\'#option-itemAction-hidden\').val(JSON.stringify(listItems));
             $(\'#option-itemAction-hidden\').trigger(\'change\');';
 		$updateAction = apply_filters( 'wr_contactform_filter_visualdesign_itemlist_update_action', $updateAction );
 
@@ -143,7 +143,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
             var container = $("#wr_contactform_master #form-container"), listOptionPage = [], instance = container.data(\'visualdesign-instance\'), content = "";
             var serialize = instance.serialize(true);
             if (serialize != "" && serialize != "[]") {
-                content = $.toJSON(serialize);
+                content = JSON.stringify(serialize);
             }
             $(" ul.jsn-page-list li.page-items").each(function () {
                 listOptionPage.push([$(this).find("input").attr(\'data-id\'), $(this).find("input").attr(\'value\')]);
@@ -225,10 +225,10 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
                                 var actionShowField = $("#visualdesign-options-values .jsn-items-list .ui-state-edit input[name=item-list]").attr("action-show-field"),
                                     actionHideField = $("#visualdesign-options-values .jsn-items-list .ui-state-edit input[name=item-list]").attr("action-hide-field");
                                 if (actionShowField) {
-                                    actionShowField = $.evalJSON(actionShowField);
+                                    actionShowField = $.parseJSON(actionShowField);
                                 }
                                 if (actionHideField) {
-                                    actionHideField = $.evalJSON(actionHideField);
+                                    actionHideField = $.parseJSON(actionHideField);
                                 }
                                 $.each(response, function (i, item) {
                                     if (self.options.identify != item.options.identify) {
@@ -294,7 +294,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
                                 $("#wr-action-show input[type=checkbox]:checked").each(function () {
                                     dataShowField.push($(this).val());
                                 });
-                                $("#visualdesign-options-values .jsn-items-list .ui-state-edit input[name=item-list]").attr("action-show-field", $.toJSON(dataShowField));
+                                $("#visualdesign-options-values .jsn-items-list .ui-state-edit input[name=item-list]").attr("action-show-field", JSON.stringify(dataShowField));
                                 self.updateAction();
                             });
                             $("#wr-action-hide input[type=checkbox]").change(function () {
@@ -302,7 +302,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
                                 $("#wr-action-hide input[type=checkbox]:checked").each(function () {
                                     dataHideField.push($(this).val());
                                 });
-                                $("#visualdesign-options-values .jsn-items-list .ui-state-edit input[name=item-list]").attr("action-hide-field", $.toJSON(dataHideField));
+                                $("#visualdesign-options-values .jsn-items-list .ui-state-edit input[name=item-list]").attr("action-hide-field", JSON.stringify(dataHideField));
                                 self.updateAction();
                             });
                             $(".control-list-action #accordion_content").accordion({
@@ -456,7 +456,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
                 var itemAction = $("#visualdesign-options-values #option-itemAction-hidden").val();
 
                 if (itemAction) {
-                    itemAction = $.evalJSON(itemAction);
+                    itemAction = $.parseJSON(itemAction);
                 }
 
                 if (itemAction) {
@@ -478,25 +478,25 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
                             index2++;
                             var valueInput = $(inputItem).val();
                             if (i == valueInput) {
-                                $(inputItem).attr("action-show-field", $.toJSON(item.showField));
-                                $(inputItem).attr("action-hide-field", $.toJSON(item.hideField));
+                                $(inputItem).attr("action-show-field", JSON.stringify(item.showField));
+                                $(inputItem).attr("action-hide-field", JSON.stringify(item.hideField));
                             }
                             else if (index == index2 && $.inArray(valueInput, listFieldAction) < 0 && $.inArray(i, itemlist) < 0) {
-                                $(inputItem).attr("action-show-field", $.toJSON(item.showField));
-                                $(inputItem).attr("action-hide-field", $.toJSON(item.hideField));
+                                $(inputItem).attr("action-show-field", JSON.stringify(item.showField));
+                                $(inputItem).attr("action-hide-field", JSON.stringify(item.hideField));
                             }
                         });
                     });
                     $("#visualdesign-options-values .jsn-items-list .jsn-item input[name=item-list]").each(function () {
                         var actionShowField = $(this).attr("action-show-field"), actionHideField = $(this).attr("action-hide-field"),checkAction = false;
                         if (actionShowField) {
-                            actionShowField = $.evalJSON(actionShowField);
+                            actionShowField = $.parseJSON(actionShowField);
                             if(actionShowField && actionShowField.length > 0){
                                 checkAction = true;
                             }
                         }
                         if (actionHideField) {
-                            actionHideField = $.evalJSON(actionHideField);
+                            actionHideField = $.parseJSON(actionHideField);
                             if(actionHideField && actionHideField.length > 0){
                                 checkAction = true;
                             }
@@ -547,7 +547,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Itemlist extends WR_CF_Gadget_Bas
 		            actionField:false
 		        }, options);
 
-		        this.options.value = $.toJSON(this.options.listItems);
+		        this.options.value = JSON.stringify(this.options.listItems);
 				' . $template . '
 		    JSNItemList.prototype = {
 		        /**

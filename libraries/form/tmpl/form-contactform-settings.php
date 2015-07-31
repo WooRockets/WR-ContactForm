@@ -4,12 +4,16 @@ $getContainerFormEdit = new WR_Contactform_Helpers_Form_Edit();
 $items = new stdClass;
 $formContent = array();
 if ( ! empty( $_GET[ 'post' ] ) && is_numeric( $_GET[ 'post' ] ) ) {
-	$meta = get_post_meta( (int)$_GET[ 'post' ] );
+
+
+	$get_post = $_GET[ 'post' ];
+
+	$meta = get_post_meta( (int)$get_post );
 	if ( ! empty( $meta[ 'form_id' ][ 0 ] ) ) {
 		$items->form_id = (int)$meta[ 'form_id' ][ 0 ];
 	}
 	else {
-		$items->form_id = (int)$_GET[ 'post' ];
+		$items->form_id = (int)$get_post;
 	}
 }
 else {

@@ -305,7 +305,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				        var content = "";
 				        var serialize = instance.serialize(true);
 				        if (serialize != "" && serialize != "[]") {
-				            content = $.toJSON(serialize);
+				            content = JSON.stringify(serialize);
 				        }
 				        $(" ul.jsn-page-list li.page-items").each(function () {
 				            listOptionPage.push([$(this).find("input").attr(\'data-id\'), $(this).find("input").attr(\'value\')]);
@@ -331,7 +331,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                form_content:content,
 				                form_page_name:$("#form-design-header").attr(\'data-value\'),
 				                form_list_page:listOptionPage,
-				                form_list_container:$.toJSON(listContainer)
+				                form_list_container:JSON.stringify(listContainer)
 				            },
 				            success:function () {
 				                JSNVisualDesign.emailNotification();
@@ -349,7 +349,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				        var formContent = instance.serialize(true);
 				        var content = "";
 				        if (formContent != "" && formContent != "[]") {
-				            content = $.toJSON(formContent);
+				            content = JSON.stringify(formContent);
 				        }
 				        var check = 0;
 				        var listOptionPage = [];
@@ -370,7 +370,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                $("#email .email-submitters .jsn-items-list").html("");
 				                if (response) {
 				                    if ($("#wr-form-field-list_email_send_to_submitter").val()) {
-				                        dataEmailSubmitter = $.evalJSON($("#wr-form-field-list_email_send_to_submitter").val());
+				                        dataEmailSubmitter = $.parseJSON($("#wr-form-field-list_email_send_to_submitter").val());
 				                    }
 				                    $.each(response, function (i, item) {
 				                        if (item.type == \'email\') {
@@ -591,15 +591,15 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				            if (JSNVisualDesign.controls[type].params.values.itemAction) {
 				                var itemAction = $("#visualdesign-options-values #option-itemAction-hidden").val();
 				                if (itemAction) {
-				                    itemAction = $.evalJSON(itemAction);
+				                    itemAction = $.parseJSON(itemAction);
 				                }
 				                if (itemAction) {
 				                    $("#visualdesign-options-values .jsn-items-list .jsn-item input[name=item-list]").each(function () {
 				                        var inputItem = $(this);
 				                        $.each(itemAction, function (i, item) {
 				                            if (i == $(inputItem).val()) {
-				                                $(inputItem).attr("action-show-field", $.toJSON(item.showField));
-				                                $(inputItem).attr("action-hide-field", $.toJSON(item.hideField));
+				                                $(inputItem).attr("action-show-field", JSON.stringify(item.showField));
+				                                $(inputItem).attr("action-hide-field", JSON.stringify(item.hideField));
 				                                if ($(item.showField).length > 0 || $(item.hideField).length > 0) {
 				                                    var jsnItem = $(inputItem).parents(".jsn-item");
 				                                    $(jsnItem).addClass("jsn-highlight");
@@ -892,12 +892,12 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                    $("#visualdesign-options-values #wr-field-address .jsn-items-list li.jsn-item").each(function () {
 				                        positionField.push($(this).find("input[type=checkbox]").attr("name"));
 				                    });
-				                    $("#visualdesign-options-values #wr-field-address input#option-sortableField-hidden").val($.toJSON(positionField)).change();
+				                    $("#visualdesign-options-values #wr-field-address input#option-sortableField-hidden").val(JSON.stringify(positionField)).change();
 				                }
 				            });
 				            var sortableField = $("#visualdesign-options-values #wr-field-address input#option-sortableField-hidden").val();
 				            if (sortableField) {
-				                sortableField = $.evalJSON(sortableField);
+				                sortableField = $.parseJSON(sortableField);
 				                if (sortableField) {
 				                    var listFields = $("#visualdesign-options-values #wr-field-address .jsn-items-list .jsn-item");
 				                    listFields.detach();
@@ -921,12 +921,12 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                    $("#visualdesign-options-values #wr-field-name .jsn-items-list li.jsn-item").each(function () {
 				                        positionField.push($(this).find("input[type=checkbox]").attr("name"));
 				                    });
-				                    $("#visualdesign-options-values #wr-field-name input#option-sortableField-hidden").val($.toJSON(positionField)).change();
+				                    $("#visualdesign-options-values #wr-field-name input#option-sortableField-hidden").val(JSON.stringify(positionField)).change();
 				                }
 				            });
 				            var sortableField = $("#visualdesign-options-values #wr-field-name input#option-sortableField-hidden").val();
 				            if (sortableField) {
-				                sortableField = $.evalJSON(sortableField);
+				                sortableField = $.parseJSON(sortableField);
 				                if (sortableField) {
 				                    var listFields = $("#visualdesign-options-values #wr-field-name .jsn-items-list .jsn-item");
 				                    listFields.detach();
@@ -1021,7 +1021,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                                    }
 				                                    check++;
 				                                });
-				                                JSNVisualDesign.positionGoogleMaps($.toJSON(position));
+				                                JSNVisualDesign.positionGoogleMaps(JSON.stringify(position));
 				                            });
 				                            $(map).addEventListener(\'maptypeid_changed\', function (event) {
 				                                var position = {}, check = 0;
@@ -1036,7 +1036,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                                    }
 				                                    check++;
 				                                });
-				                                JSNVisualDesign.positionGoogleMaps($.toJSON(position));
+				                                JSNVisualDesign.positionGoogleMaps(JSON.stringify(position));
 				                            });
 				                            $("#visualdesign-options-values .btn-google-location").click(function () {
 
@@ -1085,10 +1085,10 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                            });
 				                            var googleMarker = $("#option-googleMapsMarKer-hidden").val();
 				                            if (googleMarker) {
-				                                var markerList = $.evalJSON(googleMarker);
+				                                var markerList = $.parseJSON(googleMarker);
 				                                $.each(markerList, function (i, val) {
 				                                console.log(val.position);
-				                                    var position = $.evalJSON(val.position);
+				                                    var position = $.parseJSON(val.position);
 
 				                                    if (!position.nb && position.lb) {
 				                                        position.nb = position.lb;
@@ -1106,7 +1106,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                            }
 				                            var googleMaps = $("#option-googleMaps-hidden").val();
 				                            if (googleMaps) {
-				                                var gmaps = $.evalJSON(googleMaps);
+				                                var gmaps = $.parseJSON(googleMaps);
 				                                if (!gmaps.center.nb && gmaps.center.lb) {
 				                                    gmaps.center.nb = gmaps.center.lb;
 				                                }
@@ -1154,7 +1154,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 		$prototypeSerialize = apply_filters( 'wr_contactform_visualdesign_prototype_serialize', $prototypeSerialize );
 		$createFunctionVisualDesign[ 'getTmplFieldAddress' ] = 'JSNVisualDesign.getTmplFieldAddress = function (data) {
 				        if (data.sortableField) {
-				            var listField = $.evalJSON(data.sortableField);
+				            var listField = $.parseJSON(data.sortableField);
 				            var sortableField = [];
 				            var field = {};
 				            $.each(listField, function (i, val) {
@@ -1244,7 +1244,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				    };';
 		$createFunctionVisualDesign[ 'getTmplFieldName' ] = 'JSNVisualDesign.getTmplFieldName = function (data) {
 				        if (data.sortableField) {
-				            var listField = $.evalJSON(data.sortableField);
+				            var listField = $.parseJSON(data.sortableField);
 				            var sortableField = [];
 				            var field = {};
 				            $.each(listField, function (i, val) {
@@ -1759,7 +1759,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                        \'<div class="control-group"><label for="Country" class="control-label">Images</label><\' +
 				                        \'div class="controls"><input type="text" class="text jsn-input-large-fluid" name="images" value="\' + vimages + \'"></div></div>\' +
 				                        \'<div class="control-group"><label for="Country" class="control-label">Link</label><div class="controls"><input type="text" class="jsn-input-large-fluid" name="link" value="\' + vlink + \'"></div></div>\' +
-				                        \'<input type="hidden" name="position" value=\\\'\' + $.toJSON(position) + \'\\\' />\' +
+				                        \'<input type="hidden" name="position" value=\\\'\' + JSON.stringify(position) + \'\\\' />\' +
 				                        \'<input type="hidden" name="open" value=\\\'\' + open + \'\\\' />\'
 				                )
 				            );
@@ -1777,7 +1777,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                    }
 				                    check++;
 				                });
-				                $("#mk-" + this.__gm_id).find("[name$=\'position\']").val($.toJSON(position));
+				                $("#mk-" + this.__gm_id).find("[name$=\'position\']").val(JSON.stringify(position));
 				                JSNVisualDesign.markerGoogleMaps();
 				            }).xclick(function () {
 				                $("#marker-google-maps").find("[name$=\'open\']").val(\'\');
@@ -1800,7 +1800,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				            mkItems.open = $(this).find("input[name=open]").val();
 				            marker.push(mkItems);
 				        });
-				        $("#option-googleMapsMarKer-hidden").val($.toJSON(marker)).change();
+				        $("#option-googleMapsMarKer-hidden").val(JSON.stringify(marker)).change();
 				    };';
 
 		$createFunctionVisualDesign[ 'contentGoogleMaps' ] = 'JSNVisualDesign.contentGoogleMaps = function (edit) {
@@ -1816,9 +1816,9 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                var dataMarker = $(this).attr("data-marker");
 
 				                if (dataValue) {
-				                    var gmapOptions = $.evalJSON(dataValue);
+				                    var gmapOptions = $.parseJSON(dataValue);
 				                    if (dataMarker) {
-				                        var gmapMarker = $.evalJSON(dataMarker);
+				                        var gmapMarker = $.parseJSON(dataMarker);
 				                    }
 				                    if (!gmapOptions.center.nb && gmapOptions.center.lb) {
 				                        gmapOptions.center.nb = gmapOptions.center.lb;
@@ -1855,7 +1855,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 
 				                            $.each(gmapMarker, function (i, val) {
 
-				                                var position = $.evalJSON(val.position);
+				                                var position = $.parseJSON(val.position);
 
 				                                if (!position.nb && position.lb) {
 				                                    position.nb = position.lb;
@@ -1890,9 +1890,9 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                var dataValue = $(this).attr("data-value");
 				                var dataMarker = $(this).attr("data-marker");
 				                if (dataValue) {
-				                    var gmapOptions = $.evalJSON(dataValue);
+				                    var gmapOptions = $.parseJSON(dataValue);
 				                    if (dataMarker) {
-				                        var gmapMarker = $.evalJSON(dataMarker);
+				                        var gmapMarker = $.parseJSON(dataMarker);
 				                    }
 				                    if (!gmapOptions.center.nb && gmapOptions.center.lb) {
 				                        gmapOptions.center.nb = gmapOptions.center.lb;
@@ -1926,7 +1926,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 
 				                        if (gmapMarker) {
 				                            $.each(gmapMarker, function (i, val) {
-				                                var position = $.evalJSON(val.position);
+				                                var position = $.parseJSON(val.position);
 				                                if (!position.nb && position.lb) {
 				                                    position.nb = position.lb;
 				                                }
@@ -2310,7 +2310,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                });
 				            });
 				            ' . implode( '', $prototypeSerialize ) . '
-				            return serializeObject ? serialized : $.toJSON(serialized);
+				            return serializeObject ? serialized : JSON.stringify(serialized);
 				        }
 				    };
 				    /**
@@ -2332,7 +2332,7 @@ class WR_CF_Gadget_Contactform_Js_Visualdesign_Core extends WR_CF_Gadget_Base {
 				                "ignore":/^ignored:/
 				            };
 				        this.build = function (base, key, value) {
-				            base[key] = (value.indexOf(\'json:\') == -1) ? value : $.evalJSON(value.substring(5));
+				            base[key] = (value.indexOf(\'json:\') == -1) ? value : $.parseJSON(value.substring(5));
 				            return base;
 				        };
 				        this.push_counter = function (key, i) {

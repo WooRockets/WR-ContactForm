@@ -83,8 +83,11 @@ class WR_CF_Addon_Mailchimp {
 	public function settings_panel( $form, $formStyle, $formSettings, $listPage, $listFontType, $items, $formItems, $formPage ) {
 		if ( isset( $_GET['post'] ) ) {
 			global $wpdb;
-			$mailchimpSettings = json_decode( get_post_meta( $_GET['post'], 'mailchimp_settings', true ) );
-			$formPages = $wpdb->get_results( "SELECT page_content FROM {$wpdb->prefix}wr_contactform_form_pages WHERE form_id = {$_GET['post']} ORDER BY page_id ASC" );
+
+			$get_post = $_GET['post'];
+
+			$mailchimpSettings = json_decode( get_post_meta( $get_post, 'mailchimp_settings', true ) );
+			$formPages = $wpdb->get_results( "SELECT page_content FROM {$wpdb->prefix}wr_contactform_form_pages WHERE form_id = {$get_post} ORDER BY page_id ASC" );
 			$formFields = array();
 			foreach ( $formPages as $formPage ) {
 				$formPageFields = json_decode( $formPage->page_content );
@@ -135,7 +138,9 @@ class WR_CF_Addon_Mailchimp {
 	 * @param   integer   $post_id   Post ID
 	 */
 	public function save_settings( $post_id ) {
-		update_post_meta( $post_id, 'mailchimp_settings', $_POST['wr-cf-mailchimp']['lists'] );
+
+		$wr_cf_mailchimp_lists = $_POST['wr-cf-mailchimp']['lists'];
+		update_post_meta( $post_id, 'mailchimp_settings', $wr_cf_mailchimp_lists );
 		$_POST['wr-cf-mailchimp']['lists'] = json_decode( get_post_meta( $post_id, 'mailchimp_settings', true ) );
 
 		// Update MailChimp tags
@@ -181,7 +186,9 @@ class WR_CF_Addon_Mailchimp {
 				}
 			}
 		}
-		update_post_meta( $post_id, 'mailchimp_settings', addslashes( json_encode( $_POST['wr-cf-mailchimp'] ) ) );
+		
+		$wr_cf_mailchimp = $_POST['wr-cf-mailchimp'];
+		update_post_meta( $post_id, 'mailchimp_settings', addslashes( json_encode( $wr_cf_mailchimp ) ) );
 	}
 
 	/**

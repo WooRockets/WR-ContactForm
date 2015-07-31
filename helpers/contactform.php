@@ -51,10 +51,12 @@ class WR_Contactform_Helpers_Contactform {
 			'ver' => $version,
 		);
 		
+		/*
 		$assets[ 'wr-jquery-json-js' ] = array(
 			'src' => WR_CONTACTFORM_URI . 'assets/3rd-party/jquery-json/json-2.3.min.js',
 			'ver' => $version,
 		);
+		*/
 		$assets[ 'wr-jquery-tipsy-js' ] = array(
 			'src' => WR_CONTACTFORM_URI . 'assets/3rd-party/jquery-tipsy/jquery.tipsy.js',
 			'ver' => $version,
@@ -313,7 +315,7 @@ class WR_Contactform_Helpers_Contactform {
 			'wr-jquery-ui-css',
 			'wr-jquery-tipsy-css',
 			'wr-jquery-ui-js',
-			'wr-jquery-json-js',
+			//'wr-jquery-json-js',
 			'wr-jquery-tmpl-js',
 			'wr-jquery-placeholder-js',
 			'wr-jquery-select2-js',
@@ -502,7 +504,10 @@ class WR_Contactform_Helpers_Contactform {
 			$dataValue = $randomID;
 			$option = '<li id="new_' . $randomID . '" data-value="' . $randomID . '" class="page-items"><input type="hidden" value="Page 1" data-id="' . $randomID . '" name="name_page[' . $randomID . ']"/></li>';
 			if ( ! empty( $_GET[ 'form' ] ) ) {
-				$getSampleForm = WR_Contactform_Helpers_Contactform::get_sample_form( $_GET[ 'form' ] );
+
+				$get_form = $_GET[ 'form' ];
+
+				$getSampleForm = WR_Contactform_Helpers_Contactform::get_sample_form( $get_form );
 				$_SESSION[ 'form-design-' . $formId ][ 'form_page_' . $randomID ] = $getSampleForm;
 				$_SESSION[ 'form-design-' . $formId ][ 'form_list_page' ] = json_encode( array( $randomID, 'Page 1' ) );
 				$_SESSION[ 'form-design-' . $formId ][ 'form_container_page_' . $randomID ] = '[[{"columnName":"left","columnClass":"span12"}]]';
@@ -1169,7 +1174,7 @@ class WR_Contactform_Helpers_Contactform {
 				$assets[ ] = 'wr-jquery-ui-css';
 			}
 			wp_enqueue_script( 'jquery' );
-			$assets[ ] = 'wr-jquery-json-js';
+			//$assets[ ] = 'wr-jquery-json-js';
 			$assets[ ] = 'wr-jquery-placeholder-js';
 			if ( $checkLoadJSTipsy ) {
 				$assets[ ] = 'wr-jquery-tipsy-css';

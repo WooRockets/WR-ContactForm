@@ -209,7 +209,7 @@
         }, renderContainer:function (container) {
             $("#form-container .jsn-row-container").remove();
             if (container) {
-                var containerPage = $.evalJSON(container);
+                var containerPage = $.parseJSON(container);
                 containerPage.reverse();
 
                 $.each(containerPage, function (i, value) {

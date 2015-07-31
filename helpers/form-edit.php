@@ -477,7 +477,7 @@ class WR_Contactform_Helpers_Form_Edit {
 							<div class="recaptcha-content" style="text-align:  center;">
 
 								<div class="img-captcha">
-									<span class="label label-important">Captcha is disabled</span><img src="<?php echo '' . get_site_url() . '/wp-content/plugins/wr-contactform/assets/images/recaptcha_pic.png';?>" data-recaptcha="<?php echo '' . get_site_url() . '/wp-content/plugins/wr-contactform/assets/images/recaptcha_pic.png';?>" data-securityimages="<?php echo '' . get_site_url() . '/wp-content/plugins/wr-contactform/assets/images/securitycaptcha_pic.png';?>" />
+									<span class="label label-important">Captcha is disabled</span><img src="<?php echo '' . WR_CONTACTFORM_URI . 'assets/images/recaptcha_pic.png';?>" data-recaptcha="<?php echo '' . WR_CONTACTFORM_URI . 'assets/images/recaptcha_pic.png';?>" data-securityimages="<?php echo '' . WR_CONTACTFORM_URI . 'assets/images/securitycaptcha_pic.png';?>" />
 								</div>
 								<input type="hidden" id="jform_form_captcha" name="wr_contactform[form_settings][form_captcha]" value="<?php echo '' . ( ! empty( $formSettings->form_captcha ) ? $formSettings->form_captcha : '' );?>">
 							</div>
@@ -646,6 +646,9 @@ class WR_Contactform_Helpers_Form_Edit {
 					<input type="hidden" name="languages" id="wr_contactform_languages" value='<?php echo '' . json_encode( $languages ) . '';?>' />
 					<input type="hidden" id="wr_contactform_formStyle" name="wr_contactform_formStyle" value='<?php echo '' . htmlentities( json_encode( $formStyle ) ); ?>'>
 					<input type="hidden" id="wr_contactform_dataEmailSubmitter" name="wr_contactform_dataEmailSubmitter" value="<?php echo '' . htmlentities( json_encode( $formSubmitter ) ); ?>">
+					
+					<input type="hidden" name="urlPlugin" id="wr_contactform_urlPlugin" value="<?php echo '' . WR_CONTACTFORM_URI;?>" />
+						
 				</div>
 			</div>
 		</div>

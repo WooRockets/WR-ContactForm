@@ -126,11 +126,15 @@ class WR_Contactform_Form_Settings {
 			$dataFormID = $post_id;
 		}
 		else {
-			$postId = $wpdb->get_var( $wpdb->prepare( "SELECT post_id FROM $wpdb->postmeta WHERE  meta_key='form_id' AND meta_value=%d", (int)$_POST[ 'jform_form_id' ] ) );
+
+
+			$jform_form_id = $_POST[ 'jform_form_id' ];
+
+			$postId = $wpdb->get_var( $wpdb->prepare( "SELECT post_id FROM $wpdb->postmeta WHERE  meta_key='form_id' AND meta_value=%d", (int)$jform_form_id ) );
 			if ( empty( $postId ) ) {
-				add_post_meta( $_POST[ 'jform_form_id' ], 'form_id', $_POST[ 'jform_form_id' ] );
+				add_post_meta( $jform_form_id, 'form_id', $jform_form_id );
 			}
-			$dataFormID = (int)$_POST[ 'jform_form_id' ];
+			$dataFormID = (int)$jform_form_id;
 		}
 		$fieldsFormSettings = self::wr_contactform_get_field();
 		$globalStyle = array();
@@ -204,8 +208,12 @@ class WR_Contactform_Form_Settings {
 		
 		// Add key for reCaptcha
 		if ( ( isset( $_POST[ 'recaptcha_publickey' ] ) ) && ( !empty( $_POST[ 'recaptcha_publickey' ] ) ) && ( isset( $_POST[ 'recaptcha_privatekey' ] ) ) && ( isset( $_POST[ 'recaptcha_privatekey' ] ) ) ) {
-			update_option( 'wr_contactform_recaptcha_public_key', $_POST[ 'recaptcha_publickey' ] );
-			update_option( 'wr_contactform_recaptcha_private_key', $_POST[ 'recaptcha_privatekey' ] );
+			
+			$recaptcha_publickey 	= $_POST[ 'recaptcha_publickey' ];
+			$recaptcha_privatekey 	= $_POST[ 'recaptcha_privatekey' ];
+
+			update_option( 'wr_contactform_recaptcha_public_key', $recaptcha_publickey );
+			update_option( 'wr_contactform_recaptcha_private_key', $recaptcha_privatekey );
 		}
 
 		do_action( 'wr_contactform_after_save_form_settings', $post_id );
