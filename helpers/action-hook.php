@@ -537,6 +537,7 @@ class WR_Contactform_Helpers_Hook {
 			array(
 				'slug' => 'wr_cf_post_type',
 				'options' => array(
+					'show_ui' => 'true',
 					'labels' => array(
 						'name' => __( 'Forms', WR_CONTACTFORM_TEXTDOMAIN ),
 						'menu_name' => __( 'WR ContactForm', WR_CONTACTFORM_TEXTDOMAIN ),
@@ -573,6 +574,7 @@ class WR_Contactform_Helpers_Hook {
 			array(
 				'slug' => 'wr_cfsb_post_type',
 				'options' => array(
+					'show_ui' => 'true',
 					'labels' => array(
 						'name' => __( 'Submissions', WR_CONTACTFORM_TEXTDOMAIN ),
 						'singular_name' => __( 'Submission Edit', WR_CONTACTFORM_TEXTDOMAIN ),
