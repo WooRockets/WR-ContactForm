@@ -537,7 +537,6 @@ class WR_Contactform_Helpers_Hook {
 			array(
 				'slug' => 'wr_cf_post_type',
 				'options' => array(
-					'show_ui' => 'true',
 					'labels' => array(
 						'name' => __( 'Forms', WR_CONTACTFORM_TEXTDOMAIN ),
 						'menu_name' => __( 'WR ContactForm', WR_CONTACTFORM_TEXTDOMAIN ),
