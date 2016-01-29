@@ -573,6 +573,7 @@ class WR_Contactform_Helpers_Hook {
 			array(
 				'slug' => 'wr_cfsb_post_type',
 				'options' => array(
+					'show_ui' => 'true',
 					'labels' => array(
 						'name' => __( 'Submissions', WR_CONTACTFORM_TEXTDOMAIN ),
 						'singular_name' => __( 'Submission Edit', WR_CONTACTFORM_TEXTDOMAIN ),
